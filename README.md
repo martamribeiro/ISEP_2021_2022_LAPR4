@@ -21,10 +21,6 @@ of different valid approaches.
 
 _Base logo created with [kammerl ascii signature](https://www.kammerl.de/ascii/AsciiSignature.php) using font "big"_
 
-## Who do I talk to?
-
-Paulo Gandra de Sousa [pag@isep.ipp.pt](emailto:pag@isep.ipp.pt) / [pagsousa@gmail.com](emailto:pagsousa@gmail.com)
-
 ## License and copyright
 
 Copyright (c) 2013-2019 the original author or authors.
