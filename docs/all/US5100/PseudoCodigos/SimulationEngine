@@ -1,0 +1,85 @@
+public class SimulationEngine {
+
+    public SimulationEngine(Warehouse Plant, AGV belonging to the current Thread, Shared Memor){
+         instantiate all variables received from the Control Unit;
+    }
+
+    public synchronized void simulateAGV(){
+        instantiate auxiliar counter;
+
+        for(every row in the Warehouse Plant){
+            for (every column in the Warehouse Plant){
+                if (current Square of the Warehouse Plant has the given AGV){
+                    increase counter;
+                    call method createSensorThreads() with i and j;
+                }
+            }
+        }
+
+        if(counter is not increased){
+            x variable of a Position is instantiated with the x of the Position of the current AGV's AGV Dock;
+            y variable of a Position is instantiated with the y of the Position of the current AGV's AGV Dock;
+
+            call method createSensorThreads() with x and y;
+        }
+    }
+
+    private void createSensorThreads(Position coordinates){
+        for(eight Sensors){
+            if (are the first two Sensors) {
+                instantiate a new Sensor for the left side of the AGV;
+                start the Thread of the Sensor;
+            }else if(are the third and the forth Sensors){
+                instantiate a new Sensor for the right side of the AGV;
+                start the Thread of the Sensor;
+            }else if(are the fifth and the sixth Sensors){
+                instantiate a new Sensor for the up side of the AGV;
+                start the Thread of the Sensor;
+            } else {
+                instantiate a new Sensor for the down side of the AGV;
+                start the Thread of the Sensor;
+            }
+
+        }
+    }
+
+    public static boolean checkLeft(Position coordinates){
+        if(left coordinates are within the Warehouse Plant bounds and are positive){
+            if(the left Position is not an "X" or the current AGV's AGV Dock){
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public static boolean checkRight(Position coordinates){
+        if(right coordinates are within the Warehouse Plant bounds and are positive){
+            if(the right Position is not an "X" or the current AGV's AGV Dock){
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    public static boolean checkUp(Position coordinates){
+         if(up coordinates are within the Warehouse Plant bounds and are positive){
+             if(the up Position is not an "X" or the current AGV's AGV Dock){
+                 return true;
+             }
+         }
+
+        return false;
+    }
+
+    public static boolean checkDown(Position coordinates){
+       if(down coordinates are within the Warehouse Plant bounds and are positive){
+           if(the down Position is not an "X" or the current AGV's AGV Dock){
+               return true;
+           }
+       }
+
+        return false;
+    }
+
+}

@@ -1,0 +1,68 @@
+public class UpdateMatrixRequest extends AGVTwinServerRequest{
+    global variable with the normal speed of an AGV;
+    global variable with the reduced speed of an AGV;
+    global variable with the time between AGV moves;
+
+    public UpdateMatrixRequest() {
+    }
+    @Override
+    public void execute() {
+        try {
+                if(given Task from the Communications Module is not null){
+                    call the method searchPosition() with current AGV in the Thread and teh Warehouse Plant both gotten from the Communications Module, to get the current AGV Position;
+
+                    instantiate the Shared Memory;
+
+                    instantiate the Route class;
+                    call the method computeFinalRoute() from the Route class;
+
+                    instantiate the Simulation Engine class;
+                    call the method simulateAGV() from the Simulation Engine class;
+
+                    instantiate value tho store the speed according to the signals in the Shared Memory;
+
+                    if(any of the signals is bigger or equal than "3"){
+                        speed is equal to the normal AGV speed global variable;
+                    } else if(any of the signals is equal to "2"){
+                        speed is equal to the reduced AGV speed global variable;
+                    }
+
+                    call method resetSensors() from the Shared Memory to reset the signals for the next AGV;
+
+                    if(speed is either normal or reduced){
+                        instantiate the AGVCurrentPositions class;
+                        update the current Warehouse Plant by calling method calculatePosition() from the AGVCurrentPositions class;
+                    }
+
+                    call method changeWarehousePlant() from the Shared Memory with the changed Warehouse Plant;
+
+                    instantiate the AGVBatteryManagementSystem class;
+                    update the AGV Autonomy by calling method agvFinalAutonomyDuration() from the AGVBatteryManagementSystem class;
+
+
+                    send the changed Warehouse Plant to the Communications Module;
+                } else {
+                    send the changed Warehouse Plant to the Communications Module;
+                }
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public AGVPosition searchPosition(Warehouse Plant received from the Communications Module, current AGV received from the Communications Module){
+        instantiate variable to store the current AGV's Position;
+        for(every row in the Warehouse Plant){
+            for (every column in the Warehouse Plant){
+                if (current Square of the Warehouse Plant has the given AGV){
+                    get the Position with the i and j coordinates;
+                }
+            }
+        }
+
+        if(Positions of the AGV is not found in the Warehouse Plant){
+            assume Position is the AGV's Agv Dock Position;
+        }
+
+        return the current AGV's Position;
+    }
+}

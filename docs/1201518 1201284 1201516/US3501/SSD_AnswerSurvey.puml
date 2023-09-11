@@ -1,0 +1,31 @@
+@startuml
+
+autonumber
+actor "Client" as C
+
+loop enquanto não escolher um questionário\n que ainda não tenha respondido
+activate C
+C -> ":System" : inicia o processo de responder a um questionário
+activate ":System"
+":System" --> C : mostra a lista de questionarios apropriada ao cliente
+deactivate ":System"
+
+C -> ":System" : seleciona o questionario pretendido
+activate ":System"
+end
+
+loop enquanto o questionário tiver questões
+":System" --> C : apresenta a questão
+deactivate ":System"
+C -> ":System" : responde à questão
+activate ":System"
+
+end
+
+
+":System" --> C : informa o sucesso da operação
+deactivate ":System"
+
+
+
+@enduml

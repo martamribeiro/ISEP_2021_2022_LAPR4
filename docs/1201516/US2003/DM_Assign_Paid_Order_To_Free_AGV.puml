@@ -1,0 +1,97 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+hide empty attributes
+skinparam classBackgroundColor beige
+skinparam ArrowColor #222222
+
+package "<<aggregate>> AGV" {
+    entity AGV
+    /'class AGVPosition'/
+    class Model
+}
+
+package "<<aggregate>> AGVDock" {
+    entity AGVDock
+}
+
+package "<<aggregate>> Order" {
+    entity Order
+    class Shipment
+    class Payment
+    entity OrderItem
+    class SourceChannel
+    class AdditionalComment
+    class InteractionDate
+}
+
+entity AGV <<entity>> <<root>> {
+    - <<VO>> AgvID
+    - <<VO>> AutonomyStatus /' number of hours left until it runs out of battery '/
+    - <<VO>> TaskStatus /' free charging or occupied '/
+}
+
+package "<<aggragte>> Task" {
+    entity Task
+}
+
+entity AGVDock <<entity>> <<root>> {
+    - <<VO>> DockID
+    - <<VO>> BeginSquare
+    - <<VO>> EndSquare
+    - <<VO>> DepthSquare
+    - <<VO>> AccessibilityDirection
+}
+
+entity Order <<entity>> <<root>> {
+    -<<VO>> OrderId /'automatically generated'/
+    -<<VO>> DateTime /'automatically generated na hora do registo do sistema'/
+    -<<VO>> BillingAddress
+    -<<VO>> DeliveryAddress
+    -<<VO>> TotalAmountWithoutTaxes
+    -<<VO>> TotalAmountWithTaxes
+    -<<VO>> TotalWeight
+    -<<VO>> TotalVolume
+    -<<VO>> Operator
+    -<<VO>> Status /'(CONFIRM WITH CLIENT: registered, payment pending, being prepared on the warehouse, dispatched, delivered by carrier, received by customer)'/
+}
+
+entity OrderItem <<entity>> {
+    -itemQuantity
+}
+
+class Model <<(V,#FF8B40) value object>> {
+    - ModelID
+    - ShortDescription
+    - MaxWeight
+}
+
+class SourceChannel <<(V,#FF8B40) value object>>
+class InteractionDate <<(V,#FF8B40) value object>>
+class AdditionalComment <<(V,#FF8B40) value object>>
+
+enum Shipment {
+    -method
+    -cost
+}
+
+enum Payment {
+    -method
+    -status
+}
+
+AGV --> "1" Model
+AGV -----> "1" AGVDock
+AGV ------> "1..*" Order
+AGV --> "1" Task
+
+Order --> "1" Shipment : has info about
+Order --> "1" Payment : has info about
+Order -> "1..*" OrderItem : composed by
+Order --> "0..1" SourceChannel
+Order --> "0..1" InteractionDate
+Order --> "0..1" AdditionalComment
+Order --> "1" Task
+
+@enduml

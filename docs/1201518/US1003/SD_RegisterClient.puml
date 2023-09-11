@@ -1,0 +1,89 @@
+@startuml
+
+autonumber
+actor "Sales Clerk" as SC
+participant RegisterClientUI as UI <<presentation>>
+participant RegisterClientController as Controller <<application>>
+participant ClientBuilder as Builder <<builder>>
+participant "client:Client" as Domain <<domain>>
+participant PersistenceContext as Persistence <<persistence>>
+participant RepositoryFactory as Factory <<factory>>
+database ClientRepository as Repository <<repository>>
+
+activate SC
+SC -> UI : inicia o registo do cliente
+activate UI
+UI -> Controller: create
+UI --> SC : solicita os dados obrigatórios (firstNames, surnames, Email, \nPhoneNumber, VAT, Postal Address)
+deactivate UI
+SC -> UI : introduz os dados solicitados
+activate UI
+
+
+
+alt sales Clerk quer introduzir mais endereços
+loop o Sales Clerk quer introduzir \nmais endereços
+UI --> SC : Solicita o endereço
+deactivate UI
+
+
+SC -> UI : Introduz o endereço
+activate UI
+end
+end
+alt sales Clerk insere a \ndata de nascimento do cliente
+activate UI
+UI --> SC : solicita a data de nascimento
+deactivate UI
+SC -> UI : introduz data de nascimento
+activate UI
+end
+alt sales Clerk insere o género do cliente
+UI --> SC : solicita o género
+deactivate UI
+SC -> UI : introduz o género
+activate UI
+end
+UI -> Controller: registerClient(firstnames, surnames, email, phoneNumber,\nvat, postalAddress, birthDate, gender)
+activate Controller
+note right of Builder:ClientBuilder é usado para criar uma entidade do tipo Client num estado válido
+Controller -> Builder: create
+Controller -> Builder:setFirstName(firstnames)
+Controller -> Builder:setSurnames(surnames)
+Controller -> Builder:setEmail(email)
+Controller -> Builder:setPhoneNumber(phoneNumber)
+Controller -> Builder:setVAT(vat)
+Controller -> Builder:setPostalAddress(postalAddress)
+alt
+    Controller -> Builder:setBirthDate(birthDate)
+end
+alt
+    Controller -> Builder:setGender(gender)
+end
+Controller -> Builder:createClient()
+activate Builder
+Builder -> Domain: create(firstnames, surnames, email, phoneNumber,\nvat, postalAddress, birthDate, gender)
+Domain->Builder: client
+Builder -> Controller:client
+deactivate Builder
+Controller -> Persistence: repositories()
+activate Persistence
+note right of Persistence: pode criar repositório em memória ou JPA
+Persistence -> Factory: create
+Persistence -> Controller: factory
+deactivate Persistence
+Controller -> Factory: clients()
+activate Factory
+Factory -> Repository: create
+Factory -> Controller: clientRepository
+deactivate Factory
+Controller->Repository:save(client)
+Controller->UI: user
+deactivate Controller
+UI --> SC : informa o sucesso da operação e \nmostra a informação do cliente
+deactivate UI
+deactivate SC
+
+
+
+@enduml

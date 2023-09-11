@@ -1,0 +1,42 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class CreateCategoryUI{
+}
+
+class CreateCategoryController{
++create()
++createCategory(alphaNumericCode, description)
+}
+
+class CategoryBuilder{
++create()
++hasAlphaNumericCode(code)
++hasDescription(description)
++build()
+}
+
+class ProductCategory{
++create()
+}
+
+class PersistenceContext{
++repositories()
+}
+
+class RepositoryFactory{
++create()
+}
+
+database ProductCategoryRepository{
+}
+
+CreateCategoryUI --> CreateCategoryController
+
+CreateCategoryController --> CategoryBuilder
+CreateCategoryController --> PersistenceContext
+PersistenceContext --> RepositoryFactory
+RepositoryFactory --> ProductCategoryRepository
+
+CategoryBuilder --> ProductCategory
+@enduml

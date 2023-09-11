@@ -1,0 +1,115 @@
+@startuml
+
+hide empty methods
+hide empty attributes
+
+class ViewOrdersSentToCostumerUI <<presentation>>
+class ViewOrdersSentToCostumerController <<application>>
+class Order <<domain>>
+class ListOrderDTOService <<application>>
+
+class Order {
+-OrderId /'automatically generated'/
+- CreatedOn /'automatically generated na hora do registo do sistema'/
+- BillingAddress
+- DeliveryAddress
+- TotalAmountWithoutTaxes
+- TotalAmountWithTaxes
+- TotalWeight
+- TotalVolume
+- Status
+}
+
+class ListOrderDTOService {
++findOrdersWithStatus(status)
+}
+
+database OrderRepository{
+}
+
+class PersistenceContext{
++repositories()
+}
+
+
+
+class Client{
++create()
+}
+
+class TransactionalContext{
++beginTransaction()
++commit()
+}
+
+
+
+
+
+class ViewOrdersSentToCostumerController {
++changeStatusToBeingDelievered(orderId)
++getOrdersDispatchedForCustomerDelivery()
+}
+
+class ViewOrdersSentToCostumerUI {
+    #doShow()
+}
+
+
+
+
+
+
+class Client {
+- ClientID
+- Name
+- VAT
+- Email
+- PhoneNumber
+}
+
+
+
+database OrderRepository {
+}
+
+
+
+class RepositoryFactory{
++create()
+}
+
+
+ViewOrdersSentToCostumerUI ---> ViewOrdersSentToCostumerController : theController
+ViewOrdersSentToCostumerController --> Order : order
+ViewOrdersSentToCostumerController --> OrderRepository : orderRepository
+
+/'RegisterClientOrderUI ..> Order : order'/
+
+
+
+
+Order --> "1" Client : ordered by
+
+
+
+/'RegisterClientOrderController --> Product : product'/
+ViewOrdersSentToCostumerController --> ListOrderDTOService : service
+
+/'RegisterClientOrderUI ..> Client : chosenClient
+RegisterClientOrderUI ..> OrderItem : orderItem
+RegisterClientOrderUI ..> Product : product'/
+
+ListOrderDTOService --> OrderRepository : orderRepository
+
+ViewOrdersSentToCostumerController -->PersistenceContext
+ViewOrdersSentToCostumerController -->TransactionalContext
+
+PersistenceContext -->RepositoryFactory
+RepositoryFactory -->OrderRepository
+
+
+
+
+@enduml
+

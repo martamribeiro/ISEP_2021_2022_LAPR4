@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AGV Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="dashboard.css">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <script src="web-dashboard.js"></script>
+</head>
+<style>
+    table {
+        border-collapse: collapse;
+        border-style: solid;
+        width: 100%;
+        text-align: center;
+        padding: 15px;
+
+    }
+
+    thead {
+        width: 100%;
+        text-align: center;
+        padding: 15px;
+        background-color: tomato;
+        color: white;
+    }
+
+</style>
+<body onload="refreshPositions(); getMatrix()"><h1>AGVs Positions & Status</h1>
+
+<div id="matrix">
+
+</div>
+ <table>
+     <thead>
+     <tr>
+         <td>AGV ID</td>
+         <td>AGV Status</td>
+     </tr>
+     </thead>
+     <tbody id="agvs">
+
+     </tbody>
+ </table>
+
+</body>
+</html>

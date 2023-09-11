@@ -1,0 +1,35 @@
+CLIN21-22 Clinical Questionnaire
+Hello, this is the Clinical Questionnaire
+1. About You
+Section Obligatoriness: mandatory
+1. How old are you?(mandatory)
+Type: numeric
+
+2. Where are you from?(mandatory)
+Type: free text
+
+3. What is your gender?(mandatory)
+Type: single choice
+1)Male
+2)Female
+3)Other
+
+
+2. Product Feedback
+Section Obligatoriness: mandatory
+4. Would you recommend our clinical products to other person?(mandatory)
+Type: single choice
+1)Ye
+2)No
+
+5. How would you rather our products?(mandatory)
+Type: scaling option
+Scale: Strongly disagree, disagree, neutral, agree, strongly agree
+1)Our products are the worse
+2)Our products are as good as the others
+3)Some of our products are better than the others
+4)Our products are the best
+
+
+
+Thanks for answering

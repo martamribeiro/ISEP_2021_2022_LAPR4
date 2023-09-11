@@ -1,0 +1,117 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+participant HTTPServer as Http
+participant GetPositions as positions
+participant AGVManagerSRV as AgvSRV
+participant AGVDigitalTwinSRV as TwinSRV
+participant UpdateMatrixRequest as TwinPositionRequest
+participant SharedMemoryAGV as SharedMmemory
+participant AgvRoute as RoutePlanner
+participant SimulationEngine as Simulation
+participant Sensor as Sensor
+participant AGVCurrentPositions as CurrentPosition
+participant AGVBatteryManagementSystem as BatteryManagement
+
+activate Http
+Http -> positions : getPositions(10, ip)
+
+activate positions
+positions -> AgvSRV : sends test code
+activate AgvSRV
+AgvSRV -> positions : sends test confirmation code
+deactivate AgvSRV
+positions -> AgvSRV : sends code 10
+activate AgvSRV
+loop for each AGV in the database
+AgvSRV -> TwinSRV : sends test code
+activate TwinSRV
+TwinSRV -> AgvSRV : sends test confirmation code
+deactivate TwinSRV
+AgvSRV -> TwinSRV : sends code 10
+activate TwinSRV
+TwinSRV -> AgvSRV : sends code 11
+deactivate TwinSRV
+AgvSRV -> TwinSRV : sends code 12 and warehouse plant
+activate TwinSRV
+TwinSRV -> AgvSRV : sends code 13
+deactivate TwinSRV
+AgvSRV -> TwinSRV : sends code 14 and current AGV
+activate TwinSRV
+TwinSRV -> AgvSRV : sends code 15
+deactivate TwinSRV
+AgvSRV -> TwinSRV : sends AGV Task
+activate TwinSRV
+TwinSRV -> TwinPositionRequest : new(receivedWarehousePlant, receivedAGV, receivedAGVTask)
+TwinSRV -> TwinPositionRequest : execute()
+activate TwinPositionRequest
+TwinPositionRequest -> TwinPositionRequest : currentPosition = searchPosition(receivedWarehousePlant, receivedAGV)
+TwinPositionRequest -> SharedMmemory : sharedMemory = new(receivedAGV, receivedWarehousePlant, receivedAGVTask, currentPosition)
+TwinPositionRequest -> RoutePlanner : new(receivedAGV, currentPosition, receivedAGVTask, receivedWarehousePlant)
+TwinPositionRequest -> RoutePlanner : currentRoute = routePlanner.getRoute.computeFinalRoute();
+TwinPositionRequest -> Simulation : new(receivedWarehousePlant, receivedAGV, sharedMemory)
+TwinPositionRequest -> Simulation : simulateAGV();
+activate Simulation
+loop for each of 8 Sensors, 2 for each side of the AGV
+alt if left Sensor detects obstacle then
+Simulation -> Sensor : sharedMemory.changeLeftSignal()
+end
+alt if right Sensor detects obstacle then
+Simulation -> Sensor : sharedMemory.changeRightSignal()
+end
+alt if up Sensor detects obstacle then
+Simulation -> Sensor : sharedMemory.changeUpSignal()
+end
+alt if down Sensor detects obstacle then
+Simulation -> Sensor : sharedMemory.changeDownSignal()
+end
+end
+deactivate Simulation
+TwinPositionRequest -> CurrentPosition : new(speed, receivedWarehousePlant, receivedAGV, currentRoute, time)
+TwinPositionRequest -> CurrentPosition : calculatePosition()
+TwinPositionRequest -> BatteryManagement : new(receivedAGV)
+TwinPositionRequest -> BatteryManagement : agvFinalAutonomyDuration()
+end
+
+TwinPositionRequest -> TwinSRV : send warehouse plant with new AGV Positions
+deactivate TwinPositionRequest
+TwinSRV -> AgvSRV : send warehouse plant with new AGV Positions
+deactivate TwinSRV
+AgvSRV -> positions : send warehouse plant with new AGV Positions
+deactivate AgvSRV
+positions -> Http : return updated warehouse plant to shown on the dashboard
+deactivate positions
+
+Http -> positions : getPositions(6, ip)
+activate positions
+positions -> AgvSRV : sends test code
+activate AgvSRV
+AgvSRV -> positions : sends test confirmation code
+deactivate AgvSRV
+positions -> AgvSRV : sends code 6
+activate AgvSRV
+loop for each AGV in the database
+AgvSRV -> TwinSRV : sends test code
+activate TwinSRV
+TwinSRV -> AgvSRV : sends test confirmation code
+deactivate TwinSRV
+AgvSRV -> TwinSRV : sends code 6
+activate TwinSRV
+TwinSRV -> AgvSRV : sends code 7
+deactivate TwinSRV
+AgvSRV -> TwinSRV : sends current AGV
+activate TwinSRV
+TwinSRV -> AgvSRV : sends AGV Status
+deactivate TwinSRV
+end
+AgvSRV -> positions : sends all AGV Status
+deactivate AgvSRV
+positions -> Http : sends all AGV Status to be shown on the dashboard
+deactivate Http
+
+
+
+
+@enduml

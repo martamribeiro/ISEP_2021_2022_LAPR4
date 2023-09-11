@@ -1,0 +1,109 @@
+@startuml
+
+hide empty methods
+hide empty attributes
+
+class ViewClientOpenOrdersUI <<presentation>>
+class ViewClientOpenOrdersController <<application>>
+class Order <<domain>>
+class ViewClientOpenOrdersService <<application>>
+
+class Order {
+-OrderId /'automatically generated'/
+- CreatedOn /'automatically generated na hora do registo do sistema'/
+- BillingAddress
+- DeliveryAddress
+- TotalAmountWithoutTaxes
+- TotalAmountWithTaxes
+- TotalWeight
+- TotalVolume
+- Status
+}
+
+class ViewClientOpenOrdersService {
++allOpenOrders(email)
+}
+
+database OrderRepository{
+}
+
+class PersistenceContext{
++repositories()
+}
+
+
+
+class Client{
++create()
+}
+
+class TransactionalContext{
++beginTransaction()
++commit()
+}
+
+
+
+
+
+class ViewClientOpenOrdersController {
++allOpenOrders()
+}
+
+class ViewClientOpenOrdersUI {
+    #doShow()
+}
+
+class Client {
+- ClientID
+- Name
+- VAT
+- Email
+- PhoneNumber
+}
+
+
+
+database OrderRepository {
+}
+
+
+
+class RepositoryFactory{
++create()
+}
+
+
+ViewClientOpenOrdersUI ---> ViewClientOpenOrdersController : theController
+ViewClientOpenOrdersController --> Order : order
+ViewClientOpenOrdersController --> OrderRepository : orderRepository
+
+/'RegisterClientOrderUI ..> Order : order'/
+
+
+
+
+Order --> "1" Client : ordered by
+
+
+
+/'RegisterClientOrderController --> Product : product'/
+ViewClientOpenOrdersController --> ViewClientOpenOrdersService : service
+
+/'RegisterClientOrderUI ..> Client : chosenClient
+RegisterClientOrderUI ..> OrderItem : orderItem
+RegisterClientOrderUI ..> Product : product'/
+
+ViewClientOpenOrdersService --> OrderRepository : orderRepository
+
+ViewClientOpenOrdersController -->PersistenceContext
+ViewClientOpenOrdersController -->TransactionalContext
+
+PersistenceContext -->RepositoryFactory
+RepositoryFactory -->OrderRepository
+
+
+
+
+@enduml
+

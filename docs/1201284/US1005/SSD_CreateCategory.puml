@@ -1,0 +1,21 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Sales Clerk" as SC
+
+activate SC
+SC -> ":System" : inicia processo de criação da Categoria de Produto
+activate ":System"
+":System" -> SC : solicita código alfanumérico
+deactivate ":System"
+
+SC -> ":System" : introduz código alfanumérico
+activate ":System"
+":System" -> SC : solicita descrição da Categoria
+deactivate ":System"
+SC -> ":System" : introduz descrição da Categoria
+activate ":System"
+":System" -> SC : informa sucesso da operação
+deactivate ":System"
+@enduml

@@ -1,0 +1,50 @@
+HIG21-22 Higiene Questionnaire
+
+1. About you
+Welcome Message for the higiene questionnaire
+Section Obligatoriness: optional
+1. What is your gender?(optional)
+Type: single choice
+1)Male
+2)Female
+3)Other
+
+2. Where are you from?(optional)
+Type: free text
+
+3. What is your name?(optional)
+Type: free text
+
+
+
+2. Product Feedback
+Hello, Section 1
+Section Obligatoriness: mandatory
+1. Do you like our higiene products?(mandatory)
+Type: single choice
+1)Yes
+2)No
+
+2. What would be the max amount of money you would pay for a higiene product made by us?(mandatory)
+Type: numeric (Decimal numbers are allowed!)
+
+
+
+3. About us
+Hello, Section 2
+Section Obligatoriness: mandatory
+1. How do you think we could improve?(mandatory)
+Type: free text
+
+2. Would you recommend us to another person?(mandatory)
+Type: single choice with input
+1)Yes
+2)No
+3)Maybe
+
+
+
+
+
+
+Thanks for answering our questionnaire

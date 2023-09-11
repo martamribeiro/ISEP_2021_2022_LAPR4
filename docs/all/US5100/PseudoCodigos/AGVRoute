@@ -1,0 +1,118 @@
+// A queue node used in Breath First Search
+class Node {
+
+    Node(x coordinate, y coordinate, node parent) {
+        instantiate x, y and parent of node to keep track of the path
+    }
+
+
+}
+
+public class AgvRoute {
+
+    public AgvRoute(AGV currentAGV, AGVPosition currentAGVPosition, TheTask agvTask, String[][] warehousePlant) {
+        instantiate all variables received from the Control Unit;
+    }
+
+    instantiates row[] and col[] arrays to check later all the four possible movements of an AGV: up, down, left, right
+
+    private static boolean isValid(x, y, number of lines, number of columns, warehouse plant matrix, agv dock id) {
+        if(x and y coordinate are within the range of lines and columns of the matrix) {
+            if(current cell on matrix is an "X" or the current AGV Dock) {
+                it is a valid position and returns true;
+            }
+        }
+        return false;
+    }
+
+    private static void findPath(node, path list) {
+        if (node not null) {
+            recursively calls findPath with the antecessor/parent of the node until it reaches the first node of the path
+            after finding it, adds recursively to the path list the x and y coordinates of all the nodes
+        }
+    }
+
+
+    public static LinkedList<Point2D> findPath(warehouse plant matrix, x source coordinate, y source coordinate, x destination coordinatine, y destination coordinate, agv dock id) {
+        instantiates path list to store the path
+
+        sets the base case of the recursive method, that is, if the matrix doesn't exist or if there isn't any lines it returns the path list
+
+        gets the number of lines (N) of the matrix
+        gets the number of columns (M) of the matrix
+
+        instantiates a queue and enqueue the first node (with source coordinates)
+
+        instantiates set to check if the matrix cell is visited before or not
+
+        gets the x and y coordinates of the source through the node and adds it to set of visited
+
+
+        while (queue isn't empty) {
+            dequeue front node
+            gets x and y coordinates of current node
+
+            if (x and y coordinates are the destination) {
+                calls findPath(current Node, path list) to get the path
+                return path;
+            }
+
+            gets value of the current cell (matrix[i][j])
+
+            for (each one of the 4 possible movements - up, down, left, right - of AGV) {
+
+                get next position coordinates x and y using the value of the current cell
+
+                if (the position is Valid through calling isValid method) {
+
+                    instantiates the next cell node the its coordinates and parent
+
+                    if (node hasn't been visited) {
+                        enqueue/add it and mark it as visited through adding to the set of visited
+                    }
+                }
+            }
+        }
+
+        we reach here if the path is not possible:
+        return path;
+    }
+
+    public synchronized LinkedList<Point2D> computeFinalRoute() {
+
+
+        gets start position of route: current position of AGV
+        gets list of bins the AGV needs to pick
+        gets the first bin
+        gets the coordinates of the first bin
+
+        instantiantes linked list to save the final route AGV needs to take
+
+        gets agv dock id
+
+        gets 1st route calling method findPath from: current position of AGV -> to: 1st bin/product to pick
+
+        NOW THAT WE HAVE THE PATH TO THE 1ST PRODUCT, WE NEED TO CHECK WHETHER AGV HAS MORE PRODUCTS TO PICK AND IF SO COMPUTE ALL THE NECESSARY ROUTES:
+
+        for (every two bin/products the AGV needs to pick) {
+            gets the coordinates of the bin i (starting at the 1st bin of the list, i = 0)
+            gets coordinates of the bin i+1
+            gets route calling method findPath from: bin/product i -> to: bin/product i+1
+            removes first element of the path so that the final route doesn't have repeated elements
+            adds route to the final route
+        }
+
+        gets coordinates of last bin
+        gets final position of route: AGV Dock
+
+        gets route calling method findPath from last bin to AGV Dock
+        removes first element
+        adds to final route
+
+        return final route;
+    }
+
+
+
+
+}

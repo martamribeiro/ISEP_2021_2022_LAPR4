@@ -1,0 +1,322 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+Actor "Sales Clerk" as SC
+participant ViewProductCatalogUI as UI <<presentation>>
+participant ViewProductCatalogController as controller <<application>>
+participant PersistenceContext as Persistence <<persistence>>
+participant RepositoryFactory as Factory <<factory>>
+database ProductRepository as productRepository <<repository>>
+database ProductCategoryRepository as productCategoryRepository <<repository>>
+
+activate SC
+
+SC -> UI: Wants to see the product catalog.
+
+activate UI
+
+UI --> SC: Asks if he wants to use filters
+
+deactivate UI
+
+alt if the answer is no
+
+SC -> UI: Answers no
+
+activate UI
+
+UI -> controller: showProductCatalog()
+
+activate controller
+
+controller -> Persistence: repositories()
+
+activate Persistence
+
+Persistence -> Factory: create
+
+Persistence -> controller: factory
+
+deactivate Persistence
+
+controller -> Factory: products()
+
+activate Factory
+
+Factory -> productRepository: findAll()
+
+Factory -> controller: productRepository
+
+deactivate Factory
+
+loop for each Product in the repository
+
+controller -> controller: productsInfo.add(product.toString())
+
+end
+
+controller -> UI: productsInfo
+
+deactivate controller
+
+UI --> SC: shows catalog
+
+SC -> UI: confirms data
+
+UI --> SC: informs operation success
+
+deactivate UI
+
+end
+
+alt if the answer is yes
+
+SC -> UI: Answers yes
+
+activate UI
+
+loop until Sales Clerk don't want to select any more filters or until he selects them all
+
+UI --> SC: Asks which filter he wants to use (Brand, Category, Description or All)
+
+deactivate UI
+
+SC -> UI: selects one filter
+
+alt if the filter is All (Only available in the 1st iteration)
+
+SC -> UI: selects 'All'
+
+activate UI
+
+UI -> controller: showProductCatalog()
+
+activate controller
+
+controller -> Persistence: repositories()
+
+activate Persistence
+
+Persistence -> Factory: create
+
+Persistence -> controller: factory
+
+deactivate Persistence
+
+controller -> Factory: products()
+
+activate Factory
+
+Factory -> productRepository: findAll()
+
+Factory -> controller: productRepository
+
+deactivate Factory
+
+controller -> Factory: productCategories()
+
+activate Factory
+
+Factory -> productRepository: findAll()
+
+Factory -> controller: productCategoryRepository
+
+deactivate Factory
+
+loop for each product in the productRepository
+
+controller -> controller: productsInfo.add(product.filterByBrand().toString())
+controller -> controller: productsInfo.add(product.filterByDescription().toString())
+
+end
+
+loop for each product in the productCategoryRepository
+
+controller -> controller: productsInfo.add(product.filterByCategory().toString())
+
+end
+
+controller -> UI: productsInfo
+
+deactivate controller
+
+UI --> SC: shows the catalog
+
+SC -> UI: confirms data
+
+UI --> SC: informs operation success and automatically exits the menu
+
+deactivate UI
+
+end
+
+alt if the filter is Brand
+
+SC -> UI: selects 'Brand'
+
+activate UI
+
+UI -> controller: showProductCatalog()
+
+activate controller
+
+controller -> Persistence: repositories()
+
+activate Persistence
+
+Persistence -> Factory: create
+
+Persistence -> controller: factory
+
+deactivate Persistence
+
+controller -> Factory: products()
+
+activate Factory
+
+Factory -> productRepository: findAll()
+
+Factory -> controller: productRepository
+
+deactivate Factory
+
+
+loop for each product in the productRepository
+
+controller -> controller: productsInfo.add(product.filterByBrand().toString())
+
+end
+
+controller -> UI: productsInfo
+
+deactivate controller
+
+UI --> SC: shows the catalog
+
+SC -> UI: confirms data
+
+UI --> SC: informs operation success
+
+deactivate UI
+
+end
+
+alt if the filter is Description
+
+SC -> UI: selects 'Brand'
+
+activate UI
+
+UI -> controller: showProductCatalog()
+
+activate controller
+
+controller -> Persistence: repositories()
+
+activate Persistence
+
+Persistence -> Factory: create
+
+Persistence -> controller: factory
+
+deactivate Persistence
+
+controller -> Factory: products()
+
+activate Factory
+
+Factory -> productRepository: findAll()
+
+Factory -> controller: productRepository
+
+deactivate Factory
+
+
+loop for each product in the productRepository
+
+controller -> controller: productsInfo.add(product.filterByDescription().toString())
+
+end
+
+controller -> UI: productsInfo
+
+deactivate controller
+
+UI --> SC: shows the catalog
+
+SC -> UI: confirms data
+
+UI --> SC: informs operation success
+
+deactivate UI
+
+end
+
+alt if the filter is Description
+
+SC -> UI: selects 'Brand'
+
+activate UI
+
+UI -> controller: showProductCatalog()
+
+activate controller
+
+controller -> Persistence: repositories()
+
+activate Persistence
+
+Persistence -> Factory: create
+
+Persistence -> controller: factory
+
+deactivate Persistence
+
+controller -> Factory: productCategories()
+
+activate Factory
+
+Factory -> productCategoryRepository: findAll()
+
+Factory -> controller: productCategoryRepository
+
+deactivate Factory
+
+
+loop for each product in the productCategoryRepository
+
+controller -> controller: productsInfo.add(product.filterByCategory().toString())
+
+end
+
+controller -> UI: productsInfo
+
+deactivate controller
+
+UI --> SC: shows the catalog
+
+SC -> UI: confirms data
+
+UI --> SC: informs operation success
+
+deactivate UI
+
+end
+
+end
+
+SC -> UI: (When he stops selecting filters) confirms data
+
+activate UI
+
+UI --> SC: informs operation success
+
+deactivate UI
+
+end
+
+deactivate SC
+
+@enduml

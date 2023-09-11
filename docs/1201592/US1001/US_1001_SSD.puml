@@ -1,0 +1,16 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+Actor ":SalesClerk" as SC
+
+activate SC
+SC-> ":System" : asks to register a product
+activate ":System"
+":System" --> SC : asks for data (uniqueInternalCode, barcode, shortDescription, extendedDescription, priceWithoutTaxes, status, weight, volume, priceWithTaxes, productCategory, technicalDescription, brandName, reference, productionCode, photos)
+SC-> ":System" : inserts needed data
+":System" --> SC : informs of operation success or fail
+deactivate ":System"
+
+@enduml

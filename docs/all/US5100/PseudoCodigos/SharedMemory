@@ -1,0 +1,77 @@
+public class SharedMemoryAGV {
+    variables to keep the values of the four Sensors;
+
+    public SharedMemoryAGV(AGV belonging to the current Thread,
+                           Warehouse Plant,
+                           Task belonging to the current AGV,
+                           Position of the current AGV){
+        instantiate all variables received from the Control Unit;
+    }
+
+    public void changeLeftSignal(Signal from the Sensor){
+        change left Signal variable;
+    }
+
+    public void changeRightSignal(Signal from the Sensor){
+        change right Signal variable;
+    }
+
+    public void changeUpSignal(Signal from the Sensor){
+        change up Signal variable;
+    }
+
+    public void changeDownSignal(Signal from the Sensor){
+        change down Signal variable;
+    }
+
+    public int leftSensor(){
+        get left Signal;
+    }
+    public int rightSensor(){
+        get right Signal;
+    }
+    public int upSensor(){
+        get up Signal;;
+    }
+    public int downSensor(){
+        get down Signal;;
+    }
+
+    public void resetSensors(){
+        reset all Signals to "0";
+    }
+
+    public AGV theAGV() {
+        get the current AGV;
+    }
+
+    public void changeCurrentAGV(new AGV) {
+        change the current AGV to the one given;
+    }
+
+    public String[][] theWarehousePlant() {
+        get the current Warehouse Plant;
+    }
+
+    public void changeWarehousePlant(new Warehouse Plant) {
+        change the current Warehouse Plant to the one given;
+    }
+
+    public TheTask theCurrentTask() {
+        get the current AGV Task;
+    }
+
+    public void changeCurrentTask(new AGV Task) {
+        change the current AGV Task to the one given;
+    }
+
+    public AGVPosition theCurrentPosition() {
+        get the current AGV Position;
+    }
+
+    public void changeCurrentPosition(new AGV Position) {
+        change the current AGV Position to the one given;
+    }
+
+
+}

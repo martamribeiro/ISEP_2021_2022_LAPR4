@@ -1,0 +1,45 @@
+public class AGVCurrentPositions {
+
+    public AGVCurrentPositions (Speed to use in calculations, Warehouse Plant, AGV belonging to the current Thread, Route calculated, Time between calculations) {
+        instantiate all variables received from the Control Unit;
+    }
+
+    public synchronized String[][] calculatePosition() {
+        Calculate next index to find in the given Route by multiplying the Speed and the Time;
+        instantiate a variable to keep the index and a counter to help the program;
+        variable for the next Position of the given AGV;
+        variables to keep the x and y values of a Position;
+
+        for(every row in the Warehouse Plant){
+            for (every column in the Warehouse Plant){
+                if (current Square of the Warehouse Plant has the given AGV){
+                    get the index of the current Position from the Route;
+                    if(index belongs to the Route and is positive){
+                        get next Position from the Route;
+                        get the x value of the Position of the next Position;
+                        get the y value of the Position of the next Position;
+                        increase counter;
+
+                        if(next Position is not an AGV Dock){
+                            current Position is changed to an "X";
+                            the coordinates correspondent to the next Position are changed to the AGV ID;
+                        } else {
+                            current Position is changed to an "X";
+                        }
+                    }
+                }
+            }
+        }
+
+        if(counter is not increased){
+            if(next index belongs in the Route) {
+                get the next Position with the next index from the Route;
+                get the x value of the Position of the next Position;
+                get the y value of the Position of the next Position;
+                the coordinates correspondent to the next Position are changed to the AGV ID;
+            }
+        }
+
+        return the changed Warehouse Plant;
+    }
+}

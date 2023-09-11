@@ -1,0 +1,15 @@
+5. Which features are most valuable to you in a product?(mandatory)
+Type: multiple choice with input
+1)Efficiency
+2)Stock availability
+3)Design
+4)Eco friendliness
+5)Brand
+6)Other:
+
+
+
+
+
+
+

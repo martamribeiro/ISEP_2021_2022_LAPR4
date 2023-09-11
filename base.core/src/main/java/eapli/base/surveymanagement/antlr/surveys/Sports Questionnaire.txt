@@ -1,0 +1,22 @@
+SPO21-22 Sports Questionnaire
+Hello, welcome to the Sports Questionnaire
+1. About you
+Section Obligatoriness: mandatory
+1. How old are you?(mandatory)
+Type: numeric
+
+2. Where are you from?(mandatory)
+Type: free text
+
+
+2. Product feedback
+Section Obligatoriness: mandatory
+1. Would you recommend our sports products to another person?(mandatory)
+Type: single choice
+1)Yes
+2)No
+3)Maybe
+
+
+
+Thanks for answering the Sports Questionnaire

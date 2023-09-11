@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="436px" preserveAspectRatio="none" style="width:382px;height:436px;background:#FFFFFF;" version="1.1" viewBox="0 0 382 436" width="382px" zoomAndPan="magnify"><defs/><g><!--MD5=[9dd4458791199fa45785259e7581e7a7]
+cluster <<aggregate>> Order--><g id="cluster_&lt;&lt;aggregate&gt;&gt; Order"><path d="M8.5,6 L158.5,6 A3.75,3.75 0 0 1 161,8.5 L168,29.6094 L168.5,29.6094 A2.5,2.5 0 0 1 171,32.1094 L171,371 A2.5,2.5 0 0 1 168.5,373.5 L8.5,373.5 A2.5,2.5 0 0 1 6,371 L6,8.5 A2.5,2.5 0 0 1 8.5,6 " style="stroke:#000000;stroke-width:1.5;fill:none;"/><line style="stroke:#000000;stroke-width:1.5;fill:none;" x1="6" x2="168" y1="29.6094" y2="29.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="149" x="10" y="22.5332">&lt;&lt;aggregate&gt;&gt; Order</text></g><!--MD5=[20e996825fabf2618e164db4892593a3]
+cluster <<aggregate>> Client--><g id="cluster_&lt;&lt;aggregate&gt;&gt; Client"><path d="M197.5,215 L347.5,215 A3.75,3.75 0 0 1 350,217.5 L357,238.6094 L372.5,238.6094 A2.5,2.5 0 0 1 375,241.1094 L375,426.5 A2.5,2.5 0 0 1 372.5,429 L197.5,429 A2.5,2.5 0 0 1 195,426.5 L195,217.5 A2.5,2.5 0 0 1 197.5,215 " style="stroke:#000000;stroke-width:1.5;fill:none;"/><line style="stroke:#000000;stroke-width:1.5;fill:none;" x1="195" x2="357" y1="238.6094" y2="238.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="149" x="199" y="231.5332">&lt;&lt;aggregate&gt;&gt; Client</text></g><!--MD5=[cf4d6237fcae255cd2e1656cf84a30e2]
+class Order--><g id="elem_Order"><rect codeLine="15" fill="#F5F5DC" height="109.0156" id="Order" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="105" x="48.5" y="42"/><ellipse cx="78.8" cy="70.8984" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M77.3,71.8984 L77.3,73.8984 L81.3,73.8984 L81.3,72.8984 L81.3,72.4141 L81.925,71.8984 L82.3,71.8984 L82.675,71.8984 L83.3,72.4141 L83.3,72.8984 L83.3,75.8984 L75.3,75.8984 L74.8156,75.8984 L74.3,75.2734 L74.3,74.8984 L74.3,74.5234 L74.8156,73.8984 L75.3,73.8984 L75.3,73.8984 L75.3,67.8984 L75.3,67.8984 L74.8156,67.8984 L74.3,67.2734 L74.3,66.8984 L74.3,66.5234 L74.8156,65.8984 L75.3,65.8984 L83.3,65.8984 L83.3,68.8984 L83.3,69.3828 L82.675,69.8984 L82.3,69.8984 L81.925,69.8984 L81.3,69.3828 L81.3,68.8984 L81.3,67.8984 L77.3,67.8984 L77.3,69.8984 L78.3,69.8984 L78.3,69.4141 L78.3,69.4141 L78.925,68.8984 L79.3,68.8984 L79.675,68.8984 L80.3,69.4141 L80.3,69.8984 L80.3,71.8984 L80.3,72.3828 L79.675,72.8984 L79.675,72.8984 L79.3,72.8984 L78.925,72.8984 L78.3,72.3828 L78.3,72.3828 L78.3,71.8984 L77.3,71.8984 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="43" x="94.2" y="59.457">«entity»</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="35" x="98.2" y="74.5508">«root»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="37" x="97.2" y="91.7207">Order</text><line style="stroke:#181818;stroke-width:0.5;" x1="49.5" x2="152.5" y1="99.7969" y2="99.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="93" x="54.5" y="118.3301">-«VO» OrderId</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="75" x="54.5" y="135.9395">-CreatedOn</text><line style="stroke:#181818;stroke-width:0.5;" x1="49.5" x2="152.5" y1="143.0156" y2="143.0156"/></g><!--MD5=[e3d83ec5fd90ea9f3f2bfe265cb53458]
+class Status--><g id="elem_Status"><rect codeLine="20" fill="#F5F5DC" height="50.7031" id="Status" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="109" x="45.5" y="306.5"/><ellipse cx="60.5" cy="327.8516" fill="#FF8B40" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M60.5,331.1328 L62.0313,325.6016 L62.0313,325.6016 L61.5156,325.6016 L61,324.9766 L61,324.6016 L61,324.2266 L61.5156,323.6016 L62.0313,323.6016 L63.9063,323.6016 L64.4844,323.6016 L65,324.2266 L65,324.6016 L65,324.9766 L64.4844,325.6016 L64.4844,325.6016 L64.0313,325.6016 L61.6875,333.6016 L59.3125,333.6016 L56.8438,325.6016 L56.5156,325.6016 L56.5156,325.6016 L56,324.9766 L56,324.6016 L56,324.2266 L56.5156,323.6016 L57.0938,323.6016 L58.9688,323.6016 L59.4844,323.6016 L60,324.2266 L60,324.6016 L60,324.9766 L59.4844,325.6016 L58.9688,325.6016 L58.9688,325.6016 L60.5,331.1328 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="81" x="72.5" y="323.957">«value object»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="40" x="93" y="341.127">Status</text><line style="stroke:#181818;stroke-width:0.5;" x1="46.5" x2="153.5" y1="349.2031" y2="349.2031"/></g><!--MD5=[ed6624c6556d5e7b1bd23032162d20b7]
+class Client--><g id="elem_Client"><rect codeLine="23" fill="#F5F5DC" height="161.8438" id="Client" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="147" x="211.5" y="251"/><ellipse cx="261.25" cy="279.8984" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M259.75,280.8984 L259.75,282.8984 L263.75,282.8984 L263.75,281.8984 L263.75,281.4141 L264.375,280.8984 L264.75,280.8984 L265.125,280.8984 L265.75,281.4141 L265.75,281.8984 L265.75,284.8984 L257.75,284.8984 L257.2656,284.8984 L256.75,284.2734 L256.75,283.8984 L256.75,283.5234 L257.2656,282.8984 L257.75,282.8984 L257.75,282.8984 L257.75,276.8984 L257.75,276.8984 L257.2656,276.8984 L256.75,276.2734 L256.75,275.8984 L256.75,275.5234 L257.2656,274.8984 L257.75,274.8984 L265.75,274.8984 L265.75,277.8984 L265.75,278.3828 L265.125,278.8984 L264.75,278.8984 L264.375,278.8984 L263.75,278.3828 L263.75,277.8984 L263.75,276.8984 L259.75,276.8984 L259.75,278.8984 L260.75,278.8984 L260.75,278.4141 L260.75,278.4141 L261.375,277.8984 L261.75,277.8984 L262.125,277.8984 L262.75,278.4141 L262.75,278.8984 L262.75,280.8984 L262.75,281.3828 L262.125,281.8984 L262.125,281.8984 L261.75,281.8984 L261.375,281.8984 L260.75,281.3828 L260.75,281.3828 L260.75,280.8984 L259.75,280.8984 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="43" x="279.75" y="268.457">«entity»</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="35" x="283.75" y="283.5508">«root»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="36" x="283.25" y="300.7207">Client</text><line style="stroke:#181818;stroke-width:0.5;" x1="212.5" x2="357.5" y1="308.7969" y2="308.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="94" x="217.5" y="327.3301">-«VO» ClientID</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="81" x="217.5" y="344.9395">-«VO» Name</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="72" x="217.5" y="362.5488">-«VO» VAT</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79" x="217.5" y="380.1582">-«VO» Email</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="135" x="217.5" y="397.7676">-«VO» PhoneNumber</text><line style="stroke:#181818;stroke-width:0.5;" x1="212.5" x2="357.5" y1="404.8438" y2="404.8438"/></g><!--MD5=[b4eabd1a63a4ad1f2f93b60573323bf1]
+link Order to Client--><g id="link_Order_Client"><path codeLine="33" d="M143.21,151.07 C165.45,179.29 193.24,214.56 218.31,246.37 " fill="none" id="Order-to-Client" style="stroke:#222222;stroke-width:1.0;"/><polygon fill="#222222" points="221.67,250.64,219.2564,241.0915,218.5815,246.7079,212.9651,246.033,221.67,250.64" style="stroke:#222222;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="61" x="177" y="195.4951">ordered by</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="208.718" y="240.1991">1</text></g><!--MD5=[122b4dd1f45a639d4ce979ab5433d793]
+link Order to Status--><g id="link_Order_Status"><path codeLine="34" d="M100.77,151.07 C100.57,197.53 100.29,263.08 100.13,300.9 " fill="none" id="Order-to-Status" style="stroke:#222222;stroke-width:1.0;"/><polygon fill="#222222" points="100.11,306.27,104.1614,297.293,100.1386,301.2701,96.1615,297.2473,100.11,306.27" style="stroke:#222222;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="32" x="102" y="195.4951">has a</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="92.2837" y="295.6225">1</text></g><!--MD5=[3951dfd1d5815007fc4a0415a9fb1c53]
+@startuml
+skinparam classAttributeIconSize 0
+hide empty attributes
+skinparam classBackgroundColor beige
+skinparam ArrowColor #222222
+
+package "<<aggregate>> Order" {
+    entity Order
+    class Status
+}
+
+package "<<aggregate>> Client" {
+    entity Client
+}
+
+entity Order <<entity>> <<root>> {
+    -<<VO>> OrderId /'automatically generated'/
+    - CreatedOn /'automatically generated na hora do registo do sistema'/
+}
+
+class Status <<(V,#FF8B40) value object>> {
+}
+
+entity Client <<entity>> <<root>> {
+    - <<VO>> ClientID
+    - <<VO>> Name
+    - <<VO>> VAT
+    - <<VO>> Email
+    - <<VO>> PhoneNumber
+    /'- <<VO>> BirthDate'/ /'optional'/
+    /'- <<VO>> Gender'/ /'optional'/
+}
+
+Order - -> "1" Client : ordered by
+Order - -> "1" Status : has a
+
+
+@enduml
+
+@startuml
+skinparam classAttributeIconSize 0
+hide empty attributes
+skinparam classBackgroundColor beige
+skinparam ArrowColor #222222
+
+package "<<aggregate>> Order" {
+    entity Order
+    class Status
+}
+
+package "<<aggregate>> Client" {
+    entity Client
+}
+
+entity Order <<entity>> <<root>> {
+    -<<VO>> OrderId 
+    - CreatedOn 
+}
+
+class Status <<(V,#FF8B40) value object>> {
+}
+
+entity Client <<entity>> <<root>> {
+    - <<VO>> ClientID
+    - <<VO>> Name
+    - <<VO>> VAT
+    - <<VO>> Email
+    - <<VO>> PhoneNumber
+}
+
+Order - -> "1" Client : ordered by
+Order - -> "1" Status : has a
+
+
+@enduml
+
+PlantUML version 1.2022.5(Sat Apr 30 11:55:52 BST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

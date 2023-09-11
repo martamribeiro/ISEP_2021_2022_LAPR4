@@ -1,0 +1,218 @@
+@startuml
+
+/' FALTA PARTE DE MOSTRAR LISTA APROPRIADA DE QUESTIONARIOS AO CLIENT '/
+
+autonumber
+actor "Client" as C
+
+participant AnswerQuestionnaireUI as UI <<presentation>>
+participant AnswerQuestionnaireController as CONTROLLER <<application>>
+participant AnswerQuestionnaireService as SERVICE <<application>>
+participant TcpOrderSrv as ORDER_SERVER
+participant OrderServerMessageParser as PARSER
+participant OrderServerRequest as ORDER_REQUEST
+participant OrderSrvController as ORDER_CONTROLLER <<application>>
+participant ListQuestionnaireDTOService as SURVEY_SERVICE <<application>>
+
+participant "Client" as CLIENT <<domain>>
+participant "Questionnaire" as QUESTIONNAIRE <<domain>>
+participant "Answer" as ANSWER <<domain>>
+
+participant PersistenceContext as PERSISTENCE <<persistence>>
+participant RepositoryFactory as FACTORY <<factory>>
+database SurveyQuestionnareRepository as SURVEY_REP <<repository>>
+database AnswerQuestionnaireRepository as ANSWER_REP <<repository>>
+database ClientRepository as CLIENT_REP <<repository>>
+
+loop enquanto não escolher um questionário\n que ainda não tenha respondido
+activate C
+C -> UI : inicia o processo de responder a um questionário
+activate UI
+
+
+
+UI -> CONTROLLER : questionnairesForClient();
+
+activate CONTROLLER
+CONTROLLER -> SERVICE : questionnairesForClient(email)
+activate SERVICE
+SERVICE -> ORDER_SERVER : questionnairesForClient(email)
+activate ORDER_SERVER
+
+ORDER_SERVER -> PARSER : parse(messageRequest, sOutputObject, sIn, sOut, clientMessageUS, sInputObject)
+activate PARSER
+PARSER -> ORDER_REQUEST : create(orderSrvController, messageRequest, sOutObject, sIn, sOut, clientMessageUS, sInObject)
+activate ORDER_REQUEST
+ORDER_REQUEST --> PARSER : orderRequest
+deactivate ORDER_REQUEST
+PARSER --> ORDER_SERVER : orderRequest
+deactivate PARSER
+|||
+note right of ORDER_SERVER
+request **12**
+end note
+ORDER_SERVER -> ORDER_REQUEST : execute()
+activate ORDER_REQUEST
+
+ORDER_REQUEST -> ORDER_CONTROLLER : questionnairesForClient(email)
+activate ORDER_CONTROLLER
+ORDER_CONTROLLER -> CLIENT_REP : findByEmail(email)
+activate CLIENT_REP
+CLIENT_REP --> ORDER_CONTROLLER : client
+deactivate CLIENT_REP
+ORDER_CONTROLLER -> SURVEY_SERVICE : questionnairesForClient(client)
+activate SURVEY_SERVICE
+SURVEY_SERVICE --> ORDER_CONTROLLER : surveys
+deactivate SURVEY_SERVICE
+
+ORDER_CONTROLLER --> ORDER_REQUEST : surveys
+ORDER_REQUEST --> ORDER_SERVER : surveys
+ORDER_SERVER --> SERVICE : surveys
+SERVICE --> CONTROLLER : surveys
+CONTROLLER --> UI : surveys
+
+deactivate ORDER_CONTROLLER
+deactivate ORDER_REQUEST
+deactivate PARSER
+deactivate ORDER_SERVER
+deactivate SERVICE
+deactivate CONTROLLER
+
+
+UI --> C : mostra a lista de questionarios apropriada ao cliente
+deactivate UI
+
+
+
+C -> UI : seleciona o questionario pretendido
+activate UI
+UI -> CONTROLLER : verifyIfClientAnswered(surveyDTO)
+activate CONTROLLER
+CONTROLLER -> SERVICE : verifyIfClientHasAnswered(email, surveyDTO)
+activate SERVICE
+SERVICE -> ORDER_SERVER : verifyIfClientHasAnswered(email, surveyDTO)
+activate ORDER_SERVER
+
+ORDER_SERVER -> PARSER : parse(messageRequest, sOutputObject, sIn, sOut, clientMessageUS, sInputObject)
+activate PARSER
+PARSER -> ORDER_REQUEST : create(orderSrvController, messageRequest, sOutObject, sIn, sOut, clientMessageUS, sInObject)
+activate ORDER_REQUEST
+ORDER_REQUEST --> PARSER : orderRequest
+deactivate ORDER_REQUEST
+PARSER --> ORDER_SERVER : orderRequest
+deactivate PARSER
+|||
+note right of ORDER_SERVER
+request **16**
+end note
+ORDER_SERVER -> ORDER_REQUEST : execute()
+activate ORDER_REQUEST
+
+ORDER_REQUEST -> ORDER_CONTROLLER : verifyIfClientAnswered(email, surveyCode)
+activate ORDER_CONTROLLER
+ORDER_CONTROLLER -> SURVEY_REP : ofIdentity(surveyCode)
+activate SURVEY_REP
+SURVEY_REP --> ORDER_CONTROLLER : survey
+deactivate SURVEY_REP
+ORDER_CONTROLLER -> CLIENT_REP : findByEmail(email)
+activate CLIENT_REP
+CLIENT_REP --> ORDER_CONTROLLER : clientSurvey
+deactivate CLIENT_REP
+ORDER_CONTROLLER -> ANSWER_REP : findAnswersByClient(client, survey)
+activate ANSWER_REP
+ANSWER_REP --> ORDER_CONTROLLER : answers
+deactivate ANSWER_REP
+
+ORDER_CONTROLLER --> ORDER_REQUEST : hasNotAnswered
+ORDER_REQUEST --> ORDER_SERVER : hasNotAnswered
+ORDER_SERVER --> SERVICE : hasNotAnswered
+SERVICE --> CONTROLLER : hasNotAnswered
+CONTROLLER --> UI : hasNotAnswered
+
+deactivate ORDER_CONTROLLER
+deactivate ORDER_REQUEST
+deactivate PARSER
+deactivate ORDER_SERVER
+deactivate SERVICE
+deactivate CONTROLLER
+end
+UI -> UI : validAnswers = parseSurveyAnswersWithVisitor(surveyString, answers)
+activate UI
+deactivate UI
+
+loop enquanto o questionário tiver questões
+UI --> C : apresenta a questão
+deactivate UI
+C -> UI : responde à questão
+activate UI
+end
+
+
+
+
+UI -> CONTROLLER : sendAnswersToBeSaved(answers, surveyDTO)
+activate CONTROLLER
+CONTROLLER -> SERVICE : sendAnswersToBeSaved(answers, survey, email)
+activate SERVICE
+SERVICE -> ORDER_SERVER : sendAnswersToBeSaved(answers, survey, email)
+activate ORDER_SERVER
+
+ORDER_SERVER -> PARSER : parse(messageRequest, sOutputObject, sIn, sOut, clientMessageUS, sInputObject)
+activate PARSER
+PARSER -> ORDER_REQUEST : create(orderSrvController, messageRequest, sOutObject, sIn, sOut, clientMessageUS, sInObject)
+activate ORDER_REQUEST
+ORDER_REQUEST --> PARSER : orderRequest
+deactivate ORDER_REQUEST
+PARSER --> ORDER_SERVER : orderRequest
+deactivate PARSER
+|||
+note right of ORDER_SERVER
+request **14**
+end note
+ORDER_SERVER -> ORDER_REQUEST : execute()
+activate ORDER_REQUEST
+
+ORDER_REQUEST -> ORDER_CONTROLLER : saveQuestionnaireAnswers(answers, surveyDTO, email)
+activate ORDER_CONTROLLER
+ORDER_CONTROLLER -> SURVEY_REP : ofIdentity(surveyCode)
+activate SURVEY_REP
+SURVEY_REP --> ORDER_CONTROLLER : survey
+deactivate SURVEY_REP
+ORDER_CONTROLLER -> CLIENT_REP : findByEmail(email)
+activate CLIENT_REP
+CLIENT_REP --> ORDER_CONTROLLER : clientSurvey
+deactivate CLIENT_REP
+loop enquanto houver answers a persistir
+ORDER_CONTROLLER -> ANSWER : create(survey, client, questionID, listAnswers)
+activate ANSWER
+ANSWER --> ORDER_CONTROLLER : answer
+deactivate ANSWER
+ORDER_CONTROLLER -> ANSWER_REP : save(answer)
+activate ANSWER_REP
+deactivate ANSWER_REP
+
+
+end
+
+ORDER_CONTROLLER --> ORDER_REQUEST : success
+ORDER_REQUEST --> ORDER_SERVER : success
+ORDER_SERVER --> SERVICE : success
+SERVICE --> CONTROLLER : success
+CONTROLLER --> UI : success
+
+
+deactivate ORDER_CONTROLLER
+deactivate ORDER_REQUEST
+deactivate PARSER
+deactivate ORDER_SERVER
+deactivate SERVICE
+deactivate CONTROLLER
+
+
+
+UI --> C : informa o sucesso da operação
+deactivate UI
+
+
+
+@enduml

@@ -1,0 +1,105 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor WarehouseEmployee as WE
+participant DispatchOrderUI as UI
+participant DispatchOrderController as Controller
+participant "order:TheOrder" as Domain1 <<domain>>
+participant PersistenceContext as Persistence <<persistence>>
+participant RepositoryFactory as Factory <<factory>>
+database TaskRepository as taskRepository <<repository>>
+database AGVRepository as agvRepository <<repository>>
+
+activate WE
+
+WE -> UI: wants to access the list of orders that have already been prepared.
+
+activate UI
+
+UI -> Controller: showAGVList()
+
+activate Controller
+
+Controller -> Persistence: repositories()
+
+activate Persistence
+
+Persistence -> Factory: create()
+
+Persistence -> Controller: factory
+
+deactivate Persistence
+
+Controller -> Factory: agvs()
+
+activate Factory
+
+Factory -> agvRepository: findAll()
+
+Factory -> Controller: agvRepository
+
+deactivate Factory
+
+Controller -> UI: agvList
+
+deactivate Controller
+
+UI --> WE: shows agvList and requests to select one agv from the list.
+
+deactivate UI
+
+WE -> UI: selects one agv from the list.
+
+activate UI
+
+UI -> Controller: getTasksByAgv(agv)
+
+activate Controller
+
+Controller -> Persistence : repositories()
+
+activate Persistence
+
+Persistence -> Factory : create()
+
+Persistence -> Controller : factory
+
+deactivate Persistence
+
+Controller -> Factory : tasks()
+
+activate Factory
+
+Factory -> taskRepository : findByAgv(agv)
+
+Factory -> Controller : tasksList
+
+deactivate Factory
+
+Controller -> UI : tasksList
+
+deactivate Controller
+
+UI --> WE : shows id of orders processed by the given agv and asks to choose one
+
+deactivate UI
+
+WE --> UI : selects order from the list
+
+activate UI
+UI -> Controller : alterOrderStatus(order)
+
+activate Controller
+
+Controller -> Domain1 : setStatus("DISPATCHED")
+deactivate Controller
+
+UI --> WE: informs operation success.
+
+deactivate UI
+
+deactivate WE
+
+@enduml

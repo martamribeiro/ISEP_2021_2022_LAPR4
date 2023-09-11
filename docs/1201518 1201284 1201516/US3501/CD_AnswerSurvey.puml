@@ -1,0 +1,115 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+
+class AnswerQuestionnaireUI
+class AnswerQuestionnaireController
+class AnswerQuestionnaireService
+class Answer
+class Client
+class Questionnaire
+class QuestionnaireDTO
+class ListQuestionnaireDTOService
+class TcpOrderSrv
+
+class OrderServerMessageParser
+class OrderServerRequest
+class OrderSrvController
+
+class ListQuestionnaireDTOService {
++questionnairesForClient(clientID)
+}
+
+class PersistenceContext{
++repositories()
+}
+
+
+class Client{
+}
+
+class OrderServerMessageParser {
++parse(messageRequest, sOutputObject, sIn, sOut, clientMessageUS, sInputObject)
+}
+
+class OrderServerRequest {
++execute()
+}
+
+class TransactionalContext{
++beginTransaction()
++commit()
+}
+
+
+class AnswerQuestionnaireController {
++questionnairesForClient()
++verifyIfClientAnswered(surveyDTO)
++sendAnswersToBeSaved(answers, surveyDTO)
+
+}
+
+class AnswerQuestionnaireService {
++questionnairesForClient(email)
++verifyIfClientAnswered(surveyDTO)
++sendAnswersToBeSaved(answers, survey, email)
+}
+
+database AnswerRepository{
+}
+
+
+database ClientRepository{
+}
+
+database QuestionnaireRepository {
+}
+
+
+
+class RepositoryFactory{
++create()
++newTransactionalContext()
++create(TransactionalContext ctx)
+}
+
+class OrderSrvController {
++questionnairesForClient(client)
++saveQuestionnaireAnswers(answers, surveyDTO, email)
++verifyIfClientAnswered(email, surveyCode)
+}
+
+AnswerQuestionnaireUI --> AnswerQuestionnaireController
+AnswerQuestionnaireController --> AnswerQuestionnaireService
+AnswerQuestionnaireService --> TcpOrderSrv
+AnswerQuestionnaireService --> QuestionnaireDTO
+OrderSrvController --> ClientRepository
+OrderSrvController --> AnswerRepository
+OrderSrvController --> QuestionnaireDTO
+OrderSrvController --> Questionnaire
+OrderSrvController --> Client
+OrderSrvController -> Answer
+OrderSrvController --> ListQuestionnaireDTOService
+
+ListQuestionnaireDTOService --> QuestionnaireRepository
+
+OrderSrvController -->PersistenceContext
+OrderSrvController -->TransactionalContext
+
+PersistenceContext -->RepositoryFactory
+RepositoryFactory -->ClientRepository
+RepositoryFactory -->QuestionnaireRepository
+RepositoryFactory -->AnswerRepository
+
+Client -----> "1" Answer : associated
+Questionnaire -> "1..*" Client : targets
+Answer -> "1"  Questionnaire : associated
+
+
+TcpOrderSrv --> OrderServerMessageParser
+TcpOrderSrv -----> OrderServerRequest
+OrderServerMessageParser --> OrderServerRequest
+OrderServerRequest --> OrderSrvController
+
+@enduml

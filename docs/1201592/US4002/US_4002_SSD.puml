@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+Actor ":AGVManager" as AGVM
+participant ":System" as SYSTEM
+
+activate AGVM
+AGVM -> SYSTEM : automatically request to assign available orders to available AGVs
+activate SYSTEM
+
+SYSTEM --> AGVM : informs which orders were assigned to which AGVs
+deactivate SYSTEM
+deactivate AGVM
+
+@enduml

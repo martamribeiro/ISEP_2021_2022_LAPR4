@@ -1,0 +1,50 @@
+COM21-22 Food Questionnaire
+
+1. About you
+Hello, from Food Questionnaire
+Section Obligatoriness: mandatory
+1. Where are you from?(mandatory)
+Tell us some more about you
+Type: free text
+
+2. What is your age?(mandatory)
+Tell us where are you from
+Type: numeric
+
+3. What is your gender?(mandatory)
+Tell us your age
+Type: single choice
+1)Male
+2)Female
+3)Other
+4)Prefer not to say
+
+
+2. Product feedback
+Tell us your gender
+Section Obligatoriness: mandatory
+1. Do you find our food choices enough?(mandatory)
+Give us some feedback about our products
+Type: single choice
+1)Yes
+2)No
+
+2. How would you rate our food products quality?(mandatory)
+Tell us if you think our number of food choices are sufficient enough
+Type: scaling option
+Scale: Strongly disagree, disagree, neutral, agree, strongly agree
+1)Our products are the worst on the market
+2)Our products are better than some on the market and worse than others
+3)Our products are the best of the best in the market
+
+3. Would you recommend our products to anyone else?(mandatory)
+Tell us how would you rate our food products
+Type: multiple choice with input
+1)Yes, totally
+2)Almost all of them
+3)Some of them
+4)No, no way
+
+
+
+Thanks for answering this survey

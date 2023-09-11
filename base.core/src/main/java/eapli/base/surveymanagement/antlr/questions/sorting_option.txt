@@ -1,0 +1,12 @@
+10. Which categories are you the most fond of?(mandatory)
+Sort the following categories according to your taste
+Type: sorting option
+1)Skin care
+2)Food
+3)Hair care
+4)Cleaning
+5)Outdoors
+
+
+
+

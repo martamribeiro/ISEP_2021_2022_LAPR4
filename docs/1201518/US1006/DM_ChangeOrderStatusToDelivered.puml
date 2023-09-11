@@ -1,0 +1,61 @@
+@startuml
+skinparam classAttributeIconSize 0
+hide empty attributes
+skinparam classBackgroundColor beige
+skinparam ArrowColor #222222
+
+package "<<aggregate>> Order" {
+    entity Order
+    class Status
+}
+
+package "<<aggregate>> Employee" {
+    entity Employee
+}
+
+package "<<aggregate>> User" {
+    entity User
+    class Role
+}
+
+package "<<aggregate>> Client" {
+    entity Client
+}
+
+entity Order <<entity>> <<root>> {
+    -<<VO>> OrderId /'automatically generated'/
+    - CreatedOn /'automatically generated na hora do registo do sistema'/
+}
+
+class Status <<(V,#FF8B40) value object>> {
+}
+
+entity Employee <<entity>> <<root>> {
+    - <<VO>> EmployeeID
+}
+
+entity User <<entity>> <<root>> {
+}
+
+class Role <<(V,#FF8B40) value object>> {
+}
+
+entity Client <<entity>> <<root>> {
+    - <<VO>> ClientID
+    - <<VO>> Name
+    - <<VO>> VAT
+    - <<VO>> Email
+    - <<VO>> PhoneNumber
+    /'- <<VO>> BirthDate'/ /'optional'/
+    /'- <<VO>> Gender'/ /'optional'/
+}
+
+User --> "1..*" Role
+User "1" <-- Employee
+
+Employee  -- Order : manages >
+Order --> "1" Client : ordered by
+Order --> "1" Status : has a
+
+
+@enduml

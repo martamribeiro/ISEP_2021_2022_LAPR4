@@ -1,0 +1,12 @@
+D:\Faculdade\ano 2\semestre2\LAPR4\lapr4_projeto\base.app.server.AGVTwin\src\main\java\requests\AGVTwinServerMessageParser.java
+D:\Faculdade\ano 2\semestre2\LAPR4\lapr4_projeto\base.app.server.AGVTwin\src\main\java\cli\TcpCliAGVTwin.java
+D:\Faculdade\ano 2\semestre2\LAPR4\lapr4_projeto\base.app.server.AGVTwin\src\main\java\shared_memory\SharedMemoryAGV.java
+D:\Faculdade\ano 2\semestre2\LAPR4\lapr4_projeto\base.app.server.AGVTwin\src\main\java\requests\SendAGVStatusRequest.java
+D:\Faculdade\ano 2\semestre2\LAPR4\lapr4_projeto\base.app.server.AGVTwin\src\main\java\route_planner\AgvRoute.java
+D:\Faculdade\ano 2\semestre2\LAPR4\lapr4_projeto\base.app.server.AGVTwin\src\main\java\sensor\TheSensor.java
+D:\Faculdade\ano 2\semestre2\LAPR4\lapr4_projeto\base.app.server.AGVTwin\src\main\java\simulation_engine\SimulationEngine.java
+D:\Faculdade\ano 2\semestre2\LAPR4\lapr4_projeto\base.app.server.AGVTwin\src\main\java\BMS\AGVBatteryManagementSystem.java
+D:\Faculdade\ano 2\semestre2\LAPR4\lapr4_projeto\base.app.server.AGVTwin\src\main\java\positioning\AGVCurrentPositions.java
+D:\Faculdade\ano 2\semestre2\LAPR4\lapr4_projeto\base.app.server.AGVTwin\src\main\java\requests\AGVTwinServerRequest.java
+D:\Faculdade\ano 2\semestre2\LAPR4\lapr4_projeto\base.app.server.AGVTwin\src\main\java\requests\UpdateMatrixRequest.java
+D:\Faculdade\ano 2\semestre2\LAPR4\lapr4_projeto\base.app.server.AGVTwin\src\main\java\srv\TcpSrvAGVTwin.java

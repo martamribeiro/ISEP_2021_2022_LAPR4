@@ -1,0 +1,58 @@
+@startuml
+
+class GenerateReportUI{
++generateReport(survey);
++extracctSurvey(survey);
++parseSurveyQuestionsWithVisitor(survey, questionsAnswers)
+}
+
+class GenerateReportController{
++create()
++numberOfQuestionnaireResponses(survey)
++answeredQuestionnaires()
++questionnaireQuestionsAnswers(survey)
+}
+
+class PersistenceContext{
++repositories()
+}
+
+class RepositoryFactory{
++create()
+}
+
+database SurveyQuestionnareRepository{
+}
+
+database AnswerQuestionnaireRepository{
+}
+
+class TransactionalContext{
++beginTransaction()
++commit()
+}
+
+class SurveyQuestionsVisitor{
++create()
++visitFree_text(ctx)
++visitNumeric(ctx)
++visitSingle_choice_with_input(ctx)
++visitSingle_choice(ctx)
++visitMultiple_choice(ctx)
++visitMultiple_choice_with_input(ctx)
++visitSorting_option(ctx)
++visitScaling_option(ctx)
+}
+
+GenerateReportUI --> GenerateReportController
+GenerateReportUI --> SurveyQuestionsVisitor
+
+GenerateReportController --> PersistenceContext
+GenerateReportController --> TransactionalContext
+
+PersistenceContext --> RepositoryFactory
+
+RepositoryFactory --> SurveyQuestionnareRepository
+RepositoryFactory --> AnswerQuestionnaireRepository
+
+@enduml

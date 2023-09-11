@@ -1,0 +1,70 @@
+@startuml
+
+skinparam classAttributeIconSize 0
+hide empty attributes
+skinparam classBackgroundColor beige
+skinparam ArrowColor #222222
+
+package "<<aggregate>> WarehousePlant" {
+    entity WarehousePlant
+}
+
+package "<<aggregate>> AGVDock" {
+    entity AGVDock
+}
+
+package "<<aggregate>> Aisle" {
+    entity Aisle
+}
+
+package "<<aggregate>> Row" {
+    entity Row
+}
+
+package "<<aggregate>> Shelf" {
+    entity Shelf
+}
+
+entity Row <<entity>> <<root>> {
+    - RowID <<VO>>
+    - BeginSquare <<VO>>
+    - EndSquare <<VO>>
+    - AisleID <<VO>>
+}
+
+entity Shelf <<entity>> <<root>> {
+    - ShelfID <<VO>>
+    - RowID <<VO>>
+}
+
+entity AGVDock <<entity>> <<root>> {
+    - DockID <<VO>>
+    - BeginSquare <<VO>>
+    - EndSquare <<VO>>
+    - DepthSquare <<VO>>
+    - AccessibilityDirection <<VO>>
+}
+
+entity Aisle <<entity>> <<root>> {
+    - AisleID <<VO>>
+    - BeginSquare <<VO>>
+    - EndSquare <<VO>>
+    - DepthSquare <<VO>>
+    - Accessibility <<VO>>
+}
+
+entity WarehousePlant <<entity>> <<root>> {
+    - <<VO>> WareHouseName
+    - <<VO>> Length
+    - <<VO>> Width
+    - <<VO>> SquareSize
+    - <<VO>> Unit
+}
+
+WarehousePlant --> "1..*" Aisle
+Aisle --> "1..*" Row
+Row --> "1..*" Shelf
+WarehousePlant --> "1" AGVDock
+
+
+@enduml

@@ -1,0 +1,86 @@
+@startuml
+
+autonumber
+actor "Sales Clerk" as SC
+
+activate SC
+SC -> ":System" : Inicia o processo de registo de compra \n de um determinado Cliente
+activate ":System"
+":System" --> SC : Solicita o método de escolha de produtos\n para a encomenda
+deactivate ":System"
+SC -> ":System" : Informa o método pretendido
+activate ":System"
+alt método visualização de produtos
+loop enquanto pretender adicionar \n produtos à encomenda
+":System" --> SC : Mostra o catálogo de produtos
+deactivate ":System"
+SC -> ":System" : Escolhe o produto pretendido
+activate ":System"
+":System" --> SC : Solicita a quantidade relativa ao produto
+deactivate ":System"
+SC -> ":System" : Informa a quantidade
+activate ":System"
+deactivate ":System"
+end
+else método inserção do ID do Produto
+loop enquanto pretender adicionar \n produtos à encomenda
+":System" --> SC : Solicita o id do produto
+/' activate ":System"
+deactivate ":System" '/
+SC -> ":System" : Insere a informação pretendida
+activate ":System"
+":System" --> SC : Solicita a quantidade relativa ao produto
+deactivate ":System"
+SC -> ":System" : Informa a quantidade
+activate ":System"
+end
+end
+":System" --> SC : Solicita o ID do Cliente
+deactivate ":System"
+SC -> ":System" : Insere a informação pedida
+activate ":System"
+note right
+  Caso o Cliente ainda não esteja registado o
+  Sales Clerk procede ao seu registo
+end note
+":System" --> SC : Solicita a morada de faturação
+deactivate ":System"
+SC -> ":System" : Insere a informação pedida
+activate ":System"
+":System" --> SC : Solicita a morada de entrega
+deactivate ":System"
+SC -> ":System" : Insere a informação pedida
+activate ":System"
+":System" --> SC : Mostra os diferentes métodos de envio
+deactivate ":System"
+SC -> ":System" : Escolhe o método pretendido
+activate ":System"
+":System" --> SC : Mostra os diferentes métodos de pagamento
+deactivate ":System"
+SC -> ":System" : Escolhe o método pretendido
+activate ":System"
+":System" --> SC : Solicita o meio de interação com o cliente
+deactivate ":System"
+SC -> ":System" : Informa o pretendido
+activate ":System"
+":System" --> SC : Solicita a data de quando ocorreu a interação
+deactivate ":System"
+SC -> ":System" : Informa o pretendido
+activate ":System"
+alt deseja inserir comentário
+":System" --> SC : Solicita comentário adicional
+deactivate ":System"
+SC -> ":System" : Insere a informação pedida
+activate ":System"
+end
+":System" --> SC : Apresenta os dados e solicita a confirmação
+deactivate ":System"
+SC -> ":System" : Confirma os dados
+activate ":System"
+":System" --> SC : Informa o sucesso da operação
+deactivate ":System"
+deactivate SC
+
+
+
+@enduml

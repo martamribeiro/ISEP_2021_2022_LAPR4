@@ -1,0 +1,61 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+Actor ":SalesManager" as SM
+participant ":GenerateReportUI" as UI
+participant ":GenerateReportController" as CTRL
+participant ":PersistenceContext" as Persistance
+participant ":RepositoryFactory" as Factory
+participant ":AnswerRepository" as AnsRep
+participant ":SurveyQuestionsVisitor" as VIS
+
+activate SM
+SM -> UI : requests to see a questionnaire's statistical report
+activate UI
+UI -> CTRL : create
+activate CTRL
+|||
+deactivate CTRL
+UI -> CTRL : answeredQuestionnaires()
+activate CTRL
+CTRL -> AnsRep : findAnsweredQuestionnaires()
+activate AnsRep
+AnsRep --> CTRL : questionnaires
+deactivate AnsRep
+CTRL --> UI : questionnaires
+deactivate CTRL
+UI --> SM : asks to select a questionnaire
+deactivate UI
+SM -> UI : selects a questionnaire
+activate UI
+UI -> UI : generateReport(survey)
+activate UI
+UI -> CTRL : questionnaireQuestionsAnswers(survey)
+activate CTRL
+CTRL -> AnsRep : findQuestionnaireQuestionsAnswers(survey)
+activate AnsRep
+AnsRep --> CTRL : questionsAnswers
+deactivate AnsRep
+CTRL --> UI : questionsAnswers
+deactivate CTRL
+UI --> UI
+deactivate UI
+UI -> UI : parseSurveyQuestionsWithVisitor(survey, questionsAnswers)
+activate UI
+UI -> VIS : create
+activate VIS
+|||
+deactivate VIS
+UI -> VIS : visit(parseTree)
+activate VIS
+|||
+deactivate VIS
+UI --> UI
+deactivate UI
+UI --> SM : informs that end of report has been reached
+deactivate UI
+
+
+@enduml

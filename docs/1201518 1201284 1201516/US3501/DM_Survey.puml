@@ -1,0 +1,47 @@
+@startuml
+
+skinparam classAttributeIconSize 0
+hide empty attributes
+skinparam classBackgroundColor beige
+skinparam ArrowColor #222222
+
+package "<<aggregate>> Survey" {
+    entity Survey
+}
+
+package "<<aggregate>> Answer" {
+    entity Answer
+}
+
+package "<<aggregate>> Client" {
+    entity Client
+}
+
+entity Survey <<entity>> <<root>> {
+    - <<VO>> AlphanumericCode
+    /'- <<VO>> TopicQuestionnaire'/
+    - <<VO>> InitialDate
+    - <<VO>> FinalDate
+    - <<VO>> TargetAudienceRules
+    - <<VO>> Title
+    - <<VO>> WelcomeMessage
+    - <<VO>> Content
+    - <<VO>> FinalMessage
+}
+
+entity Answer <<entity>> <<root>> {
+    - <<VO>> QuestionID
+    - <<VO>> Answers
+}
+
+
+
+Survey --> "*" Client : targets
+Answer --> "1" Survey : associated
+Answer --> "1" Client : answered by
+
+
+
+
+
+@enduml

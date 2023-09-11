@@ -1,0 +1,46 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class DispatchOrderUI{}
+
+class DispatchOrderController{
++create()
++showAgvList()
++getTasksByAGV(agv)
++alterOrderStatus(order)
+}
+
+
+class TheOrder{
++setStatus()
+}
+
+class PersistenceContext{
++repositories()
+}
+
+class RepositoryFactory{
++create()
++agvs()
++tasks()
+}
+
+database TaskRepository{
+}
+database AgvRepository{
+}
+
+
+
+DispatchOrderUI --> DispatchOrderController
+
+DispatchOrderController --> PersistenceContext
+DispatchOrderController --> RepositoryFactory
+
+DispatchOrderController --> TheOrder
+
+RepositoryFactory --> TaskRepository
+RepositoryFactory --> AgvRepository
+
+
+@enduml

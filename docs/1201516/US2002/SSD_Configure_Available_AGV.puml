@@ -1,0 +1,37 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor WarehouseEmployee as WE
+participant ":System" as System
+
+activate WE
+
+WE -> System: begins the process to register one or more AGVs
+
+activate System
+System --> WE: requests data in order to create that/those AGVs
+deactivate System
+
+WE -> System: inputs the required data
+
+activate System
+System --> WE: creates the AGV(s)
+deactivate System
+
+WE -> System: begins the process to configure the available AGV(s)
+
+activate System
+System --> WE: shows the basic information about the available AGV(s)
+deactivate System
+
+WE -> System: validates that/those information(s)
+
+activate System
+System --> WE: informs operation success
+deactivate System
+
+deactivate WE
+
+@enduml

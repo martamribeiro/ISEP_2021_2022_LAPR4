@@ -1,0 +1,32 @@
+DRI21-22 Drinks Questionnaire
+Hello, welcome to the Drinks Questionnaire
+
+1. About you
+Section Obligatoriness: mandatory
+1. How old are you?(mandatory)
+Type: numeric
+
+2. Where are you from?(mandatory)
+Type: free text
+
+3. What is your gender?(condition dependent: 2)
+Type: single choice
+1)Male
+2)Female
+3)Other
+
+
+2. Product Feedback
+Section Obligatoriness: condition dependent: 1
+4. How do you rate our drinks?(mandatory)
+Type: scaling option
+Scale: Strongly agree, agree, neutral, disagree, strongly disagree
+1)Our drinks are the best on the market
+2)Our drinks are better than most on the market
+3)Our drinks are as good as another in the market
+4)Our drinks are worse than most on the market
+5)Our drinks are the worst on the market
+
+
+
+Thanks for answering the Drinks Questionnaire

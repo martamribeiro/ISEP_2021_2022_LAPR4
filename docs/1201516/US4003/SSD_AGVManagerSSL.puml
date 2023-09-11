@@ -1,0 +1,29 @@
+@startuml
+
+autonumber
+actor "Client (BackOffice / AGVDigitalTwin)" as SC
+actor "AGVManager" as AGVManager
+
+activate SC
+SC -> AGVManager : solicita acesso a um recurso protegido
+activate AGVManager
+AGVManager --> SC : apresenta o seu certificado ao cliente
+deactivate AGVManager
+SC -> AGVManager : verifica o certificado do servidor
+activate AGVManager
+
+
+AGVManager --> SC : envia o seu certificado ao servidor
+deactivate AGVManager
+
+
+SC -> AGVManager : verifica as credenciais do cliente
+activate AGVManager
+
+
+activate AGVManager
+AGVManager --> SC : verifica as credenciais do cliente e concede acesso ao recurso protegido solicitado pelo cliente
+
+
+
+@enduml

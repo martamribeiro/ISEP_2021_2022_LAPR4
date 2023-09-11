@@ -1,0 +1,16 @@
+HOME21-22 Home Questionnaire
+Hello, Welcome to the
+1. About you
+Section Obligatoriness: mandatory
+1. Where are you from?(mandatory)
+Type: free text
+
+2. What is your gender?(mandatory)
+Type: single choice
+1)Male
+2)Female
+3)Other
+
+
+
+Thanks for answering the Home questionnaire

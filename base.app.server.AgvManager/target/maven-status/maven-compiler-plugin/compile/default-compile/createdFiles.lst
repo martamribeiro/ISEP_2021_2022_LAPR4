@@ -1,0 +1,9 @@
+requests\GetAGVPosition.class
+srv\TcpSrvAgvManagerThread.class
+requests\AGVManagerServerMessageParser.class
+requests\GetAGVDocksRequest.class
+requests\GetAGVStatusRequest.class
+srv\TcpSrvAgvManager.class
+requests\CreateAndSendMatrixRequest.class
+requests\AGVManagerServerRequest.class
+requests\GetAislesRequest.class

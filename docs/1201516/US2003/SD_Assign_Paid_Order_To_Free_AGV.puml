@@ -1,0 +1,118 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor WarehouseEmployee as WE
+participant AssignOrderToFreeAGVUI as UI
+participant AssignOrderToFreeAGVController as Controller
+participant PersistenceContext as Persistence <<persistence>>
+participant RepositoryFactory as Factory <<factory>>
+database OrderRepository as orderRepository <<repository>>
+database AGVRepository as agvRepository <<repository>>
+
+activate WE
+
+WE -> UI: wants to assign an order in to be prepared phase to an available AGV
+
+activate UI
+
+UI -> Controller: showPaidOrdersList()
+
+activate Controller
+
+Controller -> Persistence: repositories()
+
+activate Persistence
+
+Persistence -> Factory: create()
+
+Persistence -> Controller: factory
+
+deactivate Persistence
+
+Controller -> Factory: orders()
+
+activate Factory
+
+Factory -> orderRepository: findAll()
+
+Factory -> Controller: orderRepository
+
+deactivate Factory
+
+loop for Order order : orderRepository.findAll()
+
+alt if order.getOrderStatus().equalsIgnoreCase("TO_BE_PREPARED")
+
+Controller -> Controller: ordersToBePreparedList.add(order)
+
+end
+
+end
+
+Controller -> UI: ordersToBePreparedList
+
+deactivate Controller
+
+UI --> WE: shows ordersToBePreparedList and requests to select one order from the list.
+
+deactivate UI
+
+WE -> UI: selects one order from the list.
+
+activate UI
+
+UI -> Controller: showFreeAGVsList()
+
+activate Controller
+
+Controller -> Persistence: repositories()
+
+activate Persistence
+
+Persistence -> Factory: create()
+
+Persistence -> Controller: factory
+
+deactivate Persistence
+
+Controller -> Factory: agvs()
+
+activate Factory
+
+Factory -> agvRepository: findAll()
+
+Factory -> Controller: agvRepository
+
+deactivate Factory
+
+loop for AGV agv : agvRepository.findAll()
+
+alt if agv.getTaskStatus().equalsIgnoreCase("free")
+
+Controller -> Controller: freeAGVsList.add(order)
+
+end
+
+end
+
+Controller -> UI: freeAGVsList
+
+deactivate Controller
+
+UI --> WE: shows freeAGVsList and requests to select one AGV from the list.
+
+deactivate UI
+
+WE -> UI: selects one AGV from the list, that will be automatically assigned to the selected order.
+
+activate UI
+
+UI --> WE: informs operation success.
+
+deactivate UI
+
+deactivate WE
+
+@enduml

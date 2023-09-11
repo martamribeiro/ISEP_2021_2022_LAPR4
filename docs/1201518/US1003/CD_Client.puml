@@ -1,0 +1,60 @@
+@startuml
+class RegisterClientUI{
+}
+
+class RegisterClientController{
++create()
++registerClient(firstnames, surnames, email, phoneNumber,vat, postalAddress, birthDate, gender)}
+}
+
+
+class PersistenceContext{
++repositories()
+}
+
+class RepositoryFactory{
++create()
+}
+
+database ClientRepository{
+}
+
+class Client{
++create()
+}
+
+class ClientBuilder{
++create()
++createClient()
++withVAT()
++withEmail()
++withPhoneNumber()
++named()
++withAddresses()
++withAddress()
++buildOrThrow()
++withBirthDate()
++withGender()
++build()
+}
+
+class TransactionalContext{
++beginTransaction()
++commit()
+}
+
+
+RegisterClientUI --> RegisterClientController
+
+RegisterClientController-->ClientBuilder
+RegisterClientController -->PersistenceContext
+RegisterClientController -->TransactionalContext
+RegisterClientController-->ClientRepository
+
+ClientBuilder --> Client
+
+PersistenceContext -->RepositoryFactory
+
+RepositoryFactory -->ClientRepository
+
+@enduml

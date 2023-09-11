@@ -1,0 +1,12 @@
+@startuml
+
+autonumber
+actor "Client" as Client
+
+activate Client
+Client -> ":System" : quer visualizar as encomendas abertas
+activate ":System"
+":System" --> Client : mostra a lista de encomendas abertas
+deactivate Client
+
+@enduml

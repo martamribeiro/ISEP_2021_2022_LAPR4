@@ -1,0 +1,37 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor WarehouseEmployee as WE
+participant ":System" as System
+
+activate WE
+
+WE -> System: wants to access the list of orders to be prepared.
+
+activate System
+
+System --> WE: show the list of orders to be prepared and requests to select one.
+
+deactivate System
+
+WE -> System: selects one Order
+
+activate System
+
+System --> WE: Shows the list of available AGVs and requests to select one AGV to assign to the selected order.
+
+deactivate System
+
+WE -> System: selects one AGV.
+
+activate System
+
+System --> WE: informs operation success.
+
+deactivate System
+
+deactivate WE
+
+@enduml

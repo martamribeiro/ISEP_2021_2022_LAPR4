@@ -1,0 +1,75 @@
+@startuml
+
+autonumber
+actor "Sales Clerk" as SC
+participant ViewOrdersSentToCustomerUI as UI <<presentation>>
+participant ViewOrdersSentToCustomerController as Controller <<application>>
+participant ListOrderDTOService as serv <<application>>
+participant "TheOrder" as Domain <<domain>>
+participant "OrderDTO" as DTO <<dto>>
+participant PersistenceContext as Persistence <<persistence>>
+participant RepositoryFactory as Factory <<factory>>
+database OrderRepository as repository <<repository>>
+
+activate SC
+SC -> UI : quer visualizar as encomendas\nno estado Dispatched for Client
+activate UI
+UI -> Controller: create
+UI -> Controller: getOrdersDispatchedForCustomerDelivery()
+activate Controller
+Controller -> serv: findOrdersByStatus(DISPATCHED)
+activate serv
+serv -> Persistence: repositories()
+activate Persistence
+Persistence -> Factory: create
+Persistence -> serv: factory
+deactivate Persistence
+serv -> Factory: orders()
+activate Factory
+Factory -> repository: create
+Factory -> serv: orderRepository
+deactivate Factory
+serv->repository:findOrdersByStatus(DISPATCHED)
+activate repository
+repository --> serv: ordersList
+deactivate repository
+loop
+serv -> Domain: toDTO()
+activate Domain
+end
+deactivate Domain
+serv --> Controller: ordersListDTO
+deactivate serv
+Controller --> UI: ordersListDTO
+deactivate Controller
+loop enquanto desejar alterar o status de encomendas
+UI --> SC : mostra a lista de encomendas
+deactivate UI
+/'loop enquanto desejar alterar o status de encomendas'/
+/'SC -> UI : Pergunta se pretende alterar o status de alguma\nencomenda para Being Delivered
+activate UI'/
+/'alt deseja alterar o status'/
+/'UI --> SC : solicita o id da encomenda
+activate UI'/
+deactivate UI
+SC -> UI : seleciona a encomenda pretendida
+activate UI
+UI -> Controller: changeStatusToBeingDelivered(orderId)
+activate Controller
+Controller->repository:ofIdentity(orderId)
+activate repository
+deactivate repository
+Controller -> Domain: changeOrderStatusTo(DELIVERED_BY_CARRIER)
+activate Domain
+deactivate Domain
+Controller --> repository: save(order)
+activate repository
+deactivate repository
+deactivate Controller
+UI --> SC : informa o sucesso da operação
+/'end'/
+end
+deactivate UI
+deactivate SC
+
+@enduml

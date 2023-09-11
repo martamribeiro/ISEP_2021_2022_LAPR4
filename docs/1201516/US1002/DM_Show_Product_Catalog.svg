@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="682px" preserveAspectRatio="none" style="width:432px;height:682px;background:#FFFFFF;" version="1.1" viewBox="0 0 432 682" width="432px" zoomAndPan="magnify"><defs/><g><!--MD5=[cd1e467dd42714edd782c72995bbc617]
+cluster <<aggregate>> Product--><g id="cluster_&lt;&lt;aggregate&gt;&gt; Product"><path d="M8.5,6 L172.5,6 A3.75,3.75 0 0 1 175,8.5 L182,29.6094 L422.5,29.6094 A2.5,2.5 0 0 1 425,32.1094 L425,399.5 A2.5,2.5 0 0 1 422.5,402 L8.5,402 A2.5,2.5 0 0 1 6,399.5 L6,8.5 A2.5,2.5 0 0 1 8.5,6 " style="stroke:#000000;stroke-width:1.5;fill:none;"/><line style="stroke:#000000;stroke-width:1.5;fill:none;" x1="6" x2="182" y1="29.6094" y2="29.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="163" x="10" y="22.5332">&lt;&lt;aggregate&gt;&gt; Product</text></g><!--MD5=[379fcb94853c7c195c0368ceebdeaf4d]
+cluster <<aggregate>> Category--><g id="cluster_&lt;&lt;aggregate&gt;&gt; Category"><path d="M101.5,514 L273.5,514 A3.75,3.75 0 0 1 276,516.5 L283,537.6094 L306.5,537.6094 A2.5,2.5 0 0 1 309,540.1094 L309,672.5 A2.5,2.5 0 0 1 306.5,675 L101.5,675 A2.5,2.5 0 0 1 99,672.5 L99,516.5 A2.5,2.5 0 0 1 101.5,514 " style="stroke:#000000;stroke-width:1.5;fill:none;"/><line style="stroke:#000000;stroke-width:1.5;fill:none;" x1="99" x2="283" y1="537.6094" y2="537.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="171" x="103" y="530.5332">&lt;&lt;aggregate&gt;&gt; Category</text></g><!--MD5=[72136138052d025cffdce3c22fbd185f]
+class Product--><g id="elem_Product"><rect codeLine="18" fill="#F5F5DC" height="232.2813" id="Product" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="187" x="22.5" y="42"/><ellipse cx="87.25" cy="70.8984" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M85.75,71.8984 L85.75,73.8984 L89.75,73.8984 L89.75,72.8984 L89.75,72.4141 L90.375,71.8984 L90.75,71.8984 L91.125,71.8984 L91.75,72.4141 L91.75,72.8984 L91.75,75.8984 L83.75,75.8984 L83.2656,75.8984 L82.75,75.2734 L82.75,74.8984 L82.75,74.5234 L83.2656,73.8984 L83.75,73.8984 L83.75,73.8984 L83.75,67.8984 L83.75,67.8984 L83.2656,67.8984 L82.75,67.2734 L82.75,66.8984 L82.75,66.5234 L83.2656,65.8984 L83.75,65.8984 L91.75,65.8984 L91.75,68.8984 L91.75,69.3828 L91.125,69.8984 L90.75,69.8984 L90.375,69.8984 L89.75,69.3828 L89.75,68.8984 L89.75,67.8984 L85.75,67.8984 L85.75,69.8984 L86.75,69.8984 L86.75,69.4141 L86.75,69.4141 L87.375,68.8984 L87.75,68.8984 L88.125,68.8984 L88.75,69.4141 L88.75,69.8984 L88.75,71.8984 L88.75,72.3828 L88.125,72.8984 L88.125,72.8984 L87.75,72.8984 L87.375,72.8984 L86.75,72.3828 L86.75,72.3828 L86.75,71.8984 L85.75,71.8984 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="43" x="110.75" y="59.457">«entity»</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="35" x="114.75" y="74.5508">«root»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="49" x="107.75" y="91.7207">Product</text><line style="stroke:#181818;stroke-width:0.5;" x1="23.5" x2="208.5" y1="99.7969" y2="99.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="170" x="28.5" y="118.3301">-«VO» UniqueInternalCode</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="28.5" y="135.9395">-«VO» Barcode</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="150" x="28.5" y="153.5488">-«VO» ShortDescription</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="175" x="28.5" y="171.1582">-«VO» ExtendedDescription</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="163" x="28.5" y="188.7676">-«VO» PriceWithoutTaxes</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="85" x="28.5" y="206.377">-«VO» Status</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="89" x="28.5" y="223.9863">-«VO» Weight</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="28.5" y="241.5957">-«VO» Volume</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="28.5" y="259.2051">-«VO» Tax</text><line style="stroke:#181818;stroke-width:0.5;" x1="23.5" x2="208.5" y1="266.2813" y2="266.2813"/></g><!--MD5=[216845e66863fbf0f228ebacc80c455b]
+class TechnicalDescription--><g id="elem_TechnicalDescription"><rect codeLine="30" fill="#F5F5DC" height="50.7031" id="TechnicalDescription" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="164" x="245" y="132.5"/><ellipse cx="260" cy="153.8516" fill="#FF8B40" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M260,157.1328 L261.5313,151.6016 L261.5313,151.6016 L261.0156,151.6016 L260.5,150.9766 L260.5,150.6016 L260.5,150.2266 L261.0156,149.6016 L261.5313,149.6016 L263.4063,149.6016 L263.9844,149.6016 L264.5,150.2266 L264.5,150.6016 L264.5,150.9766 L263.9844,151.6016 L263.9844,151.6016 L263.5313,151.6016 L261.1875,159.6016 L258.8125,159.6016 L256.3438,151.6016 L256.0156,151.6016 L256.0156,151.6016 L255.5,150.9766 L255.5,150.6016 L255.5,150.2266 L256.0156,149.6016 L256.5938,149.6016 L258.4688,149.6016 L258.9844,149.6016 L259.5,150.2266 L259.5,150.6016 L259.5,150.9766 L258.9844,151.6016 L258.4688,151.6016 L258.4688,151.6016 L260,157.1328 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="81" x="299.5" y="149.957">«value object»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="132" x="274" y="167.127">TechnicalDescription</text><line style="stroke:#181818;stroke-width:0.5;" x1="246" x2="408" y1="175.2031" y2="175.2031"/></g><!--MD5=[912b7ac3592565191238c2b3c3b935ce]
+class BrandName--><g id="elem_BrandName"><rect codeLine="31" fill="#F5F5DC" height="50.7031" id="BrandName" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="109" x="41.5" y="335"/><ellipse cx="56.5" cy="356.3516" fill="#FF8B40" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M56.5,359.6328 L58.0313,354.1016 L58.0313,354.1016 L57.5156,354.1016 L57,353.4766 L57,353.1016 L57,352.7266 L57.5156,352.1016 L58.0313,352.1016 L59.9063,352.1016 L60.4844,352.1016 L61,352.7266 L61,353.1016 L61,353.4766 L60.4844,354.1016 L60.4844,354.1016 L60.0313,354.1016 L57.6875,362.1016 L55.3125,362.1016 L52.8438,354.1016 L52.5156,354.1016 L52.5156,354.1016 L52,353.4766 L52,353.1016 L52,352.7266 L52.5156,352.1016 L53.0938,352.1016 L54.9688,352.1016 L55.4844,352.1016 L56,352.7266 L56,353.1016 L56,353.4766 L55.4844,354.1016 L54.9688,354.1016 L54.9688,354.1016 L56.5,359.6328 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="81" x="68.5" y="352.457">«value object»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="74" x="72" y="369.627">BrandName</text><line style="stroke:#181818;stroke-width:0.5;" x1="42.5" x2="149.5" y1="377.7031" y2="377.7031"/></g><!--MD5=[a96594a83e2ecdc78cbf17c2ddf01934]
+class Category--><g id="elem_Category"><rect codeLine="33" fill="#F5F5DC" height="109.0156" id="Category" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="177" x="115.5" y="550"/><ellipse cx="170.75" cy="578.8984" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M169.25,579.8984 L169.25,581.8984 L173.25,581.8984 L173.25,580.8984 L173.25,580.4141 L173.875,579.8984 L174.25,579.8984 L174.625,579.8984 L175.25,580.4141 L175.25,580.8984 L175.25,583.8984 L167.25,583.8984 L166.7656,583.8984 L166.25,583.2734 L166.25,582.8984 L166.25,582.5234 L166.7656,581.8984 L167.25,581.8984 L167.25,581.8984 L167.25,575.8984 L167.25,575.8984 L166.7656,575.8984 L166.25,575.2734 L166.25,574.8984 L166.25,574.5234 L166.7656,573.8984 L167.25,573.8984 L175.25,573.8984 L175.25,576.8984 L175.25,577.3828 L174.625,577.8984 L174.25,577.8984 L173.875,577.8984 L173.25,577.3828 L173.25,576.8984 L173.25,575.8984 L169.25,575.8984 L169.25,577.8984 L170.25,577.8984 L170.25,577.4141 L170.25,577.4141 L170.875,576.8984 L171.25,576.8984 L171.625,576.8984 L172.25,577.4141 L172.25,577.8984 L172.25,579.8984 L172.25,580.3828 L171.625,580.8984 L171.625,580.8984 L171.25,580.8984 L170.875,580.8984 L170.25,580.3828 L170.25,580.3828 L170.25,579.8984 L169.25,579.8984 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="43" x="198.75" y="567.457">«entity»</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="35" x="202.75" y="582.5508">«root»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="58" x="191.25" y="599.7207">Category</text><line style="stroke:#181818;stroke-width:0.5;" x1="116.5" x2="291.5" y1="607.7969" y2="607.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="165" x="121.5" y="626.3301">-«VO» AlphanumericCode</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="121.5" y="643.9395">-«VO» Description</text><line style="stroke:#181818;stroke-width:0.5;" x1="116.5" x2="291.5" y1="651.0156" y2="651.0156"/></g><!--MD5=[41043388d0f8d1cf0966079386e80353]
+link Product to Category--><g id="link_Product_Category"><path codeLine="38" d="M152.83,274.32 C158.45,294.41 163.78,315.21 168,335 C183.24,406.4 193.24,489.95 198.74,544.65 " fill="none" id="Product-to-Category" style="stroke:#222222;stroke-width:1.0;"/><polygon fill="#222222" points="199.26,549.85,202.342,540.4958,198.7611,544.875,194.3819,541.2941,199.26,549.85" style="stroke:#222222;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="186" y="432.4951">belongs to</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="191.1528" y="538.9491">1</text></g><!--MD5=[308bef9f33132c2b243ec8e9138be5c6]
+link Product to TechnicalDescription--><g id="link_Product_TechnicalDescription"><path codeLine="39" d="M209.55,158 C219.58,158 229.6,158 239.63,158 " fill="none" id="Product-to-TechnicalDescription" style="stroke:#222222;stroke-width:1.0;"/><polygon fill="#222222" points="244.88,158,235.88,154,239.88,158,235.88,162,244.88,158" style="stroke:#222222;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="22" x="214.8775" y="154.8355">0..1</text></g><!--MD5=[3cb408ea3cff5a6a2040d64500281f76]
+link Product to BrandName--><g id="link_Product_BrandName"><path codeLine="40" d="M104.51,274.18 C102.46,294.72 100.5,314.41 98.97,329.69 " fill="none" id="Product-to-BrandName" style="stroke:#222222;stroke-width:1.0;"/><polygon fill="#222222" points="98.47,334.69,103.3506,326.1355,98.9703,329.7151,95.3907,325.3349,98.47,334.69" style="stroke:#222222;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="22" x="74.3908" y="324.023">0..1</text></g><!--MD5=[c1f173ae60fa48ed1cd7ee2509c2d773]
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+hide empty attributes
+skinparam classBackgroundColor beige
+skinparam ArrowColor #222222
+
+package "<<aggregate>> Product" {
+    entity Product
+    class TechnicalDescription
+    class BrandName
+}
+
+package "<<aggregate>> Category" {
+    entity Category
+}
+
+entity Product <<entity>> <<root>> {
+    -<<VO>> UniqueInternalCode
+    -<<VO>> Barcode
+    -<<VO>> ShortDescription
+    -<<VO>> ExtendedDescription
+    -<<VO>> PriceWithoutTaxes
+    -<<VO>> Status /'Available, Temporarily Unavailable, Unavailable'/
+    -<<VO>> Weight
+    -<<VO>> Volume
+    -<<VO>> Tax
+}
+
+class TechnicalDescription <<(V,#FF8B40) value object>>
+class BrandName <<(V,#FF8B40) value object>>
+
+entity Category <<entity>> <<root>> {
+    -<<VO>> AlphanumericCode
+    -<<VO>> Description
+}
+
+Product - - - -> "1" Category : belongs to
+Product -> "0..1" TechnicalDescription
+Product - -> "0..1" BrandName
+
+@enduml
+
+@startuml
+
+skinparam classAttributeIconSize 0
+hide empty attributes
+skinparam classBackgroundColor beige
+skinparam ArrowColor #222222
+
+package "<<aggregate>> Product" {
+    entity Product
+    class TechnicalDescription
+    class BrandName
+}
+
+package "<<aggregate>> Category" {
+    entity Category
+}
+
+entity Product <<entity>> <<root>> {
+    -<<VO>> UniqueInternalCode
+    -<<VO>> Barcode
+    -<<VO>> ShortDescription
+    -<<VO>> ExtendedDescription
+    -<<VO>> PriceWithoutTaxes
+    -<<VO>> Status 
+    -<<VO>> Weight
+    -<<VO>> Volume
+    -<<VO>> Tax
+}
+
+class TechnicalDescription <<(V,#FF8B40) value object>>
+class BrandName <<(V,#FF8B40) value object>>
+
+entity Category <<entity>> <<root>> {
+    -<<VO>> AlphanumericCode
+    -<<VO>> Description
+}
+
+Product - - - -> "1" Category : belongs to
+Product -> "0..1" TechnicalDescription
+Product - -> "0..1" BrandName
+
+@enduml
+
+PlantUML version 1.2022.4(Sat Apr 09 14:29:17 BST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

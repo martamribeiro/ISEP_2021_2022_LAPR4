@@ -1,0 +1,53 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Sales Clerk" as SC
+participant CreateCategoryUI as UI <<presentation>>
+participant CreateCategoryController as Controller <<application>>
+participant CategoryBuilder as Builder <<builder>>
+participant "category:ProductCategory" as Domain1 <<domain>>
+participant PersistenceContext as Persistence <<persistence>>
+participant RepositoryFactory as Factory <<factory>>
+database ProductCategoryRepository as Repository1 <<repository>>
+
+activate SC
+SC -> UI : inicia processo de criação da Categoria de Produto
+activate UI
+UI -> Controller : creates
+UI -> SC : solicita código alfanumérico
+deactivate UI
+
+SC -> UI : introduz código alfanumérico
+activate UI
+UI -> SC : solicita descrição da Categoria
+deactivate UI
+SC -> UI : introduz descrição da Categoria
+activate UI
+UI -> Controller : createCategory(alphaNumericCode, description)
+activate Controller
+Controller -> Builder : creates
+Controller -> Builder : hasAlphanumericCode(code)
+Controller -> Builder : hasDescription(description)
+Controller -> Builder : createCategory()
+activate Builder
+Builder -> Domain1 : create(code, description)
+Domain1 -> Builder : category
+Builder -> Controller : category
+deactivate Builder
+Controller -> Persistence : repositories()
+activate Persistence
+Persistence -> Factory : creates
+Persistence -> Controller : factory
+deactivate Persistence
+Controller -> Factory : categories()
+activate Factory
+Factory -> Repository1 : create
+Factory -> Controller : categoryRepository
+deactivate Factory
+Controller -> Repository1 : save(category)
+Controller -> UI : informa sucesso da operação
+deactivate Controller
+UI -> SC : informa sucesso da operação
+deactivate UI
+@enduml

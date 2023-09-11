@@ -1,0 +1,146 @@
+@startuml
+
+hide empty methods
+hide empty attributes
+
+class RegisterClientOrderUI <<presentation>>
+class RegisterClientOrderController <<application>>
+class Order <<domain>>
+class OrderItem <<domain>>
+class Product <<domain>>
+class ListProductService <<application>>
+class RegisterClientUI <<presentation>>
+class ViewProductsCatalogUI <<presentation>>
+
+class Order {
+-OrderId /'automatically generated'/
+- CreatedOn /'automatically generated na hora do registo do sistema'/
+- BillingAddress
+- DeliveryAddress
+- TotalAmountWithoutTaxes
+- TotalAmountWithTaxes
+- TotalWeight
+- TotalVolume
+- Status
+}
+
+class ListProductService {
++findProductById(code)
+}
+
+database OrderRepository{
+}
+
+class PersistenceContext{
++repositories()
+}
+
+
+
+class Client{
++create()
+}
+
+class TransactionalContext{
++beginTransaction()
++commit()
+}
+
+
+
+
+
+class RegisterClientOrderController {
++registerOrder(addresses, shipment, payment, sourceChannel, interactionDate, additionalCommentText, items)
++registerOrder(addresses, shipment, payment, sourceChannel, interactionDate, items)
++verifyClientById(clientId)
++fillOrderItems(items, setItems)
++verifyProductId(code)
+}
+
+class RegisterClientOrderUI {
+    #doShow()
+}
+
+class RegisterClientUI {
+    #doShow()
+}
+
+class ViewProductsCatalogUI {
+    #doShow()
+}
+
+class OrderItem {
+-code
+-itemQuantity
+}
+
+class Product {
+-UniqueInternalCode
+-Weight
+-Volume
+-PriceWithTaxes
+-PriceWithoutTaxes
+-Payment
+-Shipment
+-SourceChannel
+-AdditionalComment
+}
+
+class Client {
+- ClientID
+- Name
+- VAT
+- Email
+- PhoneNumber
+}
+
+database ClientRepository{
+}
+
+database ProductRepository {
+}
+
+
+
+class RepositoryFactory{
++create()
+}
+
+
+RegisterClientOrderUI ---> RegisterClientOrderController : theController
+RegisterClientOrderController --> Order : order
+RegisterClientOrderController --> OrderRepository : orderRepository
+
+/'RegisterClientOrderUI ..> Order : order'/
+
+
+
+Order --> "1..*" OrderItem : composed by
+OrderItem --> "1" Product : composed by
+Order --> "1" Client : ordered by
+
+RegisterClientOrderController --> ClientRepository : clientRepository
+
+/'RegisterClientOrderController --> Product : product'/
+RegisterClientOrderController --> ListProductService : svcProducts
+
+/'RegisterClientOrderUI ..> Client : chosenClient
+RegisterClientOrderUI ..> OrderItem : orderItem
+RegisterClientOrderUI ..> Product : product'/
+
+ListProductService --> ProductRepository : productRepository
+
+RegisterClientOrderController -->PersistenceContext
+RegisterClientOrderController -->TransactionalContext
+
+PersistenceContext -->RepositoryFactory
+RepositoryFactory -->ClientRepository
+RepositoryFactory -->ProductRepository
+RepositoryFactory -->OrderRepository
+
+RegisterClientOrderUI --> ViewProductsCatalogUI
+RegisterClientOrderUI --> RegisterClientUI
+
+
+@enduml

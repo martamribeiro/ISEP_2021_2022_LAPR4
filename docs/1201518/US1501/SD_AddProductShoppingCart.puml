@@ -1,0 +1,113 @@
+@startuml
+
+autonumber
+actor "Client" as C
+participant AddProductToShoppingCarUI as UI <<presentation>>
+participant AddProductToShoppingCarController as Controller <<application>>
+participant AddProductToShoppingCarService as Service <<application>>
+participant TcpOrderSrv as OrderServer
+participant ListProductDTOService as serv <<application>>
+participant "Product" as Domain <<domain>>
+participant "ProductDTO" as DTO <<dto>>
+participant "ShoppingCar" as domain <<domain>>
+participant "ShopCarItem" as d <<domain>>
+participant PersistenceContext as Persistence <<persistence>>
+participant RepositoryFactory as Factory <<factory>>
+database ProductRepository as repository <<repository>>
+database ClientRepository as rep <<repository>>
+database ShoppingCarRepository as r <<repository>>
+
+activate C
+C -> UI : inicia o processo de adicionar um produto ao carrinho de compras
+activate UI
+UI -> Controller: allProducts()
+activate Controller
+Controller -> Service: allProducts()
+activate Service
+Service -> OrderServer: allProducts()
+activate OrderServer
+OrderServer -> serv: allProducts()
+activate serv
+serv->repository:findAll()
+activate repository
+repository --> serv: productsList
+deactivate repository
+loop
+serv -> Domain: toDTO()
+activate Domain
+end
+deactivate Domain
+serv --> OrderServer: productsListDTO
+deactivate serv
+OrderServer --> Service: productsListDTO
+deactivate OrderServer
+deactivate Service
+deactivate Controller
+UI --> C : mostra o catálogo de produtos
+deactivate UI
+loop enquanto nao inserir produto valido
+C -> UI : introduz o id do produto
+activate UI
+UI -> Controller: findByUniqueInternalCode(productUniqueInternalCode)
+activate Controller
+Controller -> Service: findByUniqueInternalCode(productUniqueInternalCode)
+activate Service
+Service -> OrderServer: findByUniqueInternalCode(productUniqueInternalCode)
+activate OrderServer
+OrderServer->repository:findByUniqueInternalCode(productUniqueInternalCode)
+activate repository
+repository--> OrderServer: product
+deactivate repository
+OrderServer --> Service: product
+deactivate OrderServer
+Service --> Controller: productExist
+deactivate Service
+Controller --> UI: productExist
+deactivate Controller
+end
+UI --> C : solicita a quantidade
+deactivate UI
+C -> UI : introduz a quantidade
+activate UI
+UI -> Controller: addProductShoppingCart(quantity,productUniqueInternalCode)
+activate Controller
+Controller -> Service:addProductToShoppingCarService(productUniqueInternalCode, quantidade, clientEmail)
+activate Service
+Service -> OrderServer: addProductToShoppingCarService(productUniqueInternalCode, quantidade, clientEmail)
+activate OrderServer
+OrderServer->repository:findByUniqueInternalCode(productUniqueInternalCode)
+activate repository
+repository--> OrderServer: product
+deactivate repository
+OrderServer->rep:findByEmail(email)
+activate rep
+rep--> OrderServer: client
+deactivate rep
+OrderServer -> d: create(quantidade,produto)
+OrderServer->r:findShoppingCartByClient(client)
+activate r
+r--> OrderServer: shoppingCar
+deactivate r
+alt cliente não tem carrinho de compras
+OrderServer -> domain: create(client)
+
+else
+OrderServer -> domain:addProductToShoppingCar(item)
+activate domain
+deactivate domain
+OrderServer -> r: save(shoppingCar)
+activate r
+deactivate r
+end
+deactivate OrderServer
+deactivate Service
+deactivate Controller
+
+
+UI --> C : Informa o sucesso da operação
+deactivate UI
+deactivate C
+
+
+
+@enduml

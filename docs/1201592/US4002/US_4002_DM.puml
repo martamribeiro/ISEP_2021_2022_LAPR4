@@ -1,0 +1,51 @@
+@startuml
+
+skinparam classAttributeIconSize 0
+hide empty attributes
+skinparam classBackgroundColor beige
+skinparam ArrowColor #222222
+
+package "<<aggregate>> Order" {
+    entity Order
+}
+
+package "<<aggregate>> AGV" {
+    entity AGV
+}
+
+package "<<aggragte>> Task" {
+    entity Task
+}
+
+entity Order <<entity>> <<root>> {
+    -<<VO>> OrderId /'automatically generated'/
+    -<<VO>> DateTime /'automatically generated na hora do registo do sistema'/
+    -<<VO>> BillingAddress
+    -<<VO>> DeliveryAddress
+    -<<VO>> TotalAmountWithoutTaxes
+    -<<VO>> TotalAmountWithTaxes
+    -<<VO>> TotalWeight
+    -<<VO>> TotalVolume
+    -<<VO>> Operator
+    -<<VO>> Status /'(CONFIRM WITH CLIENT: registered, payment pending, being prepared on the warehouse, dispatched, delivered by carrier, received by customer)'/
+}
+
+entity AGV <<entity>> <<root>> {
+    - <<VO>> AgvID
+    - <<VO>> AutonomyStatus /' number of hours left until it runs out of battery '/
+    - <<VO>> TaskStatus /' free charging or occupied '/
+}
+
+entity Task <<entity>> <<root>>{
+    - <<VO>> TaskID
+    - <<VO>> OrderId
+    - <<VO>> AgvID
+}
+
+AGV --> "1..*" Order
+Order --> "1" Task
+AGV --> "1" Task
+
+
+
+@enduml

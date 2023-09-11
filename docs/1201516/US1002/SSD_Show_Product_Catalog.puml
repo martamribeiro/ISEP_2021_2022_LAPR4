@@ -1,0 +1,69 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+Actor "Sales Clerk" as SC
+participant ":System" as system
+
+activate SC
+
+SC -> system: Wants to view the product catalog
+
+activate system
+
+system --> SC: asks if the Sales Clerk wants to use filters
+
+deactivate system
+
+alt if the answer is yes
+
+SC -> system: answers yes
+
+activate system
+
+system --> SC: asks which filter or filters he wants to use
+
+deactivate system
+
+SC -> system: selects one or more filters
+
+activate system
+
+system --> SC: show the product catalog filtered
+
+deactivate system
+
+SC -> system: confirms data
+
+activate system
+
+system --> SC: informs operation success
+
+deactivate system
+
+end
+
+alt if the answer is no
+
+SC -> system: answers no
+
+activate system
+
+system --> SC: show the product catalog without filters
+
+deactivate system
+
+SC -> system: confirms data
+
+activate system
+
+system --> SC: informs operation success
+
+deactivate system
+
+end
+
+deactivate SC
+
+@enduml

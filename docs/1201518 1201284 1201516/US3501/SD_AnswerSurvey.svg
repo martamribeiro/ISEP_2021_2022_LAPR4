@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1546.8px" preserveAspectRatio="none" style="width:2707px;height:1546px;" version="1.1" viewBox="0 0 2707 1546" width="2707.2px" zoomAndPan="magnify"><defs><filter height="300%" id="f61ryaebn3sy3" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="1.2"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="2.4" dy="2.4" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="1429.7906" style="stroke:#A80036;stroke-width:0.6;" width="6" x="21.6" y="59.7656"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="385.2188" style="stroke:#A80036;stroke-width:0.6;" width="6" x="234" y="95.9906"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="485.0625" style="stroke:#A80036;stroke-width:0.6;" width="6" x="234" y="499.4203"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="16.8" style="stroke:#A80036;stroke-width:0.6;" width="6" x="237" y="930.0609"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="481.4625" style="stroke:#A80036;stroke-width:0.6;" width="6" x="234" y="1002.6937"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="348.7969" style="stroke:#A80036;stroke-width:0.6;" width="6" x="505.8" y="114.2016"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="385.2188" style="stroke:#A80036;stroke-width:0.6;" width="6" x="505.8" y="517.6313"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="440.8406" style="stroke:#A80036;stroke-width:0.6;" width="6" x="505.8" y="1025.1047"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="330.5859" style="stroke:#A80036;stroke-width:0.6;" width="6" x="703.8" y="132.4125"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="367.0078" style="stroke:#A80036;stroke-width:0.6;" width="6" x="703.8" y="535.8422"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="422.6297" style="stroke:#A80036;stroke-width:0.6;" width="6" x="703.8" y="1043.3156"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="312.375" style="stroke:#A80036;stroke-width:0.6;" width="6" x="901.8" y="150.6234"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="348.7969" style="stroke:#A80036;stroke-width:0.6;" width="6" x="901.8" y="554.0531"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="404.4188" style="stroke:#A80036;stroke-width:0.6;" width="6" x="901.8" y="1061.5266"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="54.6328" style="stroke:#A80036;stroke-width:0.6;" width="6" x="1221" y="168.8344"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="54.6328" style="stroke:#A80036;stroke-width:0.6;" width="6" x="1221" y="572.2641"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="54.6328" style="stroke:#A80036;stroke-width:0.6;" width="6" x="1221" y="1079.7375"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="18.2109" style="stroke:#A80036;stroke-width:0.6;" width="6" x="1587" y="187.0453"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="182.1094" style="stroke:#A80036;stroke-width:0.6;" width="6" x="1587" y="280.8891"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="18.2109" style="stroke:#A80036;stroke-width:0.6;" width="6" x="1587" y="590.475"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="218.5313" style="stroke:#A80036;stroke-width:0.6;" width="6" x="1587" y="684.3188"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="18.2109" style="stroke:#A80036;stroke-width:0.6;" width="6" x="1587" y="1097.9484"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="274.1531" style="stroke:#A80036;stroke-width:0.6;" width="6" x="1587" y="1191.7922"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="163.8984" style="stroke:#A80036;stroke-width:0.6;" width="6" x="1808.4" y="299.1"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="200.3203" style="stroke:#A80036;stroke-width:0.6;" width="6" x="1808.4" y="702.5297"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="255.9422" style="stroke:#A80036;stroke-width:0.6;" width="6" x="1808.4" y="1210.0031"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="18.2109" style="stroke:#A80036;stroke-width:0.6;" width="6" x="1941.6" y="353.7328"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="18.2109" style="stroke:#A80036;stroke-width:0.6;" width="6" x="2157.6" y="1316.2688"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="18.2109" style="stroke:#A80036;stroke-width:0.6;" width="6" x="2425.2" y="720.7406"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="18.2109" style="stroke:#A80036;stroke-width:0.6;" width="6" x="2425.2" y="1228.2141"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="18.2109" style="stroke:#A80036;stroke-width:0.6;" width="6" x="2555.1" y="793.5844"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="18" style="stroke:#A80036;stroke-width:0.6;" width="6" x="2555.1" y="1352.6906"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="18.2109" style="stroke:#A80036;stroke-width:0.6;" width="6" x="2656.8" y="317.3109"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="18.2109" style="stroke:#A80036;stroke-width:0.6;" width="6" x="2656.8" y="757.1625"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="18.2109" style="stroke:#A80036;stroke-width:0.6;" width="6" x="2656.8" y="1264.6359"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="843.6844" style="stroke:#000000;stroke-width:1.2;" width="2692.8" x="6" y="63.9656"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="47.4328" style="stroke:#000000;stroke-width:1.2;" width="286.5" x="6" y="960.0609"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="83.6438" style="stroke:#000000;stroke-width:1.2;" width="862.8" x="1764" y="1291.8469"/><line style="stroke:#A80036;stroke-width:0.6;stroke-dasharray:5.0,5.0;" x1="24.6" x2="24.6" y1="53.7656" y2="1494.9563"/><line style="stroke:#A80036;stroke-width:0.6;stroke-dasharray:5.0,5.0;" x1="236.7" x2="236.7" y1="53.7656" y2="1494.9563"/><line style="stroke:#A80036;stroke-width:0.6;stroke-dasharray:5.0,5.0;" x1="508.5" x2="508.5" y1="53.7656" y2="1494.9563"/><line style="stroke:#A80036;stroke-width:0.6;stroke-dasharray:5.0,5.0;" x1="706.8" x2="706.8" y1="53.7656" y2="1494.9563"/><line style="stroke:#A80036;stroke-width:0.6;stroke-dasharray:5.0,5.0;" x1="904.8" x2="904.8" y1="53.7656" y2="1494.9563"/><line style="stroke:#A80036;stroke-width:0.6;stroke-dasharray:5.0,5.0;" x1="1224" x2="1224" y1="53.7656" y2="1494.9563"/><line style="stroke:#A80036;stroke-width:0.6;stroke-dasharray:5.0,5.0;" x1="1590" x2="1590" y1="53.7656" y2="1494.9563"/><line style="stroke:#A80036;stroke-width:0.6;stroke-dasharray:5.0,5.0;" x1="1811.4" x2="1811.4" y1="53.7656" y2="1494.9563"/><line style="stroke:#A80036;stroke-width:0.6;stroke-dasharray:5.0,5.0;" x1="1944.6" x2="1944.6" y1="53.7656" y2="1494.9563"/><line style="stroke:#A80036;stroke-width:0.6;stroke-dasharray:5.0,5.0;" x1="2036.4" x2="2036.4" y1="53.7656" y2="1494.9563"/><line style="stroke:#A80036;stroke-width:0.6;stroke-dasharray:5.0,5.0;" x1="2098.2" x2="2098.2" y1="53.7656" y2="1494.9563"/><line style="stroke:#A80036;stroke-width:0.6;stroke-dasharray:5.0,5.0;" x1="2160.6" x2="2160.6" y1="53.7656" y2="1494.9563"/><line style="stroke:#A80036;stroke-width:0.6;stroke-dasharray:5.0,5.0;" x1="2232.6" x2="2232.6" y1="53.7656" y2="1494.9563"/><line style="stroke:#A80036;stroke-width:0.6;stroke-dasharray:5.0,5.0;" x1="2320.8" x2="2320.8" y1="53.7656" y2="1494.9563"/><line style="stroke:#A80036;stroke-width:0.6;stroke-dasharray:5.0,5.0;" x1="2428.2" x2="2428.2" y1="53.7656" y2="1494.9563"/><line style="stroke:#A80036;stroke-width:0.6;stroke-dasharray:5.0,5.0;" x1="2557.8" x2="2557.8" y1="53.7656" y2="1494.9563"/><line style="stroke:#A80036;stroke-width:0.6;stroke-dasharray:5.0,5.0;" x1="2659.8" x2="2659.8" y1="53.7656" y2="1494.9563"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="21.6" x="12" y="51.9199">Client</text><ellipse cx="24.6" cy="9" fill="#FEFECE" filter="url(#f61ryaebn3sy3)" rx="4.8" ry="4.8" style="stroke:#A80036;stroke-width:1.2;"/><path d="M24.6,13.8 L24.6,30 M16.8,18.6 L32.4,18.6 M24.6,30 L16.8,39 M24.6,30 L32.4,39 " fill="none" filter="url(#f61ryaebn3sy3)" style="stroke:#A80036;stroke-width:1.2;"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="21.6" x="12" y="1503.0762">Client</text><ellipse cx="24.6" cy="1510.9219" fill="#FEFECE" filter="url(#f61ryaebn3sy3)" rx="4.8" ry="4.8" style="stroke:#A80036;stroke-width:1.2;"/><path d="M24.6,1515.7219 L24.6,1531.9219 M16.8,1520.5219 L32.4,1520.5219 M24.6,1531.9219 L16.8,1540.9219 M24.6,1531.9219 L32.4,1540.9219 " fill="none" filter="url(#f61ryaebn3sy3)" style="stroke:#A80036;stroke-width:1.2;"/><rect fill="#FEFECE" filter="url(#f61ryaebn3sy3)" height="29.5313" style="stroke:#A80036;stroke-width:0.8999999999999999;" width="96.6" x="187.5" y="21.2344"/><text fill="#000000" font-family="sans-serif" font-size="8.4" font-style="italic" lengthAdjust="spacing" textLength="57" x="207.3" y="34.1543">«presentation»</text><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="88.2" x="191.7" y="44.7199">AnswerQuestionnaireUI</text><rect fill="#FEFECE" filter="url(#f61ryaebn3sy3)" height="29.5313" style="stroke:#A80036;stroke-width:0.8999999999999999;" width="96.6" x="187.5" y="1494.3563"/><text fill="#000000" font-family="sans-serif" font-size="8.4" font-style="italic" lengthAdjust="spacing" textLength="57" x="207.3" y="1507.2762">«presentation»</text><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="88.2" x="191.7" y="1517.8418">AnswerQuestionnaireUI</text><rect fill="#FEFECE" filter="url(#f61ryaebn3sy3)" height="29.5313" style="stroke:#A80036;stroke-width:0.8999999999999999;" width="126.6" x="444.3" y="21.2344"/><text fill="#000000" font-family="sans-serif" font-size="8.4" font-style="italic" lengthAdjust="spacing" textLength="50.4" x="482.4" y="34.1543">«application»</text><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="118.2" x="448.5" y="44.7199">AnswerQuestionnaireController</text><rect fill="#FEFECE" filter="url(#f61ryaebn3sy3)" height="29.5313" style="stroke:#A80036;stroke-width:0.8999999999999999;" width="126.6" x="444.3" y="1494.3563"/><text fill="#000000" font-family="sans-serif" font-size="8.4" font-style="italic" lengthAdjust="spacing" textLength="50.4" x="482.4" y="1507.2762">«application»</text><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="118.2" x="448.5" y="1517.8418">AnswerQuestionnaireController</text><rect fill="#FEFECE" filter="url(#f61ryaebn3sy3)" height="29.5313" style="stroke:#A80036;stroke-width:0.8999999999999999;" width="117.6" x="646.8" y="21.2344"/><text fill="#000000" font-family="sans-serif" font-size="8.4" font-style="italic" lengthAdjust="spacing" textLength="50.4" x="680.4" y="34.1543">«application»</text><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="109.2" x="651" y="44.7199">AnswerQuestionnaireService</text><rect fill="#FEFECE" filter="url(#f61ryaebn3sy3)" height="29.5313" style="stroke:#A80036;stroke-width:0.8999999999999999;" width="117.6" x="646.8" y="1494.3563"/><text fill="#000000" font-family="sans-serif" font-size="8.4" font-style="italic" lengthAdjust="spacing" textLength="50.4" x="680.4" y="1507.2762">«application»</text><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="109.2" x="651" y="1517.8418">AnswerQuestionnaireService</text><rect fill="#FEFECE" filter="url(#f61ryaebn3sy3)" height="18.9656" style="stroke:#A80036;stroke-width:0.8999999999999999;" width="57.6" x="874.8" y="31.8"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="49.2" x="879" y="44.7199">TcpOrderSrv</text><rect fill="#FEFECE" filter="url(#f61ryaebn3sy3)" height="18.9656" style="stroke:#A80036;stroke-width:0.8999999999999999;" width="57.6" x="874.8" y="1494.3563"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="49.2" x="879" y="1507.2762">TcpOrderSrv</text><rect fill="#FEFECE" filter="url(#f61ryaebn3sy3)" height="18.9656" style="stroke:#A80036;stroke-width:0.8999999999999999;" width="115.2" x="1165.2" y="31.8"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="106.8" x="1169.4" y="44.7199">OrderServerMessageParser</text><rect fill="#FEFECE" filter="url(#f61ryaebn3sy3)" height="18.9656" style="stroke:#A80036;stroke-width:0.8999999999999999;" width="115.2" x="1165.2" y="1494.3563"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="106.8" x="1169.4" y="1507.2762">OrderServerMessageParser</text><rect fill="#FEFECE" filter="url(#f61ryaebn3sy3)" height="18.9656" style="stroke:#A80036;stroke-width:0.8999999999999999;" width="87.6" x="1545" y="31.8"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="79.2" x="1549.2" y="44.7199">OrderServerRequest</text><rect fill="#FEFECE" filter="url(#f61ryaebn3sy3)" height="18.9656" style="stroke:#A80036;stroke-width:0.8999999999999999;" width="87.6" x="1545" y="1494.3563"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="79.2" x="1549.2" y="1507.2762">OrderServerRequest</text><rect fill="#FEFECE" filter="url(#f61ryaebn3sy3)" height="29.5313" style="stroke:#A80036;stroke-width:0.8999999999999999;" width="80.4" x="1770" y="21.2344"/><text fill="#000000" font-family="sans-serif" font-size="8.4" font-style="italic" lengthAdjust="spacing" textLength="50.4" x="1785" y="34.1543">«application»</text><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="72" x="1774.2" y="44.7199">OrderSrvController</text><rect fill="#FEFECE" filter="url(#f61ryaebn3sy3)" height="29.5313" style="stroke:#A80036;stroke-width:0.8999999999999999;" width="80.4" x="1770" y="1494.3563"/><text fill="#000000" font-family="sans-serif" font-size="8.4" font-style="italic" lengthAdjust="spacing" textLength="50.4" x="1785" y="1507.2762">«application»</text><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="72" x="1774.2" y="1517.8418">OrderSrvController</text><rect fill="#FEFECE" filter="url(#f61ryaebn3sy3)" height="29.5313" style="stroke:#A80036;stroke-width:0.8999999999999999;" width="121.2" x="1882.8" y="21.2344"/><text fill="#000000" font-family="sans-serif" font-size="8.4" font-style="italic" lengthAdjust="spacing" textLength="50.4" x="1918.2" y="34.1543">«application»</text><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="112.8" x="1887" y="44.7199">ListQuestionnaireDTOService</text><rect fill="#FEFECE" filter="url(#f61ryaebn3sy3)" height="29.5313" style="stroke:#A80036;stroke-width:0.8999999999999999;" width="121.2" x="1882.8" y="1494.3563"/><text fill="#000000" font-family="sans-serif" font-size="8.4" font-style="italic" lengthAdjust="spacing" textLength="50.4" x="1918.2" y="1507.2762">«application»</text><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="112.8" x="1887" y="1517.8418">ListQuestionnaireDTOService</text><rect fill="#FEFECE" filter="url(#f61ryaebn3sy3)" height="29.5313" style="stroke:#A80036;stroke-width:0.8999999999999999;" width="45.6" x="2012.4" y="21.2344"/><text fill="#000000" font-family="sans-serif" font-size="8.4" font-style="italic" lengthAdjust="spacing" textLength="37.2" x="2016.6" y="34.1543">«domain»</text><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="21.6" x="2024.4" y="44.7199">Client</text><rect fill="#FEFECE" filter="url(#f61ryaebn3sy3)" height="29.5313" style="stroke:#A80036;stroke-width:0.8999999999999999;" width="45.6" x="2012.4" y="1494.3563"/><text fill="#000000" font-family="sans-serif" font-size="8.4" font-style="italic" lengthAdjust="spacing" textLength="37.2" x="2016.6" y="1507.2762">«domain»</text><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="21.6" x="2024.4" y="1517.8418">Client</text><rect fill="#FEFECE" filter="url(#f61ryaebn3sy3)" height="29.5313" style="stroke:#A80036;stroke-width:0.8999999999999999;" width="61.8" x="2066.4" y="21.2344"/><text fill="#000000" font-family="sans-serif" font-size="8.4" font-style="italic" lengthAdjust="spacing" textLength="37.2" x="2078.7" y="34.1543">«domain»</text><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="53.4" x="2070.6" y="44.7199">Questionnaire</text><rect fill="#FEFECE" filter="url(#f61ryaebn3sy3)" height="29.5313" style="stroke:#A80036;stroke-width:0.8999999999999999;" width="61.8" x="2066.4" y="1494.3563"/><text fill="#000000" font-family="sans-serif" font-size="8.4" font-style="italic" lengthAdjust="spacing" textLength="37.2" x="2078.7" y="1507.2762">«domain»</text><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="53.4" x="2070.6" y="1517.8418">Questionnaire</text><rect fill="#FEFECE" filter="url(#f61ryaebn3sy3)" height="29.5313" style="stroke:#A80036;stroke-width:0.8999999999999999;" width="45.6" x="2136.6" y="21.2344"/><text fill="#000000" font-family="sans-serif" font-size="8.4" font-style="italic" lengthAdjust="spacing" textLength="37.2" x="2140.8" y="34.1543">«domain»</text><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="27.6" x="2145.6" y="44.7199">Answer</text><rect fill="#FEFECE" filter="url(#f61ryaebn3sy3)" height="29.5313" style="stroke:#A80036;stroke-width:0.8999999999999999;" width="45.6" x="2136.6" y="1494.3563"/><text fill="#000000" font-family="sans-serif" font-size="8.4" font-style="italic" lengthAdjust="spacing" textLength="37.2" x="2140.8" y="1507.2762">«domain»</text><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="27.6" x="2145.6" y="1517.8418">Answer</text><rect fill="#FEFECE" filter="url(#f61ryaebn3sy3)" height="29.5313" style="stroke:#A80036;stroke-width:0.8999999999999999;" width="81.6" x="2190.6" y="21.2344"/><text fill="#000000" font-family="sans-serif" font-size="8.4" font-style="italic" lengthAdjust="spacing" textLength="53.4" x="2204.7" y="34.1543">«persistence»</text><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="73.2" x="2194.8" y="44.7199">PersistenceContext</text><rect fill="#FEFECE" filter="url(#f61ryaebn3sy3)" height="29.5313" style="stroke:#A80036;stroke-width:0.8999999999999999;" width="81.6" x="2190.6" y="1494.3563"/><text fill="#000000" font-family="sans-serif" font-size="8.4" font-style="italic" lengthAdjust="spacing" textLength="53.4" x="2204.7" y="1507.2762">«persistence»</text><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="73.2" x="2194.8" y="1517.8418">PersistenceContext</text><rect fill="#FEFECE" filter="url(#f61ryaebn3sy3)" height="29.5313" style="stroke:#A80036;stroke-width:0.8999999999999999;" width="78" x="2280.6" y="21.2344"/><text fill="#000000" font-family="sans-serif" font-size="8.4" font-style="italic" lengthAdjust="spacing" textLength="35.4" x="2301.9" y="34.1543">«factory»</text><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="69.6" x="2284.8" y="44.7199">RepositoryFactory</text><rect fill="#FEFECE" filter="url(#f61ryaebn3sy3)" height="29.5313" style="stroke:#A80036;stroke-width:0.8999999999999999;" width="78" x="2280.6" y="1494.3563"/><text fill="#000000" font-family="sans-serif" font-size="8.4" font-style="italic" lengthAdjust="spacing" textLength="35.4" x="2301.9" y="1507.2762">«factory»</text><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="69.6" x="2284.8" y="1517.8418">RepositoryFactory</text><text fill="#000000" font-family="sans-serif" font-size="8.4" font-style="italic" lengthAdjust="spacing" textLength="47.4" x="2402.7" y="41.3543">«repository»</text><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="118.8" x="2367" y="51.9199">SurveyQuestionnareRepository</text><path d="M2417.4,11.0344 C2417.4,5.0344 2428.2,5.0344 2428.2,5.0344 C2428.2,5.0344 2439,5.0344 2439,11.0344 L2439,26.6344 C2439,32.6344 2428.2,32.6344 2428.2,32.6344 C2428.2,32.6344 2417.4,32.6344 2417.4,26.6344 L2417.4,11.0344 " fill="#FEFECE" filter="url(#f61ryaebn3sy3)" style="stroke:#000000;stroke-width:0.8999999999999999;"/><path d="M2417.4,11.0344 C2417.4,17.0344 2428.2,17.0344 2428.2,17.0344 C2428.2,17.0344 2439,17.0344 2439,11.0344 " fill="none" style="stroke:#000000;stroke-width:0.8999999999999999;"/><text fill="#000000" font-family="sans-serif" font-size="8.4" font-style="italic" lengthAdjust="spacing" textLength="47.4" x="2402.7" y="1503.0762">«repository»</text><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="118.8" x="2367" y="1513.6418">SurveyQuestionnareRepository</text><path d="M2417.4,1521.4875 C2417.4,1515.4875 2428.2,1515.4875 2428.2,1515.4875 C2428.2,1515.4875 2439,1515.4875 2439,1521.4875 L2439,1537.0875 C2439,1543.0875 2428.2,1543.0875 2428.2,1543.0875 C2428.2,1543.0875 2417.4,1543.0875 2417.4,1537.0875 L2417.4,1521.4875 " fill="#FEFECE" filter="url(#f61ryaebn3sy3)" style="stroke:#000000;stroke-width:0.8999999999999999;"/><path d="M2417.4,1521.4875 C2417.4,1527.4875 2428.2,1527.4875 2428.2,1527.4875 C2428.2,1527.4875 2439,1527.4875 2439,1521.4875 " fill="none" style="stroke:#000000;stroke-width:0.8999999999999999;"/><text fill="#000000" font-family="sans-serif" font-size="8.4" font-style="italic" lengthAdjust="spacing" textLength="47.4" x="2532.6" y="41.3543">«repository»</text><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="121.8" x="2495.4" y="51.9199">AnswerQuestionnaireRepository</text><path d="M2547.3,11.0344 C2547.3,5.0344 2558.1,5.0344 2558.1,5.0344 C2558.1,5.0344 2568.9,5.0344 2568.9,11.0344 L2568.9,26.6344 C2568.9,32.6344 2558.1,32.6344 2558.1,32.6344 C2558.1,32.6344 2547.3,32.6344 2547.3,26.6344 L2547.3,11.0344 " fill="#FEFECE" filter="url(#f61ryaebn3sy3)" style="stroke:#000000;stroke-width:0.8999999999999999;"/><path d="M2547.3,11.0344 C2547.3,17.0344 2558.1,17.0344 2558.1,17.0344 C2558.1,17.0344 2568.9,17.0344 2568.9,11.0344 " fill="none" style="stroke:#000000;stroke-width:0.8999999999999999;"/><text fill="#000000" font-family="sans-serif" font-size="8.4" font-style="italic" lengthAdjust="spacing" textLength="47.4" x="2532.6" y="1503.0762">«repository»</text><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="121.8" x="2495.4" y="1513.6418">AnswerQuestionnaireRepository</text><path d="M2547.3,1521.4875 C2547.3,1515.4875 2558.1,1515.4875 2558.1,1515.4875 C2558.1,1515.4875 2568.9,1515.4875 2568.9,1521.4875 L2568.9,1537.0875 C2568.9,1543.0875 2558.1,1543.0875 2558.1,1543.0875 C2558.1,1543.0875 2547.3,1543.0875 2547.3,1537.0875 L2547.3,1521.4875 " fill="#FEFECE" filter="url(#f61ryaebn3sy3)" style="stroke:#000000;stroke-width:0.8999999999999999;"/><path d="M2547.3,1521.4875 C2547.3,1527.4875 2558.1,1527.4875 2558.1,1527.4875 C2558.1,1527.4875 2568.9,1527.4875 2568.9,1521.4875 " fill="none" style="stroke:#000000;stroke-width:0.8999999999999999;"/><text fill="#000000" font-family="sans-serif" font-size="8.4" font-style="italic" lengthAdjust="spacing" textLength="47.4" x="2634.3" y="41.3543">«repository»</text><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="62.4" x="2626.8" y="51.9199">ClientRepository</text><path d="M2649,11.0344 C2649,5.0344 2659.8,5.0344 2659.8,5.0344 C2659.8,5.0344 2670.6,5.0344 2670.6,11.0344 L2670.6,26.6344 C2670.6,32.6344 2659.8,32.6344 2659.8,32.6344 C2659.8,32.6344 2649,32.6344 2649,26.6344 L2649,11.0344 " fill="#FEFECE" filter="url(#f61ryaebn3sy3)" style="stroke:#000000;stroke-width:0.8999999999999999;"/><path d="M2649,11.0344 C2649,17.0344 2659.8,17.0344 2659.8,17.0344 C2659.8,17.0344 2670.6,17.0344 2670.6,11.0344 " fill="none" style="stroke:#000000;stroke-width:0.8999999999999999;"/><text fill="#000000" font-family="sans-serif" font-size="8.4" font-style="italic" lengthAdjust="spacing" textLength="47.4" x="2634.3" y="1503.0762">«repository»</text><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="62.4" x="2626.8" y="1513.6418">ClientRepository</text><path d="M2649,1521.4875 C2649,1515.4875 2659.8,1515.4875 2659.8,1515.4875 C2659.8,1515.4875 2670.6,1515.4875 2670.6,1521.4875 L2670.6,1537.0875 C2670.6,1543.0875 2659.8,1543.0875 2659.8,1543.0875 C2659.8,1543.0875 2649,1543.0875 2649,1537.0875 L2649,1521.4875 " fill="#FEFECE" filter="url(#f61ryaebn3sy3)" style="stroke:#000000;stroke-width:0.8999999999999999;"/><path d="M2649,1521.4875 C2649,1527.4875 2659.8,1527.4875 2659.8,1527.4875 C2659.8,1527.4875 2670.6,1527.4875 2670.6,1521.4875 " fill="none" style="stroke:#000000;stroke-width:0.8999999999999999;"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="1429.7906" style="stroke:#A80036;stroke-width:0.6;" width="6" x="21.6" y="59.7656"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="385.2188" style="stroke:#A80036;stroke-width:0.6;" width="6" x="234" y="95.9906"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="485.0625" style="stroke:#A80036;stroke-width:0.6;" width="6" x="234" y="499.4203"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="16.8" style="stroke:#A80036;stroke-width:0.6;" width="6" x="237" y="930.0609"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="481.4625" style="stroke:#A80036;stroke-width:0.6;" width="6" x="234" y="1002.6937"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="348.7969" style="stroke:#A80036;stroke-width:0.6;" width="6" x="505.8" y="114.2016"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="385.2188" style="stroke:#A80036;stroke-width:0.6;" width="6" x="505.8" y="517.6313"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="440.8406" style="stroke:#A80036;stroke-width:0.6;" width="6" x="505.8" y="1025.1047"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="330.5859" style="stroke:#A80036;stroke-width:0.6;" width="6" x="703.8" y="132.4125"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="367.0078" style="stroke:#A80036;stroke-width:0.6;" width="6" x="703.8" y="535.8422"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="422.6297" style="stroke:#A80036;stroke-width:0.6;" width="6" x="703.8" y="1043.3156"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="312.375" style="stroke:#A80036;stroke-width:0.6;" width="6" x="901.8" y="150.6234"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="348.7969" style="stroke:#A80036;stroke-width:0.6;" width="6" x="901.8" y="554.0531"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="404.4188" style="stroke:#A80036;stroke-width:0.6;" width="6" x="901.8" y="1061.5266"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="54.6328" style="stroke:#A80036;stroke-width:0.6;" width="6" x="1221" y="168.8344"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="54.6328" style="stroke:#A80036;stroke-width:0.6;" width="6" x="1221" y="572.2641"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="54.6328" style="stroke:#A80036;stroke-width:0.6;" width="6" x="1221" y="1079.7375"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="18.2109" style="stroke:#A80036;stroke-width:0.6;" width="6" x="1587" y="187.0453"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="182.1094" style="stroke:#A80036;stroke-width:0.6;" width="6" x="1587" y="280.8891"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="18.2109" style="stroke:#A80036;stroke-width:0.6;" width="6" x="1587" y="590.475"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="218.5313" style="stroke:#A80036;stroke-width:0.6;" width="6" x="1587" y="684.3188"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="18.2109" style="stroke:#A80036;stroke-width:0.6;" width="6" x="1587" y="1097.9484"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="274.1531" style="stroke:#A80036;stroke-width:0.6;" width="6" x="1587" y="1191.7922"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="163.8984" style="stroke:#A80036;stroke-width:0.6;" width="6" x="1808.4" y="299.1"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="200.3203" style="stroke:#A80036;stroke-width:0.6;" width="6" x="1808.4" y="702.5297"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="255.9422" style="stroke:#A80036;stroke-width:0.6;" width="6" x="1808.4" y="1210.0031"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="18.2109" style="stroke:#A80036;stroke-width:0.6;" width="6" x="1941.6" y="353.7328"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="18.2109" style="stroke:#A80036;stroke-width:0.6;" width="6" x="2157.6" y="1316.2688"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="18.2109" style="stroke:#A80036;stroke-width:0.6;" width="6" x="2425.2" y="720.7406"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="18.2109" style="stroke:#A80036;stroke-width:0.6;" width="6" x="2425.2" y="1228.2141"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="18.2109" style="stroke:#A80036;stroke-width:0.6;" width="6" x="2555.1" y="793.5844"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="18" style="stroke:#A80036;stroke-width:0.6;" width="6" x="2555.1" y="1352.6906"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="18.2109" style="stroke:#A80036;stroke-width:0.6;" width="6" x="2656.8" y="317.3109"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="18.2109" style="stroke:#A80036;stroke-width:0.6;" width="6" x="2656.8" y="757.1625"/><rect fill="#FFFFFF" filter="url(#f61ryaebn3sy3)" height="18.2109" style="stroke:#A80036;stroke-width:0.6;" width="6" x="2656.8" y="1264.6359"/><path d="M6,63.9656 L49.8,63.9656 L49.8,68.7656 L43.8,74.7656 L6,74.7656 L6,63.9656 " fill="#EEEEEE" style="stroke:#000000;stroke-width:0.6;"/><rect fill="none" height="843.6844" style="stroke:#000000;stroke-width:1.2;" width="2692.8" x="6" y="63.9656"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="16.8" x="15" y="72.6627">loop</text><text fill="#000000" font-family="sans-serif" font-size="6.6" font-weight="bold" lengthAdjust="spacing" textLength="135" x="58.8" y="72.017">[enquanto não escolher um questionário</text><text fill="#000000" font-family="sans-serif" font-size="6.6" font-weight="bold" lengthAdjust="spacing" textLength="108.6" x="60.6" y="80.3186">que ainda não tenha respondido]</text><polygon fill="#A80036" points="226.8,93.5906,232.8,95.9906,226.8,98.3906,229.2,95.9906" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;" x1="27.6" x2="230.4" y1="95.9906" y2="95.9906"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="4.2" x="31.8" y="93.0768">1</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="170.4" x="38.4" y="93.0768">inicia o processo de responder a um questionário</text><polygon fill="#A80036" points="498.6,111.8016,504.6,114.2016,498.6,116.6016,501,114.2016" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;" x1="240" x2="502.2" y1="114.2016" y2="114.2016"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="4.2" x="244.2" y="111.2877">2</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="88.8" x="250.8" y="111.2877">questionnairesForClient();</text><polygon fill="#A80036" points="696.6,130.0125,702.6,132.4125,696.6,134.8125,699,132.4125" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;" x1="511.8" x2="700.2" y1="132.4125" y2="132.4125"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="4.2" x="516" y="129.4986">3</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="105" x="522.6" y="129.4986">questionnairesForClient(email)</text><polygon fill="#A80036" points="894.6,148.2234,900.6,150.6234,894.6,153.0234,897,150.6234" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;" x1="709.8" x2="898.2" y1="150.6234" y2="150.6234"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="4.2" x="714" y="147.7096">4</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="105" x="720.6" y="147.7096">questionnairesForClient(email)</text><polygon fill="#A80036" points="1213.8,166.4344,1219.8,168.8344,1213.8,171.2344,1216.2,168.8344" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;" x1="907.8" x2="1217.4" y1="168.8344" y2="168.8344"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="4.2" x="912" y="165.9205">5</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="291" x="918.6" y="165.9205">parse(messageRequest, sOutputObject, sIn, sOut, clientMessageUS, sInputObject)</text><polygon fill="#A80036" points="1579.8,184.6453,1585.8,187.0453,1579.8,189.4453,1582.2,187.0453" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;" x1="1227" x2="1583.4" y1="187.0453" y2="187.0453"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="4.2" x="1231.2" y="184.1314">6</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="337.8" x="1237.8" y="184.1314">create(orderSrvController, messageRequest, sOutObject, sIn, sOut, clientMessageUS, sInObject)</text><polygon fill="#A80036" points="1233.6,202.8563,1227.6,205.2563,1233.6,207.6563,1231.2,205.2563" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;stroke-dasharray:2.0,2.0;" x1="1230" x2="1589.4" y1="205.2563" y2="205.2563"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="4.2" x="1237.2" y="202.3424">7</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="46.2" x="1243.8" y="202.3424">orderRequest</text><polygon fill="#A80036" points="914.4,221.0672,908.4,223.4672,914.4,225.8672,912,223.4672" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;stroke-dasharray:2.0,2.0;" x1="910.8" x2="1223.4" y1="223.4672" y2="223.4672"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="4.2" x="918" y="220.5533">8</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="46.2" x="924.6" y="220.5533">orderRequest</text><path d="M910.8,246.2672 L910.8,261.8672 L960,261.8672 L960,252.2672 L954,246.2672 L910.8,246.2672 " fill="#FBFB77" filter="url(#f61ryaebn3sy3)" style="stroke:#A80036;stroke-width:0.6;"/><path d="M954,246.2672 L954,252.2672 L960,252.2672 L954,246.2672 " fill="#FBFB77" style="stroke:#A80036;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="25.8" x="914.4" y="257.3643">request</text><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="942.6" y="257.3643">12</text><polygon fill="#A80036" points="1579.8,278.4891,1585.8,280.8891,1579.8,283.2891,1582.2,280.8891" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;" x1="907.8" x2="1583.4" y1="280.8891" y2="280.8891"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="4.2" x="912" y="277.9752">9</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="32.4" x="918.6" y="277.9752">execute()</text><polygon fill="#A80036" points="1801.2,296.7,1807.2,299.1,1801.2,301.5,1803.6,299.1" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;" x1="1593" x2="1804.8" y1="299.1" y2="299.1"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="1597.2" y="296.1861">10</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="105" x="1608" y="296.1861">questionnairesForClient(email)</text><polygon fill="#A80036" points="2649.6,314.9109,2655.6,317.3109,2649.6,319.7109,2652,317.3109" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;" x1="1814.4" x2="2653.2" y1="317.3109" y2="317.3109"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="1818.6" y="314.3971">11</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="64.8" x="1829.4" y="314.3971">findByEmail(email)</text><polygon fill="#A80036" points="1821,333.1219,1815,335.5219,1821,337.9219,1818.6,335.5219" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;stroke-dasharray:2.0,2.0;" x1="1817.4" x2="2659.2" y1="335.5219" y2="335.5219"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="1824.6" y="332.608">12</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="18.6" x="1835.4" y="332.608">client</text><polygon fill="#A80036" points="1934.4,351.3328,1940.4,353.7328,1934.4,356.1328,1936.8,353.7328" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;" x1="1814.4" x2="1938" y1="353.7328" y2="353.7328"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="1818.6" y="350.8189">13</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="105" x="1829.4" y="350.8189">questionnairesForClient(client)</text><polygon fill="#A80036" points="1821,369.5438,1815,371.9437,1821,374.3438,1818.6,371.9437" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;stroke-dasharray:2.0,2.0;" x1="1817.4" x2="1944" y1="371.9437" y2="371.9437"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="1824.6" y="369.0299">14</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="26.4" x="1835.4" y="369.0299">surveys</text><polygon fill="#A80036" points="1599.6,387.7547,1593.6,390.1547,1599.6,392.5547,1597.2,390.1547" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;stroke-dasharray:2.0,2.0;" x1="1596" x2="1807.8" y1="390.1547" y2="390.1547"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="1603.2" y="387.2408">15</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="26.4" x="1614" y="387.2408">surveys</text><polygon fill="#A80036" points="914.4,405.9656,908.4,408.3656,914.4,410.7656,912,408.3656" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;stroke-dasharray:2.0,2.0;" x1="910.8" x2="1586.4" y1="408.3656" y2="408.3656"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="918" y="405.4518">16</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="26.4" x="928.8" y="405.4518">surveys</text><polygon fill="#A80036" points="716.4,424.1766,710.4,426.5766,716.4,428.9766,714,426.5766" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;stroke-dasharray:2.0,2.0;" x1="712.8" x2="901.2" y1="426.5766" y2="426.5766"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="720" y="423.6627">17</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="26.4" x="730.8" y="423.6627">surveys</text><polygon fill="#A80036" points="518.4,442.3875,512.4,444.7875,518.4,447.1875,516,444.7875" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;stroke-dasharray:2.0,2.0;" x1="514.8" x2="703.2" y1="444.7875" y2="444.7875"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="522" y="441.8736">18</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="26.4" x="532.8" y="441.8736">surveys</text><polygon fill="#A80036" points="246.6,460.5984,240.6,462.9984,246.6,465.3984,244.2,462.9984" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;stroke-dasharray:2.0,2.0;" x1="243" x2="508.2" y1="462.9984" y2="462.9984"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="250.2" y="460.0846">19</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="26.4" x="261" y="460.0846">surveys</text><polygon fill="#A80036" points="34.2,478.8094,28.2,481.2094,34.2,483.6094,31.8,481.2094" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;stroke-dasharray:2.0,2.0;" x1="30.6" x2="236.4" y1="481.2094" y2="481.2094"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="37.8" y="478.2955">20</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="181.2" x="48.6" y="478.2955">mostra a lista de questionarios apropriada ao cliente</text><polygon fill="#A80036" points="226.8,497.0203,232.8,499.4203,226.8,501.8203,229.2,499.4203" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;" x1="27.6" x2="230.4" y1="499.4203" y2="499.4203"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="31.8" y="496.5064">21</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="122.4" x="42.6" y="496.5064">seleciona o questionario pretendido</text><polygon fill="#A80036" points="498.6,515.2312,504.6,517.6313,498.6,520.0313,501,517.6313" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;" x1="240" x2="502.2" y1="517.6313" y2="517.6313"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="244.2" y="514.7174">22</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="117.6" x="255" y="514.7174">verifyIfClientAnswered(surveyDTO)</text><polygon fill="#A80036" points="696.6,533.4422,702.6,535.8422,696.6,538.2422,699,535.8422" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;" x1="511.8" x2="700.2" y1="535.8422" y2="535.8422"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="516" y="532.9283">23</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="154.8" x="526.8" y="532.9283">verifyIfClientHasAnswered(email, surveyDTO)</text><polygon fill="#A80036" points="894.6,551.6531,900.6,554.0531,894.6,556.4531,897,554.0531" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;" x1="709.8" x2="898.2" y1="554.0531" y2="554.0531"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="714" y="551.1393">24</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="154.8" x="724.8" y="551.1393">verifyIfClientHasAnswered(email, surveyDTO)</text><polygon fill="#A80036" points="1213.8,569.8641,1219.8,572.2641,1213.8,574.6641,1216.2,572.2641" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;" x1="907.8" x2="1217.4" y1="572.2641" y2="572.2641"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="912" y="569.3502">25</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="291" x="922.8" y="569.3502">parse(messageRequest, sOutputObject, sIn, sOut, clientMessageUS, sInputObject)</text><polygon fill="#A80036" points="1579.8,588.075,1585.8,590.475,1579.8,592.875,1582.2,590.475" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;" x1="1227" x2="1583.4" y1="590.475" y2="590.475"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="1231.2" y="587.5611">26</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="337.8" x="1242" y="587.5611">create(orderSrvController, messageRequest, sOutObject, sIn, sOut, clientMessageUS, sInObject)</text><polygon fill="#A80036" points="1233.6,606.2859,1227.6,608.6859,1233.6,611.0859,1231.2,608.6859" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;stroke-dasharray:2.0,2.0;" x1="1230" x2="1589.4" y1="608.6859" y2="608.6859"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="1237.2" y="605.7721">27</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="46.2" x="1248" y="605.7721">orderRequest</text><polygon fill="#A80036" points="914.4,624.4969,908.4,626.8969,914.4,629.2969,912,626.8969" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;stroke-dasharray:2.0,2.0;" x1="910.8" x2="1223.4" y1="626.8969" y2="626.8969"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="918" y="623.983">28</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="46.2" x="928.8" y="623.983">orderRequest</text><path d="M910.8,649.6969 L910.8,665.2969 L960,665.2969 L960,655.6969 L954,649.6969 L910.8,649.6969 " fill="#FBFB77" filter="url(#f61ryaebn3sy3)" style="stroke:#A80036;stroke-width:0.6;"/><path d="M954,649.6969 L954,655.6969 L960,655.6969 L954,649.6969 " fill="#FBFB77" style="stroke:#A80036;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="25.8" x="914.4" y="660.7939">request</text><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="942.6" y="660.7939">16</text><polygon fill="#A80036" points="1579.8,681.9187,1585.8,684.3188,1579.8,686.7188,1582.2,684.3188" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;" x1="907.8" x2="1583.4" y1="684.3188" y2="684.3188"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="912" y="681.4049">29</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="32.4" x="922.8" y="681.4049">execute()</text><polygon fill="#A80036" points="1801.2,700.1297,1807.2,702.5297,1801.2,704.9297,1803.6,702.5297" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;" x1="1593" x2="1804.8" y1="702.5297" y2="702.5297"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="1597.2" y="699.6158">30</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="143.4" x="1608" y="699.6158">verifyIfClientAnswered(email, surveyCode)</text><polygon fill="#A80036" points="2418,718.3406,2424,720.7406,2418,723.1406,2420.4,720.7406" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;" x1="1814.4" x2="2421.6" y1="720.7406" y2="720.7406"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="1818.6" y="717.8268">31</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="76.2" x="1829.4" y="717.8268">ofIdentity(surveyCode)</text><polygon fill="#A80036" points="1821,736.5516,1815,738.9516,1821,741.3516,1818.6,738.9516" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;stroke-dasharray:2.0,2.0;" x1="1817.4" x2="2427.6" y1="738.9516" y2="738.9516"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="1824.6" y="736.0377">32</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="22.2" x="1835.4" y="736.0377">survey</text><polygon fill="#A80036" points="2649.6,754.7625,2655.6,757.1625,2649.6,759.5625,2652,757.1625" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;" x1="1814.4" x2="2653.2" y1="757.1625" y2="757.1625"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="1818.6" y="754.2486">33</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="64.8" x="1829.4" y="754.2486">findByEmail(email)</text><polygon fill="#A80036" points="1821,772.9734,1815,775.3734,1821,777.7734,1818.6,775.3734" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;stroke-dasharray:2.0,2.0;" x1="1817.4" x2="2659.2" y1="775.3734" y2="775.3734"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="1824.6" y="772.4596">34</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="42" x="1835.4" y="772.4596">clientSurvey</text><polygon fill="#A80036" points="2547.9,791.1844,2553.9,793.5844,2547.9,795.9844,2550.3,793.5844" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;" x1="1814.4" x2="2551.5" y1="793.5844" y2="793.5844"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="1818.6" y="790.6705">35</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="121.8" x="1829.4" y="790.6705">findAnswersByClient(client, survey)</text><polygon fill="#A80036" points="1821,809.3953,1815,811.7953,1821,814.1953,1818.6,811.7953" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;stroke-dasharray:2.0,2.0;" x1="1817.4" x2="2557.5" y1="811.7953" y2="811.7953"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="1824.6" y="808.8814">36</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="28.8" x="1835.4" y="808.8814">answers</text><polygon fill="#A80036" points="1599.6,827.6062,1593.6,830.0063,1599.6,832.4063,1597.2,830.0063" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;stroke-dasharray:2.0,2.0;" x1="1596" x2="1807.8" y1="830.0063" y2="830.0063"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="1603.2" y="827.0924">37</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="58.8" x="1614" y="827.0924">hasNotAnswered</text><polygon fill="#A80036" points="914.4,845.8172,908.4,848.2172,914.4,850.6172,912,848.2172" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;stroke-dasharray:2.0,2.0;" x1="910.8" x2="1586.4" y1="848.2172" y2="848.2172"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="918" y="845.3033">38</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="58.8" x="928.8" y="845.3033">hasNotAnswered</text><polygon fill="#A80036" points="716.4,864.0281,710.4,866.4281,716.4,868.8281,714,866.4281" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;stroke-dasharray:2.0,2.0;" x1="712.8" x2="901.2" y1="866.4281" y2="866.4281"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="720" y="863.5143">39</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="58.8" x="730.8" y="863.5143">hasNotAnswered</text><polygon fill="#A80036" points="518.4,882.2391,512.4,884.6391,518.4,887.0391,516,884.6391" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;stroke-dasharray:2.0,2.0;" x1="514.8" x2="703.2" y1="884.6391" y2="884.6391"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="522" y="881.7252">40</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="58.8" x="532.8" y="881.7252">hasNotAnswered</text><polygon fill="#A80036" points="246.6,900.45,240.6,902.85,246.6,905.25,244.2,902.85" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;stroke-dasharray:2.0,2.0;" x1="243" x2="508.2" y1="902.85" y2="902.85"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="250.2" y="899.9361">41</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="58.8" x="261" y="899.9361">hasNotAnswered</text><line style="stroke:#A80036;stroke-width:0.6;" x1="243" x2="268.2" y1="925.2609" y2="925.2609"/><line style="stroke:#A80036;stroke-width:0.6;" x1="268.2" x2="268.2" y1="925.2609" y2="933.0609"/><line style="stroke:#A80036;stroke-width:0.6;" x1="243.6" x2="268.2" y1="933.0609" y2="933.0609"/><polygon fill="#A80036" points="249.6,930.6609,243.6,933.0609,249.6,935.4609,247.2,933.0609" style="stroke:#A80036;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="247.2" y="922.3471">42</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="246.6" x="258" y="922.3471">validAnswers = parseSurveyAnswersWithVisitor(surveyString, answers)</text><path d="M6,960.0609 L49.8,960.0609 L49.8,964.8609 L43.8,970.8609 L6,970.8609 L6,960.0609 " fill="#EEEEEE" style="stroke:#000000;stroke-width:0.6;"/><rect fill="none" height="47.4328" style="stroke:#000000;stroke-width:1.2;" width="286.5" x="6" y="960.0609"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="16.8" x="15" y="968.758">loop</text><text fill="#000000" font-family="sans-serif" font-size="6.6" font-weight="bold" lengthAdjust="spacing" textLength="136.2" x="58.8" y="968.1123">[enquanto o questionário tiver questões]</text><polygon fill="#A80036" points="34.2,982.0828,28.2,984.4828,34.2,986.8828,31.8,984.4828" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;stroke-dasharray:2.0,2.0;" x1="30.6" x2="236.4" y1="984.4828" y2="984.4828"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="37.8" y="981.5689">43</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="70.8" x="48.6" y="981.5689">apresenta a questão</text><polygon fill="#A80036" points="226.8,1000.2937,232.8,1002.6937,226.8,1005.0938,229.2,1002.6937" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;" x1="27.6" x2="230.4" y1="1002.6937" y2="1002.6937"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="31.8" y="999.7799">44</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="68.4" x="42.6" y="999.7799">responde à questão</text><polygon fill="#A80036" points="498.6,1022.7047,504.6,1025.1047,498.6,1027.5047,501,1025.1047" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;" x1="240" x2="502.2" y1="1025.1047" y2="1025.1047"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="244.2" y="1022.1908">45</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="162" x="255" y="1022.1908">sendAnswersToBeSaved(answers, surveyDTO)</text><polygon fill="#A80036" points="696.6,1040.9156,702.6,1043.3156,696.6,1045.7156,699,1043.3156" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;" x1="511.8" x2="700.2" y1="1043.3156" y2="1043.3156"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="516" y="1040.4018">46</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="169.8" x="526.8" y="1040.4018">sendAnswersToBeSaved(answers, survey, email)</text><polygon fill="#A80036" points="894.6,1059.1266,900.6,1061.5266,894.6,1063.9266,897,1061.5266" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;" x1="709.8" x2="898.2" y1="1061.5266" y2="1061.5266"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="714" y="1058.6127">47</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="169.8" x="724.8" y="1058.6127">sendAnswersToBeSaved(answers, survey, email)</text><polygon fill="#A80036" points="1213.8,1077.3375,1219.8,1079.7375,1213.8,1082.1375,1216.2,1079.7375" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;" x1="907.8" x2="1217.4" y1="1079.7375" y2="1079.7375"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="912" y="1076.8236">48</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="291" x="922.8" y="1076.8236">parse(messageRequest, sOutputObject, sIn, sOut, clientMessageUS, sInputObject)</text><polygon fill="#A80036" points="1579.8,1095.5484,1585.8,1097.9484,1579.8,1100.3484,1582.2,1097.9484" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;" x1="1227" x2="1583.4" y1="1097.9484" y2="1097.9484"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="1231.2" y="1095.0346">49</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="337.8" x="1242" y="1095.0346">create(orderSrvController, messageRequest, sOutObject, sIn, sOut, clientMessageUS, sInObject)</text><polygon fill="#A80036" points="1233.6,1113.7594,1227.6,1116.1594,1233.6,1118.5594,1231.2,1116.1594" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;stroke-dasharray:2.0,2.0;" x1="1230" x2="1589.4" y1="1116.1594" y2="1116.1594"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="1237.2" y="1113.2455">50</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="46.2" x="1248" y="1113.2455">orderRequest</text><polygon fill="#A80036" points="914.4,1131.9703,908.4,1134.3703,914.4,1136.7703,912,1134.3703" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;stroke-dasharray:2.0,2.0;" x1="910.8" x2="1223.4" y1="1134.3703" y2="1134.3703"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="918" y="1131.4564">51</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="46.2" x="928.8" y="1131.4564">orderRequest</text><path d="M910.8,1157.1703 L910.8,1172.7703 L960,1172.7703 L960,1163.1703 L954,1157.1703 L910.8,1157.1703 " fill="#FBFB77" filter="url(#f61ryaebn3sy3)" style="stroke:#A80036;stroke-width:0.6;"/><path d="M954,1157.1703 L954,1163.1703 L960,1163.1703 L954,1157.1703 " fill="#FBFB77" style="stroke:#A80036;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="25.8" x="914.4" y="1168.2674">request</text><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="942.6" y="1168.2674">14</text><polygon fill="#A80036" points="1579.8,1189.3922,1585.8,1191.7922,1579.8,1194.1922,1582.2,1191.7922" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;" x1="907.8" x2="1583.4" y1="1191.7922" y2="1191.7922"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="912" y="1188.8783">52</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="32.4" x="922.8" y="1188.8783">execute()</text><polygon fill="#A80036" points="1801.2,1207.6031,1807.2,1210.0031,1801.2,1212.4031,1803.6,1210.0031" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;" x1="1593" x2="1804.8" y1="1210.0031" y2="1210.0031"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="1597.2" y="1207.0893">53</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="193.2" x="1608" y="1207.0893">saveQuestionnaireAnswers(answers, surveyDTO, email)</text><polygon fill="#A80036" points="2418,1225.8141,2424,1228.2141,2418,1230.6141,2420.4,1228.2141" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;" x1="1814.4" x2="2421.6" y1="1228.2141" y2="1228.2141"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="1818.6" y="1225.3002">54</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="76.2" x="1829.4" y="1225.3002">ofIdentity(surveyCode)</text><polygon fill="#A80036" points="1821,1244.025,1815,1246.425,1821,1248.825,1818.6,1246.425" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;stroke-dasharray:2.0,2.0;" x1="1817.4" x2="2427.6" y1="1246.425" y2="1246.425"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="1824.6" y="1243.5111">55</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="22.2" x="1835.4" y="1243.5111">survey</text><polygon fill="#A80036" points="2649.6,1262.2359,2655.6,1264.6359,2649.6,1267.0359,2652,1264.6359" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;" x1="1814.4" x2="2653.2" y1="1264.6359" y2="1264.6359"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="1818.6" y="1261.7221">56</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="64.8" x="1829.4" y="1261.7221">findByEmail(email)</text><polygon fill="#A80036" points="1821,1280.4469,1815,1282.8469,1821,1285.2469,1818.6,1282.8469" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;stroke-dasharray:2.0,2.0;" x1="1817.4" x2="2659.2" y1="1282.8469" y2="1282.8469"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="1824.6" y="1279.933">57</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="42" x="1835.4" y="1279.933">clientSurvey</text><path d="M1764,1291.8469 L1807.8,1291.8469 L1807.8,1296.6469 L1801.8,1302.6469 L1764,1302.6469 L1764,1291.8469 " fill="#EEEEEE" style="stroke:#000000;stroke-width:0.6;"/><rect fill="none" height="83.6438" style="stroke:#000000;stroke-width:1.2;" width="862.8" x="1764" y="1291.8469"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="16.8" x="1773" y="1300.5439">loop</text><text fill="#000000" font-family="sans-serif" font-size="6.6" font-weight="bold" lengthAdjust="spacing" textLength="128.4" x="1816.8" y="1299.8982">[enquanto houver answers a persistir]</text><polygon fill="#A80036" points="2150.4,1313.8687,2156.4,1316.2688,2150.4,1318.6688,2152.8,1316.2688" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;" x1="1814.4" x2="2154" y1="1316.2688" y2="1316.2688"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="1818.6" y="1313.3549">58</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="158.4" x="1829.4" y="1313.3549">create(survey, client, questionID, listAnswers)</text><polygon fill="#A80036" points="1821,1332.0797,1815,1334.4797,1821,1336.8797,1818.6,1334.4797" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;stroke-dasharray:2.0,2.0;" x1="1817.4" x2="2160" y1="1334.4797" y2="1334.4797"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="1824.6" y="1331.5658">59</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="24.6" x="1835.4" y="1331.5658">answer</text><polygon fill="#A80036" points="2547.9,1350.2906,2553.9,1352.6906,2547.9,1355.0906,2550.3,1352.6906" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;" x1="1814.4" x2="2551.5" y1="1352.6906" y2="1352.6906"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="1818.6" y="1349.7768">60</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="45" x="1829.4" y="1349.7768">save(answer)</text><polygon fill="#A80036" points="1599.6,1390.7016,1593.6,1393.1016,1599.6,1395.5016,1597.2,1393.1016" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;stroke-dasharray:2.0,2.0;" x1="1596" x2="1807.8" y1="1393.1016" y2="1393.1016"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="1603.2" y="1390.1877">61</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="29.4" x="1614" y="1390.1877">success</text><polygon fill="#A80036" points="914.4,1408.9125,908.4,1411.3125,914.4,1413.7125,912,1411.3125" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;stroke-dasharray:2.0,2.0;" x1="910.8" x2="1586.4" y1="1411.3125" y2="1411.3125"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="918" y="1408.3986">62</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="29.4" x="928.8" y="1408.3986">success</text><polygon fill="#A80036" points="716.4,1427.1234,710.4,1429.5234,716.4,1431.9234,714,1429.5234" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;stroke-dasharray:2.0,2.0;" x1="712.8" x2="901.2" y1="1429.5234" y2="1429.5234"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="720" y="1426.6096">63</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="29.4" x="730.8" y="1426.6096">success</text><polygon fill="#A80036" points="518.4,1445.3344,512.4,1447.7344,518.4,1450.1344,516,1447.7344" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;stroke-dasharray:2.0,2.0;" x1="514.8" x2="703.2" y1="1447.7344" y2="1447.7344"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="522" y="1444.8205">64</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="29.4" x="532.8" y="1444.8205">success</text><polygon fill="#A80036" points="246.6,1463.5453,240.6,1465.9453,246.6,1468.3453,244.2,1465.9453" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;stroke-dasharray:2.0,2.0;" x1="243" x2="508.2" y1="1465.9453" y2="1465.9453"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="250.2" y="1463.0314">65</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="29.4" x="261" y="1463.0314">success</text><polygon fill="#A80036" points="34.2,1481.7563,28.2,1484.1563,34.2,1486.5562,31.8,1484.1563" style="stroke:#A80036;stroke-width:0.6;"/><line style="stroke:#A80036;stroke-width:0.6;stroke-dasharray:2.0,2.0;" x1="30.6" x2="236.4" y1="1484.1563" y2="1484.1563"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="8.4" x="37.8" y="1481.2424">66</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="108.6" x="48.6" y="1481.2424">informa o sucesso da operação</text><!--MD5=[fa454a998cbec225a85751289b9a24a3]
+@startuml
+
+/' FALTA PARTE DE MOSTRAR LISTA APROPRIADA DE QUESTIONARIOS AO CLIENT '/
+
+autonumber
+actor "Client" as C
+
+participant AnswerQuestionnaireUI as UI <<presentation>>
+participant AnswerQuestionnaireController as CONTROLLER <<application>>
+participant AnswerQuestionnaireService as SERVICE <<application>>
+participant TcpOrderSrv as ORDER_SERVER
+participant OrderServerMessageParser as PARSER
+participant OrderServerRequest as ORDER_REQUEST
+participant OrderSrvController as ORDER_CONTROLLER <<application>>
+participant ListQuestionnaireDTOService as SURVEY_SERVICE <<application>>
+
+participant "Client" as CLIENT <<domain>>
+participant "Questionnaire" as QUESTIONNAIRE <<domain>>
+participant "Answer" as ANSWER <<domain>>
+
+participant PersistenceContext as PERSISTENCE <<persistence>>
+participant RepositoryFactory as FACTORY <<factory>>
+database SurveyQuestionnareRepository as SURVEY_REP <<repository>>
+database AnswerQuestionnaireRepository as ANSWER_REP <<repository>>
+database ClientRepository as CLIENT_REP <<repository>>
+
+loop enquanto não escolher um questionário\n que ainda não tenha respondido
+activate C
+C -> UI : inicia o processo de responder a um questionário
+activate UI
+
+
+
+UI -> CONTROLLER : questionnairesForClient();
+
+activate CONTROLLER
+CONTROLLER -> SERVICE : questionnairesForClient(email)
+activate SERVICE
+SERVICE -> ORDER_SERVER : questionnairesForClient(email)
+activate ORDER_SERVER
+
+ORDER_SERVER -> PARSER : parse(messageRequest, sOutputObject, sIn, sOut, clientMessageUS, sInputObject)
+activate PARSER
+PARSER -> ORDER_REQUEST : create(orderSrvController, messageRequest, sOutObject, sIn, sOut, clientMessageUS, sInObject)
+activate ORDER_REQUEST
+ORDER_REQUEST - -> PARSER : orderRequest
+deactivate ORDER_REQUEST
+PARSER - -> ORDER_SERVER : orderRequest
+deactivate PARSER
+|||
+note right of ORDER_SERVER
+request **12**
+end note
+ORDER_SERVER -> ORDER_REQUEST : execute()
+activate ORDER_REQUEST
+
+ORDER_REQUEST -> ORDER_CONTROLLER : questionnairesForClient(email)
+activate ORDER_CONTROLLER
+ORDER_CONTROLLER -> CLIENT_REP : findByEmail(email)
+activate CLIENT_REP
+CLIENT_REP - -> ORDER_CONTROLLER : client
+deactivate CLIENT_REP
+ORDER_CONTROLLER -> SURVEY_SERVICE : questionnairesForClient(client)
+activate SURVEY_SERVICE
+SURVEY_SERVICE - -> ORDER_CONTROLLER : surveys
+deactivate SURVEY_SERVICE
+
+ORDER_CONTROLLER - -> ORDER_REQUEST : surveys
+ORDER_REQUEST - -> ORDER_SERVER : surveys
+ORDER_SERVER - -> SERVICE : surveys
+SERVICE - -> CONTROLLER : surveys
+CONTROLLER - -> UI : surveys
+
+deactivate ORDER_CONTROLLER
+deactivate ORDER_REQUEST
+deactivate PARSER
+deactivate ORDER_SERVER
+deactivate SERVICE
+deactivate CONTROLLER
+
+
+UI - -> C : mostra a lista de questionarios apropriada ao cliente
+deactivate UI
+
+
+
+C -> UI : seleciona o questionario pretendido
+activate UI
+UI -> CONTROLLER : verifyIfClientAnswered(surveyDTO)
+activate CONTROLLER
+CONTROLLER -> SERVICE : verifyIfClientHasAnswered(email, surveyDTO)
+activate SERVICE
+SERVICE -> ORDER_SERVER : verifyIfClientHasAnswered(email, surveyDTO)
+activate ORDER_SERVER
+
+ORDER_SERVER -> PARSER : parse(messageRequest, sOutputObject, sIn, sOut, clientMessageUS, sInputObject)
+activate PARSER
+PARSER -> ORDER_REQUEST : create(orderSrvController, messageRequest, sOutObject, sIn, sOut, clientMessageUS, sInObject)
+activate ORDER_REQUEST
+ORDER_REQUEST - -> PARSER : orderRequest
+deactivate ORDER_REQUEST
+PARSER - -> ORDER_SERVER : orderRequest
+deactivate PARSER
+|||
+note right of ORDER_SERVER
+request **16**
+end note
+ORDER_SERVER -> ORDER_REQUEST : execute()
+activate ORDER_REQUEST
+
+ORDER_REQUEST -> ORDER_CONTROLLER : verifyIfClientAnswered(email, surveyCode)
+activate ORDER_CONTROLLER
+ORDER_CONTROLLER -> SURVEY_REP : ofIdentity(surveyCode)
+activate SURVEY_REP
+SURVEY_REP - -> ORDER_CONTROLLER : survey
+deactivate SURVEY_REP
+ORDER_CONTROLLER -> CLIENT_REP : findByEmail(email)
+activate CLIENT_REP
+CLIENT_REP - -> ORDER_CONTROLLER : clientSurvey
+deactivate CLIENT_REP
+ORDER_CONTROLLER -> ANSWER_REP : findAnswersByClient(client, survey)
+activate ANSWER_REP
+ANSWER_REP - -> ORDER_CONTROLLER : answers
+deactivate ANSWER_REP
+
+ORDER_CONTROLLER - -> ORDER_REQUEST : hasNotAnswered
+ORDER_REQUEST - -> ORDER_SERVER : hasNotAnswered
+ORDER_SERVER - -> SERVICE : hasNotAnswered
+SERVICE - -> CONTROLLER : hasNotAnswered
+CONTROLLER - -> UI : hasNotAnswered
+
+deactivate ORDER_CONTROLLER
+deactivate ORDER_REQUEST
+deactivate PARSER
+deactivate ORDER_SERVER
+deactivate SERVICE
+deactivate CONTROLLER
+end
+UI -> UI : validAnswers = parseSurveyAnswersWithVisitor(surveyString, answers)
+activate UI
+deactivate UI
+
+loop enquanto o questionário tiver questões
+UI - -> C : apresenta a questão
+deactivate UI
+C -> UI : responde à questão
+activate UI
+end
+
+
+
+
+UI -> CONTROLLER : sendAnswersToBeSaved(answers, surveyDTO)
+activate CONTROLLER
+CONTROLLER -> SERVICE : sendAnswersToBeSaved(answers, survey, email)
+activate SERVICE
+SERVICE -> ORDER_SERVER : sendAnswersToBeSaved(answers, survey, email)
+activate ORDER_SERVER
+
+ORDER_SERVER -> PARSER : parse(messageRequest, sOutputObject, sIn, sOut, clientMessageUS, sInputObject)
+activate PARSER
+PARSER -> ORDER_REQUEST : create(orderSrvController, messageRequest, sOutObject, sIn, sOut, clientMessageUS, sInObject)
+activate ORDER_REQUEST
+ORDER_REQUEST - -> PARSER : orderRequest
+deactivate ORDER_REQUEST
+PARSER - -> ORDER_SERVER : orderRequest
+deactivate PARSER
+|||
+note right of ORDER_SERVER
+request **14**
+end note
+ORDER_SERVER -> ORDER_REQUEST : execute()
+activate ORDER_REQUEST
+
+ORDER_REQUEST -> ORDER_CONTROLLER : saveQuestionnaireAnswers(answers, surveyDTO, email)
+activate ORDER_CONTROLLER
+ORDER_CONTROLLER -> SURVEY_REP : ofIdentity(surveyCode)
+activate SURVEY_REP
+SURVEY_REP - -> ORDER_CONTROLLER : survey
+deactivate SURVEY_REP
+ORDER_CONTROLLER -> CLIENT_REP : findByEmail(email)
+activate CLIENT_REP
+CLIENT_REP - -> ORDER_CONTROLLER : clientSurvey
+deactivate CLIENT_REP
+loop enquanto houver answers a persistir
+ORDER_CONTROLLER -> ANSWER : create(survey, client, questionID, listAnswers)
+activate ANSWER
+ANSWER - -> ORDER_CONTROLLER : answer
+deactivate ANSWER
+ORDER_CONTROLLER -> ANSWER_REP : save(answer)
+activate ANSWER_REP
+deactivate ANSWER_REP
+
+
+end
+
+ORDER_CONTROLLER - -> ORDER_REQUEST : success
+ORDER_REQUEST - -> ORDER_SERVER : success
+ORDER_SERVER - -> SERVICE : success
+SERVICE - -> CONTROLLER : success
+CONTROLLER - -> UI : success
+
+
+deactivate ORDER_CONTROLLER
+deactivate ORDER_REQUEST
+deactivate PARSER
+deactivate ORDER_SERVER
+deactivate SERVICE
+deactivate CONTROLLER
+
+
+
+UI - -> C : informa o sucesso da operação
+deactivate UI
+
+
+
+@enduml
+
+@startuml
+
+
+autonumber
+actor "Client" as C
+
+participant AnswerQuestionnaireUI as UI <<presentation>>
+participant AnswerQuestionnaireController as CONTROLLER <<application>>
+participant AnswerQuestionnaireService as SERVICE <<application>>
+participant TcpOrderSrv as ORDER_SERVER
+participant OrderServerMessageParser as PARSER
+participant OrderServerRequest as ORDER_REQUEST
+participant OrderSrvController as ORDER_CONTROLLER <<application>>
+participant ListQuestionnaireDTOService as SURVEY_SERVICE <<application>>
+
+participant "Client" as CLIENT <<domain>>
+participant "Questionnaire" as QUESTIONNAIRE <<domain>>
+participant "Answer" as ANSWER <<domain>>
+
+participant PersistenceContext as PERSISTENCE <<persistence>>
+participant RepositoryFactory as FACTORY <<factory>>
+database SurveyQuestionnareRepository as SURVEY_REP <<repository>>
+database AnswerQuestionnaireRepository as ANSWER_REP <<repository>>
+database ClientRepository as CLIENT_REP <<repository>>
+
+loop enquanto não escolher um questionário\n que ainda não tenha respondido
+activate C
+C -> UI : inicia o processo de responder a um questionário
+activate UI
+
+
+
+UI -> CONTROLLER : questionnairesForClient();
+
+activate CONTROLLER
+CONTROLLER -> SERVICE : questionnairesForClient(email)
+activate SERVICE
+SERVICE -> ORDER_SERVER : questionnairesForClient(email)
+activate ORDER_SERVER
+
+ORDER_SERVER -> PARSER : parse(messageRequest, sOutputObject, sIn, sOut, clientMessageUS, sInputObject)
+activate PARSER
+PARSER -> ORDER_REQUEST : create(orderSrvController, messageRequest, sOutObject, sIn, sOut, clientMessageUS, sInObject)
+activate ORDER_REQUEST
+ORDER_REQUEST - -> PARSER : orderRequest
+deactivate ORDER_REQUEST
+PARSER - -> ORDER_SERVER : orderRequest
+deactivate PARSER
+|||
+note right of ORDER_SERVER
+request **12**
+end note
+ORDER_SERVER -> ORDER_REQUEST : execute()
+activate ORDER_REQUEST
+
+ORDER_REQUEST -> ORDER_CONTROLLER : questionnairesForClient(email)
+activate ORDER_CONTROLLER
+ORDER_CONTROLLER -> CLIENT_REP : findByEmail(email)
+activate CLIENT_REP
+CLIENT_REP - -> ORDER_CONTROLLER : client
+deactivate CLIENT_REP
+ORDER_CONTROLLER -> SURVEY_SERVICE : questionnairesForClient(client)
+activate SURVEY_SERVICE
+SURVEY_SERVICE - -> ORDER_CONTROLLER : surveys
+deactivate SURVEY_SERVICE
+
+ORDER_CONTROLLER - -> ORDER_REQUEST : surveys
+ORDER_REQUEST - -> ORDER_SERVER : surveys
+ORDER_SERVER - -> SERVICE : surveys
+SERVICE - -> CONTROLLER : surveys
+CONTROLLER - -> UI : surveys
+
+deactivate ORDER_CONTROLLER
+deactivate ORDER_REQUEST
+deactivate PARSER
+deactivate ORDER_SERVER
+deactivate SERVICE
+deactivate CONTROLLER
+
+
+UI - -> C : mostra a lista de questionarios apropriada ao cliente
+deactivate UI
+
+
+
+C -> UI : seleciona o questionario pretendido
+activate UI
+UI -> CONTROLLER : verifyIfClientAnswered(surveyDTO)
+activate CONTROLLER
+CONTROLLER -> SERVICE : verifyIfClientHasAnswered(email, surveyDTO)
+activate SERVICE
+SERVICE -> ORDER_SERVER : verifyIfClientHasAnswered(email, surveyDTO)
+activate ORDER_SERVER
+
+ORDER_SERVER -> PARSER : parse(messageRequest, sOutputObject, sIn, sOut, clientMessageUS, sInputObject)
+activate PARSER
+PARSER -> ORDER_REQUEST : create(orderSrvController, messageRequest, sOutObject, sIn, sOut, clientMessageUS, sInObject)
+activate ORDER_REQUEST
+ORDER_REQUEST - -> PARSER : orderRequest
+deactivate ORDER_REQUEST
+PARSER - -> ORDER_SERVER : orderRequest
+deactivate PARSER
+|||
+note right of ORDER_SERVER
+request **16**
+end note
+ORDER_SERVER -> ORDER_REQUEST : execute()
+activate ORDER_REQUEST
+
+ORDER_REQUEST -> ORDER_CONTROLLER : verifyIfClientAnswered(email, surveyCode)
+activate ORDER_CONTROLLER
+ORDER_CONTROLLER -> SURVEY_REP : ofIdentity(surveyCode)
+activate SURVEY_REP
+SURVEY_REP - -> ORDER_CONTROLLER : survey
+deactivate SURVEY_REP
+ORDER_CONTROLLER -> CLIENT_REP : findByEmail(email)
+activate CLIENT_REP
+CLIENT_REP - -> ORDER_CONTROLLER : clientSurvey
+deactivate CLIENT_REP
+ORDER_CONTROLLER -> ANSWER_REP : findAnswersByClient(client, survey)
+activate ANSWER_REP
+ANSWER_REP - -> ORDER_CONTROLLER : answers
+deactivate ANSWER_REP
+
+ORDER_CONTROLLER - -> ORDER_REQUEST : hasNotAnswered
+ORDER_REQUEST - -> ORDER_SERVER : hasNotAnswered
+ORDER_SERVER - -> SERVICE : hasNotAnswered
+SERVICE - -> CONTROLLER : hasNotAnswered
+CONTROLLER - -> UI : hasNotAnswered
+
+deactivate ORDER_CONTROLLER
+deactivate ORDER_REQUEST
+deactivate PARSER
+deactivate ORDER_SERVER
+deactivate SERVICE
+deactivate CONTROLLER
+end
+UI -> UI : validAnswers = parseSurveyAnswersWithVisitor(surveyString, answers)
+activate UI
+deactivate UI
+
+loop enquanto o questionário tiver questões
+UI - -> C : apresenta a questão
+deactivate UI
+C -> UI : responde à questão
+activate UI
+end
+
+
+
+
+UI -> CONTROLLER : sendAnswersToBeSaved(answers, surveyDTO)
+activate CONTROLLER
+CONTROLLER -> SERVICE : sendAnswersToBeSaved(answers, survey, email)
+activate SERVICE
+SERVICE -> ORDER_SERVER : sendAnswersToBeSaved(answers, survey, email)
+activate ORDER_SERVER
+
+ORDER_SERVER -> PARSER : parse(messageRequest, sOutputObject, sIn, sOut, clientMessageUS, sInputObject)
+activate PARSER
+PARSER -> ORDER_REQUEST : create(orderSrvController, messageRequest, sOutObject, sIn, sOut, clientMessageUS, sInObject)
+activate ORDER_REQUEST
+ORDER_REQUEST - -> PARSER : orderRequest
+deactivate ORDER_REQUEST
+PARSER - -> ORDER_SERVER : orderRequest
+deactivate PARSER
+|||
+note right of ORDER_SERVER
+request **14**
+end note
+ORDER_SERVER -> ORDER_REQUEST : execute()
+activate ORDER_REQUEST
+
+ORDER_REQUEST -> ORDER_CONTROLLER : saveQuestionnaireAnswers(answers, surveyDTO, email)
+activate ORDER_CONTROLLER
+ORDER_CONTROLLER -> SURVEY_REP : ofIdentity(surveyCode)
+activate SURVEY_REP
+SURVEY_REP - -> ORDER_CONTROLLER : survey
+deactivate SURVEY_REP
+ORDER_CONTROLLER -> CLIENT_REP : findByEmail(email)
+activate CLIENT_REP
+CLIENT_REP - -> ORDER_CONTROLLER : clientSurvey
+deactivate CLIENT_REP
+loop enquanto houver answers a persistir
+ORDER_CONTROLLER -> ANSWER : create(survey, client, questionID, listAnswers)
+activate ANSWER
+ANSWER - -> ORDER_CONTROLLER : answer
+deactivate ANSWER
+ORDER_CONTROLLER -> ANSWER_REP : save(answer)
+activate ANSWER_REP
+deactivate ANSWER_REP
+
+
+end
+
+ORDER_CONTROLLER - -> ORDER_REQUEST : success
+ORDER_REQUEST - -> ORDER_SERVER : success
+ORDER_SERVER - -> SERVICE : success
+SERVICE - -> CONTROLLER : success
+CONTROLLER - -> UI : success
+
+
+deactivate ORDER_CONTROLLER
+deactivate ORDER_REQUEST
+deactivate PARSER
+deactivate ORDER_SERVER
+deactivate SERVICE
+deactivate CONTROLLER
+
+
+
+UI - -> C : informa o sucesso da operação
+deactivate UI
+
+
+
+@enduml
+
+PlantUML version 1.2021.4(Sun Apr 04 09:49:39 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

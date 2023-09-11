@@ -1,0 +1,127 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class SetUpPlantUI{}
+
+class SetUpPlantController{
++create()
++setUpPlant(file)
+}
+
+class PlantBuilder{
++create()
++hasName()
++hasLength()
++hasWidth()
++hasSquareSize()
++hasUnit()
++build()
+}
+
+class AgvDockBuilder{
++create()
++hasDockID()
++hasBegin()
++hasEnd()
++hasDepth()
++hasAccessibility()
++build()
+}
+
+class AisleBuilder{
++create()
++hasID()
++hasBegin()
++hasEnd()
++hasDepth
++hasAccessibility()
++build()
+}
+
+class RowBuilder{
++create()
++hasID()
++hasBegin()
++hasEnd()
++hasAisle()
++build()
+}
+
+class ShelfBuilder{
++create()
++hasRow()
++build()
+}
+
+class AgvDock{
++create()
+}
+class Aisle{
++create()
+}
+class Row{
++create()
+}
+class Shelf{
++create()
+}
+class WarehousePlant{
++create()
+}
+class Square{
++create()
+}
+
+class PersistenceContext{
++repositories()
+}
+
+class RepositoryFactory{
++create()
+}
+
+database PlantRepository{
+}
+database AgvDockRepository{
+}
+database AisleRepository{
+}
+database RowRepository{
+}
+database ShelfRepository{
+}
+database SquareRepository{
+}
+
+
+SetUpPlantUI --> SetUpPlantController
+
+SetUpPlantController --> PlantBuilder
+PlantBuilder --> WarehousePlant
+
+SetUpPlantController --> AgvDockBuilder
+AgvDockBuilder --> AgvDock
+
+SetUpPlantController --> AisleBuilder
+AisleBuilder --> Aisle
+
+SetUpPlantController --> RowBuilder
+RowBuilder --> Row
+
+SetUpPlantController --> ShelfBuilder
+ShelfBuilder --> Shelf
+
+SetUpPlantController --> PersistenceContext
+PersistenceContext --> RepositoryFactory
+
+RepositoryFactory --> PlantRepository
+RepositoryFactory --> AisleRepository
+RepositoryFactory --> AgvDockRepository
+RepositoryFactory --> RowRepository
+RepositoryFactory --> ShelfRepository
+RepositoryFactory --> SquareRepository
+
+SetUpPlantController --> Square
+
+
+@enduml

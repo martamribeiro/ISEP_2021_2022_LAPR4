@@ -1,0 +1,23 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+Actor ":SalesManager" as AGVM
+participant ":System" as SYSTEM
+
+activate AGVM
+AGVM -> SYSTEM : requests to see a questionnaire's statistical report
+activate SYSTEM
+
+SYSTEM --> AGVM : asks to select a questionnaire
+deactivate SYSTEM
+
+AGVM -> SYSTEM : selects a questionnaire
+activate SYSTEM
+
+SYSTEM --> AGVM : informs that end of report has been reached
+deactivate SYSTEM
+deactivate AGVM
+
+@enduml

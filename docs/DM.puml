@@ -1,0 +1,467 @@
+@startuml
+
+skinparam classAttributeIconSize 0
+hide empty attributes
+skinparam classBackgroundColor beige
+skinparam ArrowColor #222222
+
+/'Value Objects represented by C'/
+/'class UniqueInternalCode <<value object >>
+class Photo <<value object >>'/
+
+package "<<aggregate>> Product" {
+    entity Product
+    class Photo
+    class OptionalProductionCode
+    class TechnicalDescription
+    class BrandName
+    class Reference
+}
+
+package "<<aggregate>> Category" {
+    entity Category
+}
+
+package "<<aggregate>> Order" {
+    entity Order
+    class Shipment
+    class Payment
+    entity OrderItem
+    class SourceChannel
+    class AdditionalComment
+    class InteractionDate
+}
+
+package "<<aggregate>> Client" {
+    entity Client
+    class Address
+    class BirthDate
+    class Gender
+}
+
+package "<<aggregate>> Survey" {
+    entity Survey
+    class Section
+    class Question
+}
+
+package "<<aggregate>> Employee" {
+    entity Employee
+}
+
+/'package "<<aggregate>> Salesclerk" {
+    entity Salesclerk
+}'/
+
+/'package "<<aggregate>> SalesManager" {
+    entity SalesManager
+}'/
+
+package "<<aggregate>> User" {
+    entity User
+    class Role
+}
+
+package "<<aggregate>> AGV" {
+    entity AGV
+    entity AGVPosition
+    class Model
+}
+
+/'package "<<aggregate>> Report" {
+    entity Report
+}'/
+
+package "<<aggragte>> Task" {
+    entity Task
+}
+
+/'package "<<aggregate>> MomentInfo" {
+    entity MomentInfo
+}'/
+
+package "<<aggregate>> Answer" {
+    entity Answer
+}
+
+package "<<aggregate>> WarehousePlant" {
+    entity WarehousePlant
+}
+
+package "<<aggregate>> Aisle" {
+    entity Aisle
+}
+
+package "<<aggregate>> Row" {
+    entity Row
+}
+
+package "<<aggregate>> Shelf" {
+    entity Shelf
+}
+
+package "<<aggregate>> Square" {
+    entity Square
+}
+
+package "<<aggregate>> AGVDock" {
+    entity AGVDock
+}
+
+/'package "<<aggregate>> Tax" {
+    entity Tax
+}'/
+
+package "<<aggregate>> Bin" {
+    entity Bin
+}
+
+package "<<aggregate>> ShoppingCart"{
+    entity ShoppingCart
+    entity Item
+}
+
+entity AGVPosition <<entity>> <<root>>{
+    -<VO>> AgvID
+    -<VO> SquareID
+}
+
+entity Product <<entity>> <<root>> {
+    -<<VO>> UniqueInternalCode
+    -<<VO>> Barcode
+    -<<VO>> ShortDescription
+    -<<VO>> ExtendedDescription
+    -<<VO>> PriceWithoutTaxes
+    -<<VO>> Status /'Available, Temporarily Unavailable, Unavailable'/
+    -<<VO>> Weight
+    -<<VO>> Volume
+    -<<VO>> Tax
+}
+
+class TechnicalDescription <<(V,#FF8B40) value object>>
+class BrandName <<(V,#FF8B40) value object>>
+class Reference <<(V,#FF8B40) value object>>
+class Photo <<(V,#FF8B40) value object>>
+class OptionalProductionCode <<(V,#FF8B40) value object>>
+
+
+entity Category <<entity>> <<root>> {
+    -<<VO>> AlphanumericCode
+    -<<VO>> Description
+}
+
+
+entity Order <<entity>> <<root>> {
+    -<<VO>> OrderId /'automatically generated'/
+    -<<VO>> DateTime /'automatically generated na hora do registo do sistema'/
+    -<<VO>> BillingAddress
+    -<<VO>> DeliveryAddress
+    -<<VO>> TotalAmountWithoutTaxes
+    -<<VO>> TotalAmountWithTaxes
+    -<<VO>> TotalWeight
+    -<<VO>> TotalVolume
+    -<<VO>> Operator
+    -<<VO>> Status /'(CONFIRM WITH CLIENT: registered, payment pending, being prepared on the warehouse, dispatched, delivered by carrier, received by customer)'/
+}
+
+/'Representa-se atributos de value objects?'/
+enum Shipment {
+    -method
+    -cost
+}
+
+enum Payment {
+    -method
+    -status
+}
+
+entity Client <<entity>> <<root>> {
+    - <<VO>> ClientID
+    - <<VO>> Name
+    - <<VO>> VAT
+    - <<VO>> Email
+    - <<VO>> PhoneNumber
+    /'- <<VO>> BirthDate'/ /'optional'/
+    /'- <<VO>> Gender'/ /'optional'/
+}
+
+class BirthDate <<(V,#FF8B40) value object>> {}
+class Gender <<(V,#FF8B40) value object>> {}
+
+
+entity Employee <<entity>> <<root>> {
+    - <<VO>> EmployeeID
+}
+
+/'entity Salesclerk <<entity>> <<root>> {
+
+}'/
+
+/'entity SalesManager <<entity>> <<root>> {
+
+}'/
+
+entity User <<entity>> <<root>> {
+    - <<VO>> Name
+    - <<VO>> Password
+    - <<VO>> Email
+    - <<VO>> isActive
+}
+
+entity User
+note left: the User can either be human or an external system.
+
+entity Survey <<entity>> <<root>> {
+    - <<VO>> AlphanumericCode
+    - <<VO>> TopicQuestionnaire
+    - <<VO>> InitialDate
+    - <<VO>> FinalDate
+    - <<VO>> TargetAudienceRules
+    - <<VO>> Title
+    - <<VO>> WelcomeMessage
+    - <<VO>> FinalMessage
+}
+
+entity AGV <<entity>> <<root>> {
+    - <<VO>> AgvID
+    - <<VO>> AutonomyStatus /' number of hours left until it runs out of battery '/
+    - <<VO>> TaskStatus /' free charging or occupied '/
+}
+
+/'entity Report <<entity>> <<root>> {
+
+}'/
+
+entity Task <<entity>> <<root>>{
+    - <<VO>> TaskID
+    - <<VO>> OrderId
+    - <<VO>> AgvID
+}
+
+/'entity MomentInfo <<entity>> <<root>> {
+    - <<VO>> OrderId
+    - <<VO>> ProductId
+    - <<VO>> GeneratedTime
+    - <<VO>> PriceWithoutTaxes'/
+
+    /'- <<VO>> Weight'/
+/'}'/
+
+entity Answer <<entity>> <<root>> {
+    - <<VO>> QuestionID
+  /'- <<VO>> resposta tipo?'/
+}
+
+class Model <<(V,#FF8B40) value object>> {
+    - ModelID
+    - ShortDescription
+    - MaxWeight
+}
+
+entity AGVDock <<entity>> <<root>> {
+    - <<VO>> DockID
+    - <<VO>> BeginSquare
+    - <<VO>> EndSquare
+    - <<VO>> DepthSquare
+    - <<VO>> AccessibilityDirection
+}
+
+/'class AGVPosition <<(V,#FF8B40) value object>> {
+
+}'/
+
+entity Square <<entity>> <<root>> {
+    - <<VO>> lSquare
+    - <<VO>> wSquare
+}
+
+entity Bin <<entity>> <<root>> {
+    - <<VO>> Size
+    - <<VO>> AisleID
+    - <<VO>> RowID
+    - <<VO>> ShelfID
+}
+
+class Section <<(V,#FF8B40) value object>> {
+    - SectionID
+    - SectionTitle
+    - SectionDescription
+    - Obligatoriness
+}
+
+class Question <<(V,#FF8B40) value object>> {
+    - QuestionID
+    - QuestionText
+    - QuestionInstruction /' optional '/
+    - Obligatoriness
+    - ExtraInfo /' optional '/
+    - QuestionType /' (free text, multiple choices, multiple choice with input  value, ordering/ranking choices, single choice, singe choice with input value,   numeric, sorting options, scaling options) '/
+    - StatisticalReport
+}
+
+entity WarehousePlant <<entity>> <<root>> {
+    - <<VO>> WareHouseName
+    - <<VO>> Length
+    - <<VO>> Width
+    - <<VO>> SquareSize
+    - <<VO>> Unit
+}
+
+entity Aisle <<entity>> <<root>> {
+    - AisleID <<VO>>
+    - BeginSquare <<VO>>
+    - EndSquare <<VO>>
+    - DepthSquare <<VO>>
+    - Accessibility <<VO>>
+}
+
+entity Row <<entity>> <<root>> {
+    - RowID <<VO>>
+    - BeginSquare <<VO>>
+    - EndSquare <<VO>>
+    - AisleID <<VO>>
+}
+
+entity Shelf <<entity>> <<root>> {
+    - ShelfID <<VO>>
+    - RowID <<VO>>
+}
+
+/' class Warehouse <<(V,#FF8B40) value object>> {
+    - WarehousePlant <<VO>>
+    - Status <<VO>>
+    - Description <<VO>>
+    - WarehouseLength <<VO>>
+    - WarehouseWidth <<VO>>
+}
+
+class Corridor <<(V,#FF8B40) value object>> {
+    - CorridorID <<VO>>
+    - BeginSquare <<VO>>
+    - EndSquare <<VO>>
+    - DepthSquare <<VO>>
+    - AccessibilityDirection <<VO>>
+}
+
+class StorageArea <<(V,#FF8B40) value object>> {
+    - StorageAreaID <<VO>>
+} '/
+
+class Address <<(V,#FF8B40) value object>> {
+
+}
+
+class Role <<(V,#FF8B40) value object>> {
+
+}
+
+/' class TaxService <<(S, orchid) value object>> {
+
+} '/
+
+entity OrderItem <<entity>> {
+    -itemQuantity
+}
+
+Product --> "*" Photo
+Product --> "0..1" OptionalProductionCode
+Product --> "1" Category : belongs to
+Product --> "0..1" TechnicalDescription
+Product --> "0..1" BrandName
+Product --> "0..1" Reference
+
+Order --> "1" Client : ordered by
+Order --> "1..*" Product : composed by
+Order --> "1" Shipment : has info about
+Order --> "1" Payment : has info about
+Order -> "1..*" OrderItem : composed by
+OrderItem --> "1" Product : composed by
+Order --> "0..1" SourceChannel
+Order --> "0..1" InteractionDate
+Order --> "0..1" AdditionalComment
+
+Client --> "1..*" Address : has
+Client -- "*" Survey: answers
+Client --> "0..1" BirthDate
+Client --> "0..1" Gender
+
+Employee --> "*" Client : registers a
+Employee --> "*" Order
+Employee --> "1..*" Product
+Employee --> "1..*" Category
+Employee --> "1..*" Survey
+/'Employee --> "1..*" Report'/
+/'Salesclerk --> "*" Client'/
+/'Salesclerk --> "*" Order'/
+/'Salesclerk --|> Employee'/
+/'Salesclerk --> "1..*" Product'/
+/'Salesclerk --> "1..*" Category'/
+
+/'SalesManager --> "*" Client'/
+/'SalesManager --> "*" Order'/
+/'SalesManager -|> Employee'/
+/'SalesManager --> "1..*" Product'/
+/'SalesManager --> "1..*" Category'/
+/'SalesManager --> "1..*" Survey'/
+/'SalesManager ---> "1..*" Report'/
+
+User --> "1..*" Role
+User "1" <-- Employee
+User "1" <-- Client
+
+WarehousePlant --> "1..*" Aisle
+Aisle --> "1..*" Row
+Aisle --> "1" Square
+Row --> "1..*" Shelf
+Row --> "1" Square
+WarehousePlant --> "1" AGVDock
+/'StorageArea --> "1" Row
+StorageArea --> "1" Shelf
+StorageArea --> "1..*" Bin '/
+
+Bin --> "1" Product
+/'Product --> "1" Tax'/
+
+Bin --> "1" WarehousePlant
+
+AGV --> "1" Model
+
+
+AGV --> "1..*" Order
+/'AGV --> "1" AGVPosition'/
+AGV --> "1" AGVDock
+
+AGVDock --> "3" Square
+
+/'AGVPosition --> "1" Square'/
+
+/'Report --> "1" Survey
+Report --> "*" Order'/
+
+Survey --> "1..*" Section
+
+Section --> "1..*" Question
+
+Task --> "1" Order
+AGV --> "1" Task
+
+/'Product --> "1..*" MomentInfo
+Order --> "1..*" MomentInfo'/
+
+Survey --> "*" Answer
+/'Report --> "*" Answer'/
+
+/' TaxService ..> Tax '/
+
+ShoppingCart --> "1..*" Item : composed by
+Client --> "1" ShoppingCart : associated with
+Item --> "1" Product : composed by
+
+AGVPosition --> "1" AGV
+AGVPosition --> "1" Square
+
+class SourceChannel <<(V,#FF8B40) value object>>
+class InteractionDate <<(V,#FF8B40) value object>>
+class AdditionalComment <<(V,#FF8B40) value object>>
+
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Warehouse Employee" as WE
+
+
+activate WE
+WE -> ":System" : inicia processo de configuração da Planta
+activate ":System"
+":System" -> WE : solicita ficheiro JSON com as informações necessárias
+deactivate ":System"
+
+WE -> ":System" : introduz ficheiro JSON
+activate ":System"
+":System" -> WE : informa sucesso da operação
+deactivate ":System"
+
+@enduml

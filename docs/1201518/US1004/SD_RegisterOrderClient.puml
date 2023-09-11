@@ -1,0 +1,137 @@
+@startuml
+
+autonumber
+actor "Sales Clerk" as SC
+participant RegisterClientOrderUI as UI <<presentation>>
+participant RegisterClientOrderController as Controller <<application>>
+participant ViewProductCatalogUI as ui <<presentation>>
+database ProductRepository as repository <<repository>>
+database ClientRepository as rep <<repository>>
+participant RegisterClientUI as Ui <<presentation>>
+participant "clientOrder:ProductOrder" as Domain <<domain>>
+participant "Product" as Domain <<domain>>
+participant PersistenceContext as Persistence <<persistence>>
+participant RepositoryFactory as Factory <<factory>>
+database ProductOrderRepository as Repository <<repository>>
+
+activate SC
+SC -> UI : Inicia o processo de registo de compra \n de um determinado Cliente
+activate UI
+UI -> Controller: create
+UI --> SC : Solicita o método de escolha de produtos\n para a encomenda
+deactivate UI
+SC -> UI : Informa o método pretendido
+activate UI
+alt método visualização de produtos
+loop enquanto pretender adicionar \n produtos à encomenda
+UI -> ui: create
+activate  ui
+ui -> ui: doShow()
+activate ui
+deactivate ui
+deactivate ui
+deactivate  Controller
+UI --> SC : Mostra o catálogo de produtos
+deactivate UI
+SC -> UI : Escolhe o produto pretendido
+activate UI
+UI --> SC : Solicita a quantidade relativa ao produto
+deactivate UI
+SC -> UI : Informa a quantidade
+activate UI
+deactivate UI
+end
+else método inserção do ID do Produto
+loop enquanto pretender adicionar \n produtos à encomenda
+UI --> SC : Solicita o id do produto
+/' activate ":System"
+deactivate ":System" '/
+SC -> UI : Insere a informação pretendida
+activate UI
+UI -> Controller: verifyProductId(productId)
+activate Controller
+Controller -> repository: ofIdentity(productId)
+activate repository
+deactivate repository
+deactivate Controller
+UI --> SC : Solicita a quantidade relativa ao produto
+deactivate UI
+SC -> UI : Informa a quantidade
+activate UI
+end
+end
+UI --> SC : Solicita o ID do Cliente
+deactivate UI
+SC -> UI : Insere a informação pedida
+activate UI
+UI -> Controller: verifyClientId(clientId)
+activate Controller
+Controller -> rep: ofIdentity(clientId)
+activate rep
+deactivate rep
+deactivate Controller
+alt cliente não estava registado
+UI -> Ui: create
+activate Ui
+Ui -> Ui: doShow()
+activate Ui
+deactivate Ui
+deactivate Ui
+end
+UI --> SC : Solicita a morada de faturação
+deactivate UI
+SC -> UI : Insere a informação pedida
+activate UI
+UI --> SC : Solicita a morada de entrega
+deactivate UI
+SC -> UI : Insere a informação pedida
+activate UI
+UI --> SC : Mostra os diferentes métodos de envio
+deactivate UI
+SC -> UI : Escolhe o método pretendido
+activate UI
+UI --> SC : Mostra os diferentes métodos de pagamento
+deactivate UI
+SC -> UI : Escolhe o método pretendido
+activate UI
+UI --> SC : Solicita o meio de interação com o cliente
+deactivate UI
+SC -> UI : Informa o pretendido
+activate UI
+UI --> SC : Solicita a data de quando ocorreu a interação
+deactivate UI
+SC -> UI : Informa o pretendido
+activate UI
+alt deseja inserir comentário
+UI --> SC : Solicita comentário adicional
+deactivate UI
+SC -> UI : Insere a informação pedida
+activate UI
+end
+UI -> Controller: registerOrder(items, clientId, billingAddress, deliveryAddress,\n shipment, payment,sourceChannel, date, comment)
+activate Controller
+Controller -> Domain: (items, clientId, billingAddress, deliveryAddress,\n shipment, payment,sourceChannel, date, comment, createdOn)
+activate Domain
+Domain-> Controller: clientOrder
+deactivate Domain
+Controller -> Persistence: repositories()
+activate Persistence
+note right of Persistence: pode criar repositório em memória ou JPA
+Persistence -> Factory: create
+Persistence -> Controller: factory
+deactivate Persistence
+Controller -> Factory: clientOrders()
+activate Factory
+Factory -> Repository: create
+Factory -> Controller: clientRepository
+deactivate Factory
+Controller->Repository:save(clientOrder)
+Controller->UI: user
+deactivate Controller
+UI --> SC : Informa o sucesso da operação
+deactivate UI
+deactivate SC
+
+
+
+@enduml

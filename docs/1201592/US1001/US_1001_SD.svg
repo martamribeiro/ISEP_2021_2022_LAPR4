@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1029px" preserveAspectRatio="none" style="width:3311px;height:1029px;background:#FFFFFF;" version="1.1" viewBox="0 0 3311 1029" width="3311px" zoomAndPan="magnify"><defs><filter height="300%" id="f3g4623mkx8fy" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#f3g4623mkx8fy)" height="826.3281" style="stroke:#A80036;stroke-width:1.0;" width="10" x="39" y="99.6094"/><rect fill="#FFFFFF" filter="url(#f3g4623mkx8fy)" height="803.9766" style="stroke:#A80036;stroke-width:1.0;" width="10" x="292" y="121.9609"/><rect fill="#FFFFFF" filter="url(#f3g4623mkx8fy)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1686" y="152.3125"/><rect fill="#FFFFFF" filter="url(#f3g4623mkx8fy)" height="237.1094" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1686" y="237.6641"/><rect fill="#FFFFFF" filter="url(#f3g4623mkx8fy)" height="347.1094" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1686" y="548.4766"/><rect fill="#FFFFFF" filter="url(#f3g4623mkx8fy)" height="90.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1861" y="268.0156"/><rect fill="#FFFFFF" filter="url(#f3g4623mkx8fy)" height="90.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1861" y="664.1797"/><rect fill="#FFFFFF" filter="url(#f3g4623mkx8fy)" height="60.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="2012" y="298.3672"/><rect fill="#FFFFFF" filter="url(#f3g4623mkx8fy)" height="60.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="2012" y="694.5313"/><rect fill="#FFFFFF" filter="url(#f3g4623mkx8fy)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="2189.5" y="328.7188"/><rect fill="#FFFFFF" filter="url(#f3g4623mkx8fy)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="2189.5" y="414.0703"/><rect fill="#FFFFFF" filter="url(#f3g4623mkx8fy)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="3112" y="578.8281"/><rect fill="#FFFFFF" filter="url(#f3g4623mkx8fy)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="3227" y="724.8828"/><rect fill="#FFFFFF" filter="url(#f3g4623mkx8fy)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="3227" y="810.2344"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="44" x2="44" y1="89.6094" y2="943.9375"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="297" x2="297" y1="89.6094" y2="943.9375"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1691" x2="1691" y1="89.6094" y2="943.9375"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1866" x2="1866" y1="89.6094" y2="943.9375"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="2017" x2="2017" y1="89.6094" y2="943.9375"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="2194" x2="2194" y1="89.6094" y2="943.9375"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="3116.5" x2="3116.5" y1="89.6094" y2="943.9375"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="3231.5" x2="3231.5" y1="89.6094" y2="943.9375"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="72" x="5" y="86.5332">:SalesClerk</text><ellipse cx="44" cy="15" fill="#FEFECE" filter="url(#f3g4623mkx8fy)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M44,23 L44,50 M31,31 L57,31 M44,50 L31,65 M44,50 L57,65 " fill="none" filter="url(#f3g4623mkx8fy)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="72" x="5" y="957.4707">:SalesClerk</text><ellipse cx="44" cy="970.5469" fill="#FEFECE" filter="url(#f3g4623mkx8fy)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M44,978.5469 L44,1005.5469 M31,986.5469 L57,986.5469 M44,1005.5469 L31,1020.5469 M44,1005.5469 L57,1020.5469 " fill="none" filter="url(#f3g4623mkx8fy)" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FEFECE" filter="url(#f3g4623mkx8fy)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="132" x="229" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="118" x="236" y="74.5332">:RegisterProductUI</text><rect fill="#FEFECE" filter="url(#f3g4623mkx8fy)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="132" x="229" y="942.9375"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="118" x="236" y="964.4707">:RegisterProductUI</text><rect fill="#FEFECE" filter="url(#f3g4623mkx8fy)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="182" x="1598" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="168" x="1605" y="74.5332">:RegisterProductController</text><rect fill="#FEFECE" filter="url(#f3g4623mkx8fy)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="182" x="1598" y="942.9375"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="168" x="1605" y="964.4707">:RegisterProductController</text><rect fill="#FEFECE" filter="url(#f3g4623mkx8fy)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="140" x="1794" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="126" x="1801" y="74.5332">:PersistenceContext</text><rect fill="#FEFECE" filter="url(#f3g4623mkx8fy)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="140" x="1794" y="942.9375"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="126" x="1801" y="964.4707">:PersistenceContext</text><rect fill="#FEFECE" filter="url(#f3g4623mkx8fy)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="134" x="1948" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="120" x="1955" y="74.5332">:RepositoryFactory</text><rect fill="#FEFECE" filter="url(#f3g4623mkx8fy)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="134" x="1948" y="942.9375"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="120" x="1955" y="964.4707">:RepositoryFactory</text><rect fill="#FEFECE" filter="url(#f3g4623mkx8fy)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="193" x="2096" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="179" x="2103" y="74.5332">:ProductCategoryRepository</text><rect fill="#FEFECE" filter="url(#f3g4623mkx8fy)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="193" x="2096" y="942.9375"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="179" x="2103" y="964.4707">:ProductCategoryRepository</text><rect fill="#FEFECE" filter="url(#f3g4623mkx8fy)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="67" x="3081.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="53" x="3088.5" y="74.5332">:Product</text><rect fill="#FEFECE" filter="url(#f3g4623mkx8fy)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="67" x="3081.5" y="942.9375"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="53" x="3088.5" y="964.4707">:Product</text><rect fill="#FEFECE" filter="url(#f3g4623mkx8fy)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="135" x="3162.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="121" x="3169.5" y="74.5332">:ProductRepository</text><rect fill="#FEFECE" filter="url(#f3g4623mkx8fy)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="135" x="3162.5" y="942.9375"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="121" x="3169.5" y="964.4707">:ProductRepository</text><rect fill="#FFFFFF" filter="url(#f3g4623mkx8fy)" height="826.3281" style="stroke:#A80036;stroke-width:1.0;" width="10" x="39" y="99.6094"/><rect fill="#FFFFFF" filter="url(#f3g4623mkx8fy)" height="803.9766" style="stroke:#A80036;stroke-width:1.0;" width="10" x="292" y="121.9609"/><rect fill="#FFFFFF" filter="url(#f3g4623mkx8fy)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1686" y="152.3125"/><rect fill="#FFFFFF" filter="url(#f3g4623mkx8fy)" height="237.1094" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1686" y="237.6641"/><rect fill="#FFFFFF" filter="url(#f3g4623mkx8fy)" height="347.1094" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1686" y="548.4766"/><rect fill="#FFFFFF" filter="url(#f3g4623mkx8fy)" height="90.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1861" y="268.0156"/><rect fill="#FFFFFF" filter="url(#f3g4623mkx8fy)" height="90.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1861" y="664.1797"/><rect fill="#FFFFFF" filter="url(#f3g4623mkx8fy)" height="60.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="2012" y="298.3672"/><rect fill="#FFFFFF" filter="url(#f3g4623mkx8fy)" height="60.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="2012" y="694.5313"/><rect fill="#FFFFFF" filter="url(#f3g4623mkx8fy)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="2189.5" y="328.7188"/><rect fill="#FFFFFF" filter="url(#f3g4623mkx8fy)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="2189.5" y="414.0703"/><rect fill="#FFFFFF" filter="url(#f3g4623mkx8fy)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="3112" y="578.8281"/><rect fill="#FFFFFF" filter="url(#f3g4623mkx8fy)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="3227" y="724.8828"/><rect fill="#FFFFFF" filter="url(#f3g4623mkx8fy)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="3227" y="810.2344"/><polygon fill="#A80036" points="280,117.9609,290,121.9609,280,125.9609,284,121.9609" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="49" x2="286" y1="121.9609" y2="121.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="56" y="117.1045">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="141" x="67" y="117.1045">ask to register a product</text><polygon fill="#A80036" points="1674,148.3125,1684,152.3125,1674,156.3125,1678,152.3125" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="302" x2="1680" y1="152.3125" y2="152.3125"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="309" y="147.4561">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="36" x="320" y="147.4561">create</text><polygon fill="#A80036" points="1674,233.6641,1684,237.6641,1674,241.6641,1678,237.6641" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="302" x2="1680" y1="237.6641" y2="237.6641"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="309" y="232.8076">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="125" x="320" y="232.8076">getProductCategories</text><polygon fill="#A80036" points="1849,264.0156,1859,268.0156,1849,272.0156,1853,268.0156" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1696" x2="1855" y1="268.0156" y2="268.0156"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="1703" y="263.1592">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="75" x="1714" y="263.1592">repositories()</text><polygon fill="#A80036" points="2000,294.3672,2010,298.3672,2000,302.3672,2004,298.3672" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1871" x2="2006" y1="298.3672" y2="298.3672"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="1878" y="293.5107">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="36" x="1889" y="293.5107">create</text><polygon fill="#A80036" points="2177.5,324.7188,2187.5,328.7188,2177.5,332.7188,2181.5,328.7188" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="2022" x2="2183.5" y1="328.7188" y2="328.7188"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="2029" y="323.8623">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="36" x="2040" y="323.8623">create</text><polygon fill="#A80036" points="2177.5,410.0703,2187.5,414.0703,2177.5,418.0703,2181.5,414.0703" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1696" x2="2183.5" y1="414.0703" y2="414.0703"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="1703" y="409.2139">7</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="35" x="1714" y="409.2139">findAll</text><polygon fill="#A80036" points="1707,440.4219,1697,444.4219,1707,448.4219,1703,444.4219" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="1701" x2="2193.5" y1="444.4219" y2="444.4219"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="1713" y="439.5654">8</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="107" x="1724" y="439.5654">ProductCategories</text><polygon fill="#A80036" points="313,470.7734,303,474.7734,313,478.7734,309,474.7734" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="307" x2="1690" y1="474.7734" y2="474.7734"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="319" y="469.917">9</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="107" x="330" y="469.917">ProductCategories</text><line style="stroke:#A80036;stroke-width:1.0;" x1="302" x2="344" y1="505.125" y2="505.125"/><line style="stroke:#A80036;stroke-width:1.0;" x1="344" x2="344" y1="505.125" y2="518.125"/><line style="stroke:#A80036;stroke-width:1.0;" x1="303" x2="344" y1="518.125" y2="518.125"/><polygon fill="#A80036" points="313,514.125,303,518.125,313,522.125,309,518.125" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="309" y="500.2686">10</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="54" x="327" y="500.2686">doShow()</text><polygon fill="#A80036" points="1674,544.4766,1684,548.4766,1674,552.4766,1678,548.4766" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="302" x2="1680" y1="548.4766" y2="548.4766"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="309" y="543.6201">11</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="1347" x="327" y="543.6201">registerProduct(uniqueInternalCode, barcode, shortDescription, extendedDescription, priceWithoutTaxes, status, weight, volume, priceWithTaxes, productCategory, technicalDescription, brandName, reference, productionCode, photos)</text><polygon fill="#A80036" points="3100,574.8281,3110,578.8281,3100,582.8281,3104,578.8281" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1696" x2="3106" y1="578.8281" y2="578.8281"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1703" y="573.9717">12</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="1379" x="1721" y="573.9717">newProduct = create(uniqueInternalCode, barcode, shortDescription, extendedDescription, priceWithoutTaxes, status, weight, volume, priceWithTaxes, productCategory, technicalDescription, brandName, reference, productionCode, photos)</text><polygon fill="#A80036" points="1849,660.1797,1859,664.1797,1849,668.1797,1853,664.1797" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1696" x2="1855" y1="664.1797" y2="664.1797"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1703" y="659.3232">13</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="75" x="1721" y="659.3232">repositories()</text><polygon fill="#A80036" points="2000,690.5313,2010,694.5313,2000,698.5313,2004,694.5313" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1871" x2="2006" y1="694.5313" y2="694.5313"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1878" y="689.6748">14</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="36" x="1896" y="689.6748">create</text><polygon fill="#A80036" points="3215,720.8828,3225,724.8828,3215,728.8828,3219,724.8828" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="2022" x2="3221" y1="724.8828" y2="724.8828"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="2029" y="720.0264">15</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="36" x="2047" y="720.0264">create</text><polygon fill="#A80036" points="3215,806.2344,3225,810.2344,3215,814.2344,3219,810.2344" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1696" x2="3221" y1="810.2344" y2="810.2344"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1703" y="805.3779">16</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="102" x="1721" y="805.3779">save(newProduct)</text><polygon fill="#A80036" points="313,891.5859,303,895.5859,313,899.5859,309,895.5859" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="307" x2="1690" y1="895.5859" y2="895.5859"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="319" y="890.7295">17</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="32" x="337" y="890.7295">result</text><polygon fill="#A80036" points="55,921.9375,45,925.9375,55,929.9375,51,925.9375" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="49" x2="296" y1="925.9375" y2="925.9375"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="61" y="921.0811">18</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="201" x="79" y="921.0811">informs of operation success or fail</text><!--MD5=[a7f7a7e93d6568dd28eaddac9bc45a87]
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+Actor ":SalesClerk" as SC
+participant ":RegisterProductUI" as UI
+participant ":RegisterProductController" as CTRL
+participant ":PersistenceContext" as Persistance
+participant ":RepositoryFactory" as Factory
+participant ":ProductCategoryRepository" as CatRep
+participant ":Product" as Prod
+participant ":ProductRepository" as ProRep
+
+activate SC
+SC -> UI : ask to register a product
+activate UI
+UI -> CTRL : create
+activate CTRL
+|||
+deactivate CTRL
+UI -> CTRL : getProductCategories
+activate CTRL
+CTRL -> Persistance : repositories()
+activate Persistance
+Persistance -> Factory : create
+activate Factory
+Factory -> CatRep : create
+activate CatRep
+|||
+deactivate CatRep
+deactivate Factory
+deactivate Persistance
+CTRL -> CatRep : findAll
+activate CatRep
+CatRep - -> CTRL : ProductCategories
+deactivate CatRep
+CTRL - -> UI : ProductCategories
+deactivate CTRL
+UI -> UI : doShow()
+UI -> CTRL : registerProduct(uniqueInternalCode, barcode, shortDescription, extendedDescription, priceWithoutTaxes, status, weight, volume, priceWithTaxes, productCategory, technicalDescription, brandName, reference, productionCode, photos)
+activate CTRL
+CTRL -> Prod : newProduct = create(uniqueInternalCode, barcode, shortDescription, extendedDescription, priceWithoutTaxes, status, weight, volume, priceWithTaxes, productCategory, technicalDescription, brandName, reference, productionCode, photos)
+activate Prod
+|||
+deactivate Prod
+CTRL -> Persistance : repositories()
+activate Persistance
+Persistance -> Factory : create
+activate Factory
+Factory -> ProRep : create
+activate ProRep
+|||
+deactivate ProRep
+deactivate Factory
+deactivate Persistance
+CTRL -> ProRep : save(newProduct)
+activate ProRep
+|||
+deactivate ProRep
+CTRL - -> UI : result
+deactivate CTRL
+UI - -> SC : informs of operation success or fail
+deactivate UI
+deactivate SC
+
+@enduml
+
+@startuml
+
+autonumber
+
+Actor ":SalesClerk" as SC
+participant ":RegisterProductUI" as UI
+participant ":RegisterProductController" as CTRL
+participant ":PersistenceContext" as Persistance
+participant ":RepositoryFactory" as Factory
+participant ":ProductCategoryRepository" as CatRep
+participant ":Product" as Prod
+participant ":ProductRepository" as ProRep
+
+activate SC
+SC -> UI : ask to register a product
+activate UI
+UI -> CTRL : create
+activate CTRL
+|||
+deactivate CTRL
+UI -> CTRL : getProductCategories
+activate CTRL
+CTRL -> Persistance : repositories()
+activate Persistance
+Persistance -> Factory : create
+activate Factory
+Factory -> CatRep : create
+activate CatRep
+|||
+deactivate CatRep
+deactivate Factory
+deactivate Persistance
+CTRL -> CatRep : findAll
+activate CatRep
+CatRep - -> CTRL : ProductCategories
+deactivate CatRep
+CTRL - -> UI : ProductCategories
+deactivate CTRL
+UI -> UI : doShow()
+UI -> CTRL : registerProduct(uniqueInternalCode, barcode, shortDescription, extendedDescription, priceWithoutTaxes, status, weight, volume, priceWithTaxes, productCategory, technicalDescription, brandName, reference, productionCode, photos)
+activate CTRL
+CTRL -> Prod : newProduct = create(uniqueInternalCode, barcode, shortDescription, extendedDescription, priceWithoutTaxes, status, weight, volume, priceWithTaxes, productCategory, technicalDescription, brandName, reference, productionCode, photos)
+activate Prod
+|||
+deactivate Prod
+CTRL -> Persistance : repositories()
+activate Persistance
+Persistance -> Factory : create
+activate Factory
+Factory -> ProRep : create
+activate ProRep
+|||
+deactivate ProRep
+deactivate Factory
+deactivate Persistance
+CTRL -> ProRep : save(newProduct)
+activate ProRep
+|||
+deactivate ProRep
+CTRL - -> UI : result
+deactivate CTRL
+UI - -> SC : informs of operation success or fail
+deactivate UI
+deactivate SC
+
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 14:26:11 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

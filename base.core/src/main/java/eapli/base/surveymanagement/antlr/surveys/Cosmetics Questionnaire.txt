@@ -1,0 +1,34 @@
+COSM21-22 Cosmetics Questionnaire
+Hello, Welcome to the Cosmetics Questionnaire
+
+1. About You
+Section Obligatoriness: mandatory
+1. Where are you from?(mandatory)
+Type: free text
+
+2. How old are you?(mandatory)
+Type: numeric
+
+3. What is your gender?(mandatory)
+Type: single choice
+1)Male
+2)Female
+3)Other
+
+
+2. Product Feedback
+Section Obligatoriness: mandatory
+1. Do you like our products?(mandatory)
+Type: single choice
+1)Yes
+2)No
+
+2. Would you recommend our products to another person?(mandatory)
+Type: single choice with input
+1)Yes
+2)No
+3)Maybe
+
+
+
+Thanks for answering the Cosmetics questionnaire

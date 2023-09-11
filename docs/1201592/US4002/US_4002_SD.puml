@@ -1,0 +1,79 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+Actor ":TcpSrvAgvManager" as AGVM
+participant ":TcpCliAGVTwin" as AGVTC
+participant ":PersistenceContext" as Persistance
+participant ":RepositoryFactory" as Factory
+participant ":OrderRepository" as OrderRep
+participant ":AGVRepository" as AGVRep
+participant ":TaskRepository" as TaskRep
+participant ":TheOrder" as ORDER
+participant ":TheTask" as Task
+
+activate AGVM
+AGVM -> AGVM : automatically request to assign available orders to available AGVs
+AGVM -> Persistance : repositories()
+activate Persistance
+Persistance -> Factory : create
+activate Factory
+Factory -> OrderRep : create
+activate OrderRep
+|||
+deactivate OrderRep
+deactivate Factory
+deactivate Persistance
+AGVM -> OrderRep : findByOrderStatus(TO_BE_PREPARED)
+activate OrderRep
+OrderRep --> AGVM : ordersToAssign
+deactivate OrderRep
+AGVM -> Persistance : repositories()
+activate Persistance
+Persistance -> Factory : create
+activate Factory
+Factory -> AGVRep : create
+activate AGVRep
+|||
+deactivate AGVRep
+deactivate Factory
+deactivate Persistance
+AGVM -> AGVRep : findByTaskStatus(FREE)
+activate AGVRep
+AGVRep --> AGVM : availableAGVs
+deactivate AGVRep
+
+alt for each pair or ordersToAssign and availableAGVs
+AGVM -> AGVM : selectedOrder
+AGVM -> AGVM : selectedAGV
+
+AGVM -> Task : newTask = create(selectedAGV, selectedOrder)
+activate Task
+|||
+deactivate Task
+AGVM -> Persistance : repositories()
+activate Persistance
+Persistance -> Factory : create
+activate Factory
+Factory -> TaskRep : create
+activate TaskRep
+|||
+deactivate TaskRep
+deactivate Factory
+deactivate Persistance
+AGVM -> TaskRep : save(newTask)
+activate TaskRep
+|||
+deactivate TaskRep
+
+AGVM -> ORDER : setStatus(BEING_PREPARED_ON_WAREHOUSE)
+activate ORDER
+ORDER --> AGVM : selectedOrder
+deactivate ORDER
+
+end
+
+AGVM -> AGVTC : updateAgvsStatus()
+
+@enduml

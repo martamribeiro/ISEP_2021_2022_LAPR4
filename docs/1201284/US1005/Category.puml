@@ -1,0 +1,51 @@
+@startuml
+
+
+package "<<aggregate>> Category" {
+    entity Category
+}
+
+package "<<aggregate>> Product" {
+    entity Product
+    class UniqueInternalCode
+    class Photo
+    class Barcode
+    class OptionalProductionCode
+    class TechnicalDescription
+    class BrandName
+    class Reference
+}
+
+entity Product <<entity>> <<root>> {
+    -<<VO>> UniqueInternalCode
+    -<<VO>> Barcode
+    -<<VO>> ShortDescription
+    -<<VO>> ExtendedDescription
+    -<<VO>> PriceWithoutTaxes
+    -<<VO>> Status /'Available, Temporarily Unavailable, Unavailable'/
+    -<<VO>> Weight
+    -<<VO>> Volume
+    -<<VO>> Tax
+}
+
+class TechnicalDescription <<(V,#FF8B40) value object>>
+class BrandName <<(V,#FF8B40) value object>>
+class Reference <<(V,#FF8B40) value object>>
+class Photo <<(V,#FF8B40) value object>>
+class OptionalProductionCode <<(V,#FF8B40) value object>>
+
+
+entity Category <<entity>> <<root>> {
+    -<<VO>> AlphanumericCode
+    -<<VO>> Description
+}
+
+
+Product --> "*" Photo
+Product --> "0..1" OptionalProductionCode
+Product --> "1" Category : belongs to
+Product --> "0..1" TechnicalDescription
+Product --> "0..1" BrandName
+Product --> "0..1" Reference
+
+@enduml

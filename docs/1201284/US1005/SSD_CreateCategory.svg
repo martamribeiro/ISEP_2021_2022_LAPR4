@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="377px" preserveAspectRatio="none" style="width:423px;height:377px;background:#FFFFFF;" version="1.1" viewBox="0 0 423 377" width="423px" zoomAndPan="magnify"><defs><filter height="300%" id="f1v55c67zci89g" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#f1v55c67zci89g)" height="183.1094" style="stroke:#A80036;stroke-width:1.0;" width="10" x="39" y="99.6094"/><rect fill="#FFFFFF" filter="url(#f1v55c67zci89g)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="374" y="121.9609"/><rect fill="#FFFFFF" filter="url(#f1v55c67zci89g)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="374" y="182.6641"/><rect fill="#FFFFFF" filter="url(#f1v55c67zci89g)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="374" y="243.3672"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="44" x2="44" y1="89.6094" y2="291.7188"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="379" x2="379" y1="89.6094" y2="291.7188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="72" x="5" y="86.5332">Sales Clerk</text><ellipse cx="44" cy="15" fill="#FEFECE" filter="url(#f1v55c67zci89g)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M44,23 L44,50 M31,31 L57,31 M44,50 L31,65 M44,50 L57,65 " fill="none" filter="url(#f1v55c67zci89g)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="72" x="5" y="305.252">Sales Clerk</text><ellipse cx="44" cy="318.3281" fill="#FEFECE" filter="url(#f1v55c67zci89g)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M44,326.3281 L44,353.3281 M31,334.3281 L57,334.3281 M44,353.3281 L31,368.3281 M44,353.3281 L57,368.3281 " fill="none" filter="url(#f1v55c67zci89g)" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FEFECE" filter="url(#f1v55c67zci89g)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="64" x="345" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="352" y="74.5332">:System</text><rect fill="#FEFECE" filter="url(#f1v55c67zci89g)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="64" x="345" y="290.7188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="352" y="312.252">:System</text><rect fill="#FFFFFF" filter="url(#f1v55c67zci89g)" height="183.1094" style="stroke:#A80036;stroke-width:1.0;" width="10" x="39" y="99.6094"/><rect fill="#FFFFFF" filter="url(#f1v55c67zci89g)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="374" y="121.9609"/><rect fill="#FFFFFF" filter="url(#f1v55c67zci89g)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="374" y="182.6641"/><rect fill="#FFFFFF" filter="url(#f1v55c67zci89g)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="374" y="243.3672"/><polygon fill="#A80036" points="362,117.9609,372,121.9609,362,125.9609,366,121.9609" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="49" x2="368" y1="121.9609" y2="121.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="56" y="117.1045">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="295" x="67" y="117.1045">inicia processo de criação da Categoria de Produto</text><polygon fill="#A80036" points="60,148.3125,50,152.3125,60,156.3125,56,152.3125" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="54" x2="378" y1="152.3125" y2="152.3125"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="66" y="147.4561">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="160" x="77" y="147.4561">solicita código alfanumérico</text><polygon fill="#A80036" points="362,178.6641,372,182.6641,362,186.6641,366,182.6641" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="49" x2="368" y1="182.6641" y2="182.6641"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="56" y="177.8076">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="165" x="67" y="177.8076">introduz código alfanumérico</text><polygon fill="#A80036" points="60,209.0156,50,213.0156,60,217.0156,56,213.0156" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="54" x2="378" y1="213.0156" y2="213.0156"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="66" y="208.1592">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="178" x="77" y="208.1592">solicita descrição da Categoria</text><polygon fill="#A80036" points="362,239.3672,372,243.3672,362,247.3672,366,243.3672" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="49" x2="368" y1="243.3672" y2="243.3672"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="56" y="238.5107">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="183" x="67" y="238.5107">introduz descrição da Categoria</text><polygon fill="#A80036" points="60,269.7188,50,273.7188,60,277.7188,56,273.7188" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="54" x2="378" y1="273.7188" y2="273.7188"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="66" y="268.8623">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="170" x="77" y="268.8623">informa sucesso da operação</text><!--MD5=[55a08bd9be53ac8a103ce660bdd1993a]
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Sales Clerk" as SC
+
+activate SC
+SC -> ":System" : inicia processo de criação da Categoria de Produto
+activate ":System"
+":System" -> SC : solicita código alfanumérico
+deactivate ":System"
+
+SC -> ":System" : introduz código alfanumérico
+activate ":System"
+":System" -> SC : solicita descrição da Categoria
+deactivate ":System"
+SC -> ":System" : introduz descrição da Categoria
+activate ":System"
+":System" -> SC : informa sucesso da operação
+deactivate ":System"
+@enduml
+
+@startuml
+
+autonumber
+actor "Sales Clerk" as SC
+
+activate SC
+SC -> ":System" : inicia processo de criação da Categoria de Produto
+activate ":System"
+":System" -> SC : solicita código alfanumérico
+deactivate ":System"
+
+SC -> ":System" : introduz código alfanumérico
+activate ":System"
+":System" -> SC : solicita descrição da Categoria
+deactivate ":System"
+SC -> ":System" : introduz descrição da Categoria
+activate ":System"
+":System" -> SC : informa sucesso da operação
+deactivate ":System"
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 14:26:11 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

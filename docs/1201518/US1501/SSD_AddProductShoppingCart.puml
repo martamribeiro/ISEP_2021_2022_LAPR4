@@ -1,0 +1,24 @@
+@startuml
+
+autonumber
+actor "Client" as C
+
+activate C
+C -> ":System" : inicia o processo de adicionar um produto ao carrinho de compras
+activate ":System"
+
+":System" --> C : mostra o catálogo de produtos
+deactivate ":System"
+C -> ":System" : introduz o id do produto
+activate ":System"
+":System" --> C : solicita a quantidade
+deactivate ":System"
+C -> ":System" : introduz a quantidade
+activate ":System"
+":System" --> C : informa o sucesso da operação
+deactivate ":System"
+deactivate C
+
+
+
+@enduml

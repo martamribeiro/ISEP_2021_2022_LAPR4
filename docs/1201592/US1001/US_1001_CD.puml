@@ -1,0 +1,75 @@
+@startuml
+
+class RegisterProductUI{
+}
+
+class RegisterProductController{
++create()
++registerProduct(uniqueInternalCode, barcode, shortDescription, extendedDescription, priceWithoutTaxes, status, weight, volume, priceWithTaxes, productCategory, technicalDescription, brandName, reference, productionCode, photos)
++productCategories()
+}
+
+class PersistenceContext{
++repositories()
+}
+
+class RepositoryFactory{
++create()
+}
+
+database ProductRepository{
+}
+
+database ProductCategoryRepository{
+}
+
+class ListProductCategoryService {
++allProductCategories()
+}
+
+class Product{
++create()
+}
+
+class ProductBuilder{
++create()
++codedAs()
++ofBarcode()
++shortlyDescriptedAs()
++extendedlyDescriptedAs()
++initialyPricedAs()
++statusAs()
++weightAs()
++volumeAs()
++afterTaxesPricedAs()
++ofCategory()
++buildOrThrow()
++withTechnicalDescription()
++withBrandName()
++withReference()
++withProductionCode()
++withPhotos()
++build()
+}
+
+class TransactionalContext{
++beginTransaction()
++commit()
+}
+
+RegisterProductUI --> RegisterProductController
+
+RegisterProductController --> ProductBuilder
+RegisterProductController --> PersistenceContext
+RegisterProductController --> TransactionalContext
+RegisterProductController --> ListProductCategoryService
+
+ProductBuilder --> Product
+
+PersistenceContext --> RepositoryFactory
+
+ListProductCategoryService --> ProductCategoryRepository
+RepositoryFactory --> ProductRepository
+RepositoryFactory --> ProductCategoryRepository
+
+@enduml

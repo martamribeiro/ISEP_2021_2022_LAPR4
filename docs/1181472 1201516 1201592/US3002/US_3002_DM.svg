@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="882px" preserveAspectRatio="none" style="width:871px;height:882px;background:#FFFFFF;" version="1.1" viewBox="0 0 871 882" width="871px" zoomAndPan="magnify"><defs><filter height="300%" id="fzbe8lwqol9m" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[866c9c75b5a90d402a17f81b82ed6e8c]
+cluster <<aggregate>> Survey--><polygon fill="#FFFFFF" filter="url(#fzbe8lwqol9m)" points="470,246,633,246,640,269.6094,654,269.6094,654,875.5,470,875.5,470,246" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="470" x2="640" y1="269.6094" y2="269.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="157" x="474" y="262.5332">&lt;&lt;aggregate&gt;&gt; Survey</text><!--MD5=[10d670d2a558029dbb3ffc83a3028fde]
+cluster <<aggregate>> Answer--><polygon fill="#FFFFFF" filter="url(#fzbe8lwqol9m)" points="678,511,844,511,851,534.6094,854,534.6094,854,648,678,648,678,511" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="678" x2="851" y1="534.6094" y2="534.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="160" x="682" y="527.5332">&lt;&lt;aggregate&gt;&gt; Answer</text><!--MD5=[20e996825fabf2618e164db4892593a3]
+cluster <<aggregate>> Client--><polygon fill="#FFFFFF" filter="url(#fzbe8lwqol9m)" points="16,6,171,6,178,29.6094,446,29.6094,446,413,16,413,16,6" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="178" y1="29.6094" y2="29.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="149" x="20" y="22.5332">&lt;&lt;aggregate&gt;&gt; Client</text><!--MD5=[3145b4be7c5005b24cda6f18a1d594b0]
+class Survey--><rect codeLine="35" fill="#F5F5DC" filter="url(#fzbe8lwqol9m)" height="181.9688" id="Survey" style="stroke:#A80036;stroke-width:1.5;" width="151" x="486.5" y="282"/><ellipse cx="538.25" cy="309.6406" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M536.75,310.6406 L536.75,312.6406 L540.75,312.6406 L540.75,311.6406 L540.75,311.1563 L541.375,310.6406 L541.75,310.6406 L542.125,310.6406 L542.75,311.1563 L542.75,311.6406 L542.75,314.6406 L534.75,314.6406 L534.2656,314.6406 L533.75,314.0156 L533.75,313.6406 L533.75,313.2656 L534.2656,312.6406 L534.75,312.6406 L534.75,312.6406 L534.75,306.6406 L534.75,306.6406 L534.2656,306.6406 L533.75,306.0156 L533.75,305.6406 L533.75,305.2656 L534.2656,304.6406 L534.75,304.6406 L542.75,304.6406 L542.75,307.6406 L542.75,308.125 L542.125,308.6406 L541.75,308.6406 L541.375,308.6406 L540.75,308.125 L540.75,307.6406 L540.75,306.6406 L536.75,306.6406 L536.75,308.6406 L537.75,308.6406 L537.75,308.1563 L537.75,308.1563 L538.375,307.6406 L538.75,307.6406 L539.125,307.6406 L539.75,308.1563 L539.75,308.6406 L539.75,310.6406 L539.75,311.125 L539.125,311.6406 L539.125,311.6406 L538.75,311.6406 L538.375,311.6406 L537.75,311.125 L537.75,311.125 L537.75,310.6406 L536.75,310.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="43" x="556.75" y="299.457">«entity»</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="35" x="560.75" y="314.5508">«root»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="560.25" y="329.6445">Survey</text><line style="stroke:#A80036;stroke-width:1.5;" x1="487.5" x2="636.5" y1="337.2813" y2="337.2813"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="126" x="492.5" y="352.7002">-«VO» AlphanumericCode</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="128" x="492.5" y="366.5361">-«VO» TopicQuestionnaire</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="80" x="492.5" y="380.3721">-«VO» InitialDate</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="79" x="492.5" y="394.208">-«VO» FinalDate</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="139" x="492.5" y="408.0439">-«VO» TargetAudienceRules</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="54" x="492.5" y="421.8799">-«VO» Title</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="123" x="492.5" y="435.7158">-«VO» WelcomeMessage</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="101" x="492.5" y="449.5518">-«VO» FinalMessage</text><line style="stroke:#A80036;stroke-width:1.5;" x1="487.5" x2="636.5" y1="455.9688" y2="455.9688"/><!--MD5=[09a53695e98d4f26e7a054522080af08]
+class Section--><rect codeLine="50" fill="#F5F5DC" filter="url(#fzbe8lwqol9m)" height="111.5313" id="Section" style="stroke:#A80036;stroke-width:1.5;" width="109" x="507.5" y="533.5"/><ellipse cx="522.5" cy="553.5938" fill="#FF8B40" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M522.5,556.875 L524.0313,551.3438 L524.0313,551.3438 L523.5156,551.3438 L523,550.7188 L523,550.3438 L523,549.9688 L523.5156,549.3438 L524.0313,549.3438 L525.9063,549.3438 L526.4844,549.3438 L527,549.9688 L527,550.3438 L527,550.7188 L526.4844,551.3438 L526.4844,551.3438 L526.0313,551.3438 L523.6875,559.3438 L521.3125,559.3438 L518.8438,551.3438 L518.5156,551.3438 L518.5156,551.3438 L518,550.7188 L518,550.3438 L518,549.9688 L518.5156,549.3438 L519.0938,549.3438 L520.9688,549.3438 L521.4844,549.3438 L522,549.9688 L522,550.3438 L522,550.7188 L521.4844,551.3438 L520.9688,551.3438 L520.9688,551.3438 L522.5,556.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="81" x="534.5" y="550.957">«value object»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="41" x="554.5" y="566.0508">Section</text><line style="stroke:#A80036;stroke-width:1.5;" x1="508.5" x2="615.5" y1="573.6875" y2="573.6875"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="49" x="513.5" y="589.1064">-SectionID</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="59" x="513.5" y="602.9424">-SectionTitle</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="94" x="513.5" y="616.7783">-SectionDescription</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="73" x="513.5" y="630.6143">-Obligatoriness</text><line style="stroke:#A80036;stroke-width:1.5;" x1="508.5" x2="615.5" y1="637.0313" y2="637.0313"/><!--MD5=[fc7123defb831ecdd44b2d9bcef6cceb]
+class Question--><rect codeLine="57" fill="#F5F5DC" filter="url(#fzbe8lwqol9m)" height="153.0391" id="Question" style="stroke:#A80036;stroke-width:1.5;" width="109" x="507.5" y="706.5"/><ellipse cx="522.5" cy="726.5938" fill="#FF8B40" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M522.5,729.875 L524.0313,724.3438 L524.0313,724.3438 L523.5156,724.3438 L523,723.7188 L523,723.3438 L523,722.9688 L523.5156,722.3438 L524.0313,722.3438 L525.9063,722.3438 L526.4844,722.3438 L527,722.9688 L527,723.3438 L527,723.7188 L526.4844,724.3438 L526.4844,724.3438 L526.0313,724.3438 L523.6875,732.3438 L521.3125,732.3438 L518.8438,724.3438 L518.5156,724.3438 L518.5156,724.3438 L518,723.7188 L518,723.3438 L518,722.9688 L518.5156,722.3438 L519.0938,722.3438 L520.9688,722.3438 L521.4844,722.3438 L522,722.9688 L522,723.3438 L522,723.7188 L521.4844,724.3438 L520.9688,724.3438 L520.9688,724.3438 L522.5,729.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="81" x="534.5" y="723.957">«value object»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="50" x="550" y="739.0508">Question</text><line style="stroke:#A80036;stroke-width:1.5;" x1="508.5" x2="615.5" y1="746.6875" y2="746.6875"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="56" x="513.5" y="762.1064">-QuestionID</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="68" x="513.5" y="775.9424">-QuestionText</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="97" x="513.5" y="789.7783">-QuestionInstruction</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="73" x="513.5" y="803.6143">-Obligatoriness</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="47" x="513.5" y="817.4502">-ExtraInfo</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="71" x="513.5" y="831.2861">-QuestionType</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="82" x="513.5" y="845.1221">-StatisticalReport</text><line style="stroke:#A80036;stroke-width:1.5;" x1="508.5" x2="615.5" y1="851.5391" y2="851.5391"/><!--MD5=[f9fadfa5a66b7e5a67b370cd443ffe52]
+class Answer--><rect codeLine="46" fill="#F5F5DC" filter="url(#fzbe8lwqol9m)" height="85.1172" id="Answer" style="stroke:#A80036;stroke-width:1.5;" width="99" x="694.5" y="547"/><ellipse cx="721.2" cy="574.6406" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M719.7,575.6406 L719.7,577.6406 L723.7,577.6406 L723.7,576.6406 L723.7,576.1563 L724.325,575.6406 L724.7,575.6406 L725.075,575.6406 L725.7,576.1563 L725.7,576.6406 L725.7,579.6406 L717.7,579.6406 L717.2156,579.6406 L716.7,579.0156 L716.7,578.6406 L716.7,578.2656 L717.2156,577.6406 L717.7,577.6406 L717.7,577.6406 L717.7,571.6406 L717.7,571.6406 L717.2156,571.6406 L716.7,571.0156 L716.7,570.6406 L716.7,570.2656 L717.2156,569.6406 L717.7,569.6406 L725.7,569.6406 L725.7,572.6406 L725.7,573.125 L725.075,573.6406 L724.7,573.6406 L724.325,573.6406 L723.7,573.125 L723.7,572.6406 L723.7,571.6406 L719.7,571.6406 L719.7,573.6406 L720.7,573.6406 L720.7,573.1563 L720.7,573.1563 L721.325,572.6406 L721.7,572.6406 L722.075,572.6406 L722.7,573.1563 L722.7,573.6406 L722.7,575.6406 L722.7,576.125 L722.075,576.6406 L722.075,576.6406 L721.7,576.6406 L721.325,576.6406 L720.7,576.125 L720.7,576.125 L720.7,575.6406 L719.7,575.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="43" x="736.8" y="564.457">«entity»</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="35" x="740.8" y="579.5508">«root»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="41" x="737.8" y="594.6445">Answer</text><line style="stroke:#A80036;stroke-width:1.5;" x1="695.5" x2="792.5" y1="602.2813" y2="602.2813"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="87" x="700.5" y="617.7002">-«VO» QuestionID</text><line style="stroke:#A80036;stroke-width:1.5;" x1="695.5" x2="792.5" y1="624.1172" y2="624.1172"/><!--MD5=[ed6624c6556d5e7b1bd23032162d20b7]
+class Client--><rect codeLine="24" fill="#F5F5DC" filter="url(#fzbe8lwqol9m)" height="140.4609" id="Client" style="stroke:#A80036;stroke-width:1.5;" width="114" x="245" y="42"/><ellipse cx="279.35" cy="69.6406" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M277.85,70.6406 L277.85,72.6406 L281.85,72.6406 L281.85,71.6406 L281.85,71.1563 L282.475,70.6406 L282.85,70.6406 L283.225,70.6406 L283.85,71.1563 L283.85,71.6406 L283.85,74.6406 L275.85,74.6406 L275.3656,74.6406 L274.85,74.0156 L274.85,73.6406 L274.85,73.2656 L275.3656,72.6406 L275.85,72.6406 L275.85,72.6406 L275.85,66.6406 L275.85,66.6406 L275.3656,66.6406 L274.85,66.0156 L274.85,65.6406 L274.85,65.2656 L275.3656,64.6406 L275.85,64.6406 L283.85,64.6406 L283.85,67.6406 L283.85,68.125 L283.225,68.6406 L282.85,68.6406 L282.475,68.6406 L281.85,68.125 L281.85,67.6406 L281.85,66.6406 L277.85,66.6406 L277.85,68.6406 L278.85,68.6406 L278.85,68.1563 L278.85,68.1563 L279.475,67.6406 L279.85,67.6406 L280.225,67.6406 L280.85,68.1563 L280.85,68.6406 L280.85,70.6406 L280.85,71.125 L280.225,71.6406 L280.225,71.6406 L279.85,71.6406 L279.475,71.6406 L278.85,71.125 L278.85,71.125 L278.85,70.6406 L277.85,70.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="43" x="295.65" y="59.457">«entity»</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="35" x="299.65" y="74.5508">«root»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="32" x="301.15" y="89.6445">Client</text><line style="stroke:#A80036;stroke-width:1.5;" x1="246" x2="358" y1="97.2813" y2="97.2813"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="70" x="251" y="112.7002">-«VO» ClientID</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="62" x="251" y="126.5361">-«VO» Name</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="57" x="251" y="140.3721">-«VO» VAT</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="59" x="251" y="154.208">-«VO» Email</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="102" x="251" y="168.0439">-«VO» PhoneNumber</text><line style="stroke:#A80036;stroke-width:1.5;" x1="246" x2="358" y1="174.4609" y2="174.4609"/><!--MD5=[0f39e4cb6f03951afbf6d14bd2505654]
+class Address--><rect codeLine="67" fill="#F5F5DC" filter="url(#fzbe8lwqol9m)" height="48.1875" id="Address" style="stroke:#A80036;stroke-width:1.5;" width="109" x="32.5" y="349"/><ellipse cx="47.5" cy="369.0938" fill="#FF8B40" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M47.5,372.375 L49.0313,366.8438 L49.0313,366.8438 L48.5156,366.8438 L48,366.2188 L48,365.8438 L48,365.4688 L48.5156,364.8438 L49.0313,364.8438 L50.9063,364.8438 L51.4844,364.8438 L52,365.4688 L52,365.8438 L52,366.2188 L51.4844,366.8438 L51.4844,366.8438 L51.0313,366.8438 L48.6875,374.8438 L46.3125,374.8438 L43.8438,366.8438 L43.5156,366.8438 L43.5156,366.8438 L43,366.2188 L43,365.8438 L43,365.4688 L43.5156,364.8438 L44.0938,364.8438 L45.9688,364.8438 L46.4844,364.8438 L47,365.4688 L47,365.8438 L47,366.2188 L46.4844,366.8438 L45.9688,366.8438 L45.9688,366.8438 L47.5,372.375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="81" x="59.5" y="366.457">«value object»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="46" x="77" y="381.5508">Address</text><line style="stroke:#A80036;stroke-width:1.5;" x1="33.5" x2="140.5" y1="389.1875" y2="389.1875"/><!--MD5=[ec957f90f125634d426aef890efece94]
+class BirthDate--><rect codeLine="32" fill="#F5F5DC" filter="url(#fzbe8lwqol9m)" height="48.1875" id="BirthDate" style="stroke:#A80036;stroke-width:1.5;" width="109" x="176.5" y="349"/><ellipse cx="191.5" cy="369.0938" fill="#FF8B40" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M191.5,372.375 L193.0313,366.8438 L193.0313,366.8438 L192.5156,366.8438 L192,366.2188 L192,365.8438 L192,365.4688 L192.5156,364.8438 L193.0313,364.8438 L194.9063,364.8438 L195.4844,364.8438 L196,365.4688 L196,365.8438 L196,366.2188 L195.4844,366.8438 L195.4844,366.8438 L195.0313,366.8438 L192.6875,374.8438 L190.3125,374.8438 L187.8438,366.8438 L187.5156,366.8438 L187.5156,366.8438 L187,366.2188 L187,365.8438 L187,365.4688 L187.5156,364.8438 L188.0938,364.8438 L189.9688,364.8438 L190.4844,364.8438 L191,365.4688 L191,365.8438 L191,366.2188 L190.4844,366.8438 L189.9688,366.8438 L189.9688,366.8438 L191.5,372.375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="81" x="203.5" y="366.457">«value object»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="51" x="218.5" y="381.5508">BirthDate</text><line style="stroke:#A80036;stroke-width:1.5;" x1="177.5" x2="284.5" y1="389.1875" y2="389.1875"/><!--MD5=[a4ea2dcb44ebd57046df9af95d8b8c12]
+class Gender--><rect codeLine="33" fill="#F5F5DC" filter="url(#fzbe8lwqol9m)" height="48.1875" id="Gender" style="stroke:#A80036;stroke-width:1.5;" width="109" x="320.5" y="349"/><ellipse cx="335.5" cy="369.0938" fill="#FF8B40" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M335.5,372.375 L337.0313,366.8438 L337.0313,366.8438 L336.5156,366.8438 L336,366.2188 L336,365.8438 L336,365.4688 L336.5156,364.8438 L337.0313,364.8438 L338.9063,364.8438 L339.4844,364.8438 L340,365.4688 L340,365.8438 L340,366.2188 L339.4844,366.8438 L339.4844,366.8438 L339.0313,366.8438 L336.6875,374.8438 L334.3125,374.8438 L331.8438,366.8438 L331.5156,366.8438 L331.5156,366.8438 L331,366.2188 L331,365.8438 L331,365.4688 L331.5156,364.8438 L332.0938,364.8438 L333.9688,364.8438 L334.4844,364.8438 L335,365.4688 L335,365.8438 L335,366.2188 L334.4844,366.8438 L333.9688,366.8438 L333.9688,366.8438 L335.5,372.375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="81" x="347.5" y="366.457">«value object»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="41" x="367.5" y="381.5508">Gender</text><line style="stroke:#A80036;stroke-width:1.5;" x1="321.5" x2="428.5" y1="389.1875" y2="389.1875"/><!--MD5=[bd708f2371c655af07b49ddbdb30848a]
+link Client to Address--><path codeLine="71" d="M244.68,155.15 C216.62,177.65 183.66,207.05 159,238 C132.55,271.19 110.94,315.52 98.51,343.92 " fill="none" id="Client-to-Address" style="stroke:#222222;stroke-width:1.0;"/><polygon fill="#222222" points="96.45,348.68,103.6969,342.0105,98.4368,344.0917,96.3557,338.8316,96.45,348.68" style="stroke:#222222;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="180" y="226.4951">has</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="20" x="76.3159" y="338.3171">1..*</text><!--MD5=[a19dd6ae985efbd490fb16e6de91b3a6]
+link Client to Survey--><path codeLine="72" d="M359.05,159.3 C386.2,182.13 418.63,210.59 446,238 C459.7,251.72 473.68,266.8 486.97,281.74 " fill="none" id="Client-Survey" style="stroke:#222222;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="48" x="435" y="226.4951">answers</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="475.5495" y="271.031">*</text><!--MD5=[99b7f2e33ea89fd20c87f9c330650e94]
+link Client to BirthDate--><path codeLine="73" d="M283.07,182.07 C268.56,234.99 249.29,305.26 238.74,343.78 " fill="none" id="Client-to-BirthDate" style="stroke:#222222;stroke-width:1.0;"/><polygon fill="#222222" points="237.37,348.77,243.6143,341.1536,238.6964,343.9492,235.9009,339.0313,237.37,348.77" style="stroke:#222222;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="22" x="214.1836" y="338.0272">0..1</text><!--MD5=[9af618af3725fb546e7826293b8a691d]
+link Client to Gender--><path codeLine="74" d="M321.47,182.07 C336.38,234.99 356.19,305.26 367.05,343.78 " fill="none" id="Client-to-Gender" style="stroke:#222222;stroke-width:1.0;"/><polygon fill="#222222" points="368.45,348.77,369.858,339.0223,367.0934,343.9576,362.1581,341.1929,368.45,348.77" style="stroke:#222222;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="22" x="341.9528" y="338.0272">0..1</text><!--MD5=[08f5806e336f712cdf08037e9415a76d]
+link Survey to Section--><path codeLine="76" d="M562,464.03 C562,485.7 562,508.33 562,528.26 " fill="none" id="Survey-to-Section" style="stroke:#222222;stroke-width:1.0;"/><polygon fill="#222222" points="562,533.27,566,524.27,562,528.27,558,524.27,562,533.27" style="stroke:#222222;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="20" x="540.7188" y="522.5882">1..*</text><!--MD5=[87fa8ff7d398728728a611d860795352]
+link Section to Question--><path codeLine="78" d="M562,645.63 C562,662.9 562,682.34 562,701.01 " fill="none" id="Section-to-Question" style="stroke:#222222;stroke-width:1.0;"/><polygon fill="#222222" points="562,706.25,566,697.25,562,701.25,558,697.25,562,706.25" style="stroke:#222222;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="20" x="541.0469" y="695.6823">1..*</text><!--MD5=[ec0fd64d5afb5aa3e1ebec742a549e50]
+link Survey to Answer--><path codeLine="80" d="M637.6,463.1 C660.87,490.52 685.52,519.57 705.23,542.8 " fill="none" id="Survey-to-Answer" style="stroke:#222222;stroke-width:1.0;"/><polygon fill="#222222" points="708.59,546.77,705.811,537.3213,705.3526,542.9596,699.7143,542.5012,708.59,546.77" style="stroke:#222222;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="697.5481" y="536.1987">*</text><!--MD5=[3ec370e3c15da0f95b3f90b62377332a]
+@startuml
+
+skinparam classAttributeIconSize 0
+hide empty attributes
+skinparam classBackgroundColor beige
+skinparam ArrowColor #222222
+
+package "<<aggregate>> Survey" {
+    entity Survey
+    class Section
+    class Question
+}
+
+package "<<aggregate>> Answer" {
+    entity Answer
+}
+
+package "<<aggregate>> Client" {
+    entity Client
+    class Address
+    class BirthDate
+    class Gender
+}
+
+entity Client <<entity>> <<root>> {
+    - <<VO>> ClientID
+    - <<VO>> Name
+    - <<VO>> VAT
+    - <<VO>> Email
+    - <<VO>> PhoneNumber
+}
+
+class BirthDate <<(V,#FF8B40) value object>> {}
+class Gender <<(V,#FF8B40) value object>> {}
+
+entity Survey <<entity>> <<root>> {
+    - <<VO>> AlphanumericCode
+    - <<VO>> TopicQuestionnaire
+    - <<VO>> InitialDate
+    - <<VO>> FinalDate
+    - <<VO>> TargetAudienceRules
+    - <<VO>> Title
+    - <<VO>> WelcomeMessage
+    - <<VO>> FinalMessage
+}
+
+entity Answer <<entity>> <<root>> {
+    - <<VO>> QuestionID
+}
+
+class Section <<(V,#FF8B40) value object>> {
+    - SectionID
+    - SectionTitle
+    - SectionDescription
+    - Obligatoriness
+}
+
+class Question <<(V,#FF8B40) value object>> {
+    - QuestionID
+    - QuestionText
+    - QuestionInstruction /' optional '/
+    - Obligatoriness
+    - ExtraInfo /' optional '/
+    - QuestionType /' (free text, multiple choices, multiple choice with input  value, ordering/ranking choices, single choice, singe choice with input value,   numeric, sorting options, scaling options) '/
+    - StatisticalReport
+}
+
+class Address <<(V,#FF8B40) value object>> {
+
+}
+
+Client - -> "1..*" Address : has
+Client - - "*" Survey: answers
+Client - -> "0..1" BirthDate
+Client - -> "0..1" Gender
+
+Survey - -> "1..*" Section
+
+Section - -> "1..*" Question
+
+Survey - -> "*" Answer
+
+@enduml
+
+@startuml
+
+skinparam classAttributeIconSize 0
+hide empty attributes
+skinparam classBackgroundColor beige
+skinparam ArrowColor #222222
+
+package "<<aggregate>> Survey" {
+    entity Survey
+    class Section
+    class Question
+}
+
+package "<<aggregate>> Answer" {
+    entity Answer
+}
+
+package "<<aggregate>> Client" {
+    entity Client
+    class Address
+    class BirthDate
+    class Gender
+}
+
+entity Client <<entity>> <<root>> {
+    - <<VO>> ClientID
+    - <<VO>> Name
+    - <<VO>> VAT
+    - <<VO>> Email
+    - <<VO>> PhoneNumber
+}
+
+class BirthDate <<(V,#FF8B40) value object>> {}
+class Gender <<(V,#FF8B40) value object>> {}
+
+entity Survey <<entity>> <<root>> {
+    - <<VO>> AlphanumericCode
+    - <<VO>> TopicQuestionnaire
+    - <<VO>> InitialDate
+    - <<VO>> FinalDate
+    - <<VO>> TargetAudienceRules
+    - <<VO>> Title
+    - <<VO>> WelcomeMessage
+    - <<VO>> FinalMessage
+}
+
+entity Answer <<entity>> <<root>> {
+    - <<VO>> QuestionID
+}
+
+class Section <<(V,#FF8B40) value object>> {
+    - SectionID
+    - SectionTitle
+    - SectionDescription
+    - Obligatoriness
+}
+
+class Question <<(V,#FF8B40) value object>> {
+    - QuestionID
+    - QuestionText
+    - QuestionInstruction 
+    - Obligatoriness
+    - ExtraInfo 
+    - QuestionType 
+    - StatisticalReport
+}
+
+class Address <<(V,#FF8B40) value object>> {
+
+}
+
+Client - -> "1..*" Address : has
+Client - - "*" Survey: answers
+Client - -> "0..1" BirthDate
+Client - -> "0..1" Gender
+
+Survey - -> "1..*" Section
+
+Section - -> "1..*" Question
+
+Survey - -> "*" Answer
+
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 14:26:11 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

@@ -1,0 +1,83 @@
+@startuml
+
+skinparam classAttributeIconSize 0
+hide empty attributes
+skinparam classBackgroundColor beige
+skinparam ArrowColor #222222
+
+package "<<aggregate>> Survey" {
+    entity Survey
+    class Section
+    class Question
+}
+
+package "<<aggregate>> Answer" {
+    entity Answer
+}
+
+package "<<aggregate>> Client" {
+    entity Client
+    class Address
+    class BirthDate
+    class Gender
+}
+
+entity Client <<entity>> <<root>> {
+    - <<VO>> ClientID
+    - <<VO>> Name
+    - <<VO>> VAT
+    - <<VO>> Email
+    - <<VO>> PhoneNumber
+}
+
+class BirthDate <<(V,#FF8B40) value object>> {}
+class Gender <<(V,#FF8B40) value object>> {}
+
+entity Survey <<entity>> <<root>> {
+    - <<VO>> AlphanumericCode
+    - <<VO>> TopicQuestionnaire
+    - <<VO>> InitialDate
+    - <<VO>> FinalDate
+    - <<VO>> TargetAudienceRules
+    - <<VO>> Title
+    - <<VO>> WelcomeMessage
+    - <<VO>> FinalMessage
+}
+
+entity Answer <<entity>> <<root>> {
+    - <<VO>> QuestionID
+}
+
+class Section <<(V,#FF8B40) value object>> {
+    - SectionID
+    - SectionTitle
+    - SectionDescription
+    - Obligatoriness
+}
+
+class Question <<(V,#FF8B40) value object>> {
+    - QuestionID
+    - QuestionText
+    - QuestionInstruction /' optional '/
+    - Obligatoriness
+    - ExtraInfo /' optional '/
+    - QuestionType /' (free text, multiple choices, multiple choice with input  value, ordering/ranking choices, single choice, singe choice with input value,   numeric, sorting options, scaling options) '/
+    - StatisticalReport
+}
+
+class Address <<(V,#FF8B40) value object>> {
+
+}
+
+Client --> "1..*" Address : has
+Client -- "*" Survey: answers
+Client --> "0..1" BirthDate
+Client --> "0..1" Gender
+
+Survey --> "1..*" Section
+
+Section --> "1..*" Question
+
+Survey --> "*" Answer
+
+@enduml

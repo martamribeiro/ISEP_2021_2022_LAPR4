@@ -1,0 +1,10 @@
+D:\Faculdade\ano 2\semestre2\LAPR4\lapr4_projeto\base.app.server.order\src\main\java\eapli\base\app\server\order\requests\AddProductToShoppingCartRequest.java
+D:\Faculdade\ano 2\semestre2\LAPR4\lapr4_projeto\base.app.server.order\src\main\java\eapli\base\app\server\order\requests\OrderServerRequest.java
+D:\Faculdade\ano 2\semestre2\LAPR4\lapr4_projeto\base.app.server.order\src\main\java\eapli\base\app\server\order\tcp\TcpOrderSrv.java
+D:\Faculdade\ano 2\semestre2\LAPR4\lapr4_projeto\base.app.server.order\src\main\java\eapli\base\app\server\order\requests\GetQuestionnairesRequest.java
+D:\Faculdade\ano 2\semestre2\LAPR4\lapr4_projeto\base.app.server.order\src\main\java\eapli\base\app\server\order\requests\OrderServerMessageParser.java
+D:\Faculdade\ano 2\semestre2\LAPR4\lapr4_projeto\base.app.server.order\src\main\java\eapli\base\app\server\order\requests\VerifyIfProductExistsRequest.java
+D:\Faculdade\ano 2\semestre2\LAPR4\lapr4_projeto\base.app.server.order\src\main\java\eapli\base\app\server\order\requests\GetClientOpenOrdersRequest.java
+D:\Faculdade\ano 2\semestre2\LAPR4\lapr4_projeto\base.app.server.order\src\main\java\eapli\base\app\server\order\requests\GetProductsCatalogRequest.java
+D:\Faculdade\ano 2\semestre2\LAPR4\lapr4_projeto\base.app.server.order\src\main\java\eapli\base\app\server\order\requests\SaveAnswersRequest.java
+D:\Faculdade\ano 2\semestre2\LAPR4\lapr4_projeto\base.app.server.order\src\main\java\eapli\base\app\server\order\requests\VerifyIfClientHasAnsweredRequest.java

@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1561px" preserveAspectRatio="none" style="width:2406px;height:1561px;background:#FFFFFF;" version="1.1" viewBox="0 0 2406 1561" width="2406px" zoomAndPan="magnify"><defs/><g><rect fill="#FFFFFF" height="1350.1719" style="stroke:#181818;stroke-width:1.0;" width="10" x="72.5" y="96.2188"/><rect fill="#FFFFFF" height="123.4063" style="stroke:#181818;stroke-width:1.0;" width="10" x="650.5" y="118.5703"/><rect fill="#FFFFFF" height="807.8438" style="stroke:#181818;stroke-width:1.0;" width="10" x="650.5" y="272.3281"/><rect fill="#FFFFFF" height="335.8672" style="stroke:#181818;stroke-width:1.0;" width="10" x="650.5" y="1110.5234"/><rect fill="#FFFFFF" height="30" style="stroke:#181818;stroke-width:1.0;" width="10" x="1100.5" y="148.9219"/><rect fill="#FFFFFF" height="714.4375" style="stroke:#181818;stroke-width:1.0;" width="10" x="1100.5" y="335.3828"/><rect fill="#FFFFFF" height="275.1641" style="stroke:#181818;stroke-width:1.0;" width="10" x="1100.5" y="1140.875"/><rect fill="#FFFFFF" height="107.4063" style="stroke:#181818;stroke-width:1.0;" width="10" x="1381.5" y="578.1953"/><rect fill="#FFFFFF" height="91.0547" style="stroke:#181818;stroke-width:1.0;" width="10" x="1381.5" y="715.9531"/><rect fill="#FFFFFF" height="60.7031" style="stroke:#181818;stroke-width:1.0;" width="10" x="2079.5" y="837.3594"/><rect fill="#FFFFFF" height="60.7031" style="stroke:#181818;stroke-width:1.0;" width="10" x="2222.5" y="928.4141"/><rect height="230.8125" style="stroke:#000000;stroke-width:1.5;fill:none;" width="399" x="1043" y="1155.875"/><line style="stroke:#181818;stroke-width:0.5;fill:none;stroke-dasharray:5.0,5.0;" x1="77" x2="77" y1="86.2188" y2="1464.3906"/><line style="stroke:#181818;stroke-width:0.5;fill:none;stroke-dasharray:5.0,5.0;" x1="655" x2="655" y1="86.2188" y2="1464.3906"/><line style="stroke:#181818;stroke-width:0.5;fill:none;stroke-dasharray:5.0,5.0;" x1="1105" x2="1105" y1="86.2188" y2="1464.3906"/><line style="stroke:#181818;stroke-width:0.5;fill:none;stroke-dasharray:5.0,5.0;" x1="1386" x2="1386" y1="86.2188" y2="1464.3906"/><line style="stroke:#181818;stroke-width:0.5;fill:none;stroke-dasharray:5.0,5.0;" x1="1714.5" x2="1714.5" y1="86.2188" y2="1464.3906"/><line style="stroke:#181818;stroke-width:0.5;fill:none;stroke-dasharray:5.0,5.0;" x1="1937.5" x2="1937.5" y1="86.2188" y2="1464.3906"/><line style="stroke:#181818;stroke-width:0.5;fill:none;stroke-dasharray:5.0,5.0;" x1="2084.5" x2="2084.5" y1="86.2188" y2="1464.3906"/><line style="stroke:#181818;stroke-width:0.5;fill:none;stroke-dasharray:5.0,5.0;" x1="2227.5" x2="2227.5" y1="86.2188" y2="1464.3906"/><line style="stroke:#181818;stroke-width:0.5;fill:none;stroke-dasharray:5.0,5.0;" x1="2353.5" x2="2353.5" y1="86.2188" y2="1464.3906"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="139" x="5" y="83.1426">:WarehouseEmployee</text><ellipse cx="77.5" cy="17.1094" fill="#E2E2F0" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M77.5,25.1094 L77.5,52.1094 M64.5,33.1094 L90.5,33.1094 M77.5,52.1094 L64.5,67.1094 M77.5,52.1094 L90.5,67.1094 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="139" x="5" y="1477.9238">:WarehouseEmployee</text><ellipse cx="77.5" cy="1489.5" fill="#E2E2F0" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M77.5,1497.5 L77.5,1524.5 M64.5,1505.5 L90.5,1505.5 M77.5,1524.5 L64.5,1539.5 M77.5,1524.5 L90.5,1539.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="109" x="601" y="36"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="95" x="608" y="57.5332">«presentation»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="41" x="635" y="75.1426">AGVUI</text><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="109" x="601" y="1463.3906"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="95" x="608" y="1484.9238">«presentation»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="41" x="635" y="1502.5332">AGVUI</text><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="105" x="1053" y="36"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="84" x="1063.5" y="57.5332">«application»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="1060" y="75.1426">AGVController</text><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="105" x="1053" y="1463.3906"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="84" x="1063.5" y="1484.9238">«application»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="1060" y="1502.5332">AGVController</text><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="91" x="1341" y="36"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="59" x="1357" y="57.5332">«builder»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77" x="1348" y="75.1426">AGV Builder</text><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="91" x="1341" y="1463.3906"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="59" x="1357" y="1484.9238">«builder»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77" x="1348" y="1502.5332">AGV Builder</text><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="76" x="1676.5" y="36"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="62" x="1683.5" y="57.5332">«domain»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="1684.5" y="75.1426">agv: AGV</text><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="76" x="1676.5" y="1463.3906"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="62" x="1683.5" y="1484.9238">«domain»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="1684.5" y="1502.5332">agv: AGV</text><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="138" x="1868.5" y="36"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="62" x="1906.5" y="57.5332">«domain»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="124" x="1875.5" y="75.1426">agvDock: AGVDock</text><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="138" x="1868.5" y="1463.3906"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="62" x="1906.5" y="1484.9238">«domain»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="124" x="1875.5" y="1502.5332">agvDock: AGVDock</text><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="136" x="2016.5" y="36"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="89" x="2040" y="57.5332">«persistence»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="122" x="2023.5" y="75.1426">PersistenceContext</text><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="136" x="2016.5" y="1463.3906"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="89" x="2040" y="1484.9238">«persistence»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="122" x="2023.5" y="1502.5332">PersistenceContext</text><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="130" x="2162.5" y="36"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="59" x="2198" y="57.5332">«factory»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="2169.5" y="75.1426">RepositoryFactory</text><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="130" x="2162.5" y="1463.3906"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="59" x="2198" y="1484.9238">«factory»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="2169.5" y="1502.5332">RepositoryFactory</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="79" x="2311.5" y="65.5332">«repository»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="2302.5" y="83.1426">AGVRepository</text><path d="M2336,15 C2336,5 2354,5 2354,5 C2354,5 2372,5 2372,15 L2372,41 C2372,51 2354,51 2354,51 C2354,51 2336,51 2336,41 L2336,15 " fill="#E2E2F0" style="stroke:#181818;stroke-width:1.5;"/><path d="M2336,15 C2336,25 2354,25 2354,25 C2354,25 2372,25 2372,15 " fill="none" style="stroke:#181818;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="79" x="2311.5" y="1477.9238">«repository»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="2302.5" y="1495.5332">AGVRepository</text><path d="M2336,1508.6094 C2336,1498.6094 2354,1498.6094 2354,1498.6094 C2354,1498.6094 2372,1498.6094 2372,1508.6094 L2372,1534.6094 C2372,1544.6094 2354,1544.6094 2354,1544.6094 C2354,1544.6094 2336,1544.6094 2336,1534.6094 L2336,1508.6094 " fill="#E2E2F0" style="stroke:#181818;stroke-width:1.5;"/><path d="M2336,1508.6094 C2336,1518.6094 2354,1518.6094 2354,1518.6094 C2354,1518.6094 2372,1518.6094 2372,1508.6094 " fill="none" style="stroke:#181818;stroke-width:1.5;"/><rect fill="#FFFFFF" height="1350.1719" style="stroke:#181818;stroke-width:1.0;" width="10" x="72.5" y="96.2188"/><rect fill="#FFFFFF" height="123.4063" style="stroke:#181818;stroke-width:1.0;" width="10" x="650.5" y="118.5703"/><rect fill="#FFFFFF" height="807.8438" style="stroke:#181818;stroke-width:1.0;" width="10" x="650.5" y="272.3281"/><rect fill="#FFFFFF" height="335.8672" style="stroke:#181818;stroke-width:1.0;" width="10" x="650.5" y="1110.5234"/><rect fill="#FFFFFF" height="30" style="stroke:#181818;stroke-width:1.0;" width="10" x="1100.5" y="148.9219"/><rect fill="#FFFFFF" height="714.4375" style="stroke:#181818;stroke-width:1.0;" width="10" x="1100.5" y="335.3828"/><rect fill="#FFFFFF" height="275.1641" style="stroke:#181818;stroke-width:1.0;" width="10" x="1100.5" y="1140.875"/><rect fill="#FFFFFF" height="107.4063" style="stroke:#181818;stroke-width:1.0;" width="10" x="1381.5" y="578.1953"/><rect fill="#FFFFFF" height="91.0547" style="stroke:#181818;stroke-width:1.0;" width="10" x="1381.5" y="715.9531"/><rect fill="#FFFFFF" height="60.7031" style="stroke:#181818;stroke-width:1.0;" width="10" x="2079.5" y="837.3594"/><rect fill="#FFFFFF" height="60.7031" style="stroke:#181818;stroke-width:1.0;" width="10" x="2222.5" y="928.4141"/><polygon fill="#181818" points="638.5,114.5703,648.5,118.5703,638.5,122.5703,642.5,118.5703" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="82.5" x2="644.5" y1="118.5703" y2="118.5703"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="89.5" y="113.7139">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="217" x="100.5" y="113.7139">Begin the process to register an AGV</text><polygon fill="#181818" points="1088.5,144.9219,1098.5,148.9219,1088.5,152.9219,1092.5,148.9219" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="660.5" x2="1094.5" y1="148.9219" y2="148.9219"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="667.5" y="144.0654">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="36" x="678.5" y="144.0654">create</text><polygon fill="#181818" points="93.5,237.9766,83.5,241.9766,93.5,245.9766,89.5,241.9766" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="87.5" x2="654.5" y1="241.9766" y2="241.9766"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="99.5" y="220.7686">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="529" x="110.5" y="204.417">Asks for the required data in order to register the AGV (agvID, autonomyStatus, taskStatus,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="227" x="114.5" y="220.7686">modelID, shortDescription, maxWeight,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="406" x="114.5" y="237.1201">dockID, beginSquare, endSquare, depthSquare, accessibilityDirection)</text><polygon fill="#181818" points="638.5,268.3281,648.5,272.3281,638.5,276.3281,642.5,272.3281" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="82.5" x2="644.5" y1="272.3281" y2="272.3281"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="89.5" y="267.4717">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="136" x="100.5" y="267.4717">Inputs the required data</text><polygon fill="#181818" points="1088.5,331.3828,1098.5,335.3828,1088.5,339.3828,1092.5,335.3828" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="660.5" x2="1094.5" y1="335.3828" y2="335.3828"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="667.5" y="314.1748">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="284" x="678.5" y="297.8232">registerAGV(agvID, autonomyStatus, taskStatus,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="227" x="682.5" y="314.1748">modelID, shortDescription, maxWeight,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="406" x="682.5" y="330.5264">dockID, beginSquare, endSquare, depthSquare, accessibilityDirection)</text><polygon fill="#181818" points="1374.5,361.7344,1384.5,365.7344,1374.5,369.7344,1378.5,365.7344" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="1110.5" x2="1380.5" y1="365.7344" y2="365.7344"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="1117.5" y="360.8779">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="36" x="1128.5" y="360.8779">create</text><polygon fill="#181818" points="1374.5,392.0859,1384.5,396.0859,1374.5,400.0859,1378.5,396.0859" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="1110.5" x2="1380.5" y1="396.0859" y2="396.0859"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="1117.5" y="391.2295">7</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="90" x="1128.5" y="391.2295">setAgvID(agvID)</text><polygon fill="#181818" points="1374.5,422.4375,1384.5,426.4375,1374.5,430.4375,1378.5,426.4375" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="1110.5" x2="1380.5" y1="426.4375" y2="426.4375"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="1117.5" y="421.5811">8</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="218" x="1128.5" y="421.5811">setAutonomyStatus(autonomyStatus)</text><polygon fill="#181818" points="1374.5,452.7891,1384.5,456.7891,1374.5,460.7891,1378.5,456.7891" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="1110.5" x2="1380.5" y1="456.7891" y2="456.7891"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="1117.5" y="451.9326">9</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="155" x="1128.5" y="451.9326">setTaskStatus(taskStatus)</text><polygon fill="#181818" points="1374.5,483.1406,1384.5,487.1406,1374.5,491.1406,1378.5,487.1406" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="1110.5" x2="1380.5" y1="487.1406" y2="487.1406"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1117.5" y="482.2842">10</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="120" x="1135.5" y="482.2842">setModelID(modelID)</text><polygon fill="#181818" points="1374.5,513.4922,1384.5,517.4922,1374.5,521.4922,1378.5,517.4922" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="1110.5" x2="1380.5" y1="517.4922" y2="517.4922"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1117.5" y="512.6357">11</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="216" x="1135.5" y="512.6357">setShortDescription(shortDescription)</text><polygon fill="#181818" points="1374.5,543.8438,1384.5,547.8438,1374.5,551.8438,1378.5,547.8438" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="1110.5" x2="1380.5" y1="547.8438" y2="547.8438"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1117.5" y="542.9873">12</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="158" x="1135.5" y="542.9873">setMaxWeight(maxWeight)</text><polygon fill="#181818" points="1369.5,574.1953,1379.5,578.1953,1369.5,582.1953,1373.5,578.1953" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="1110.5" x2="1375.5" y1="578.1953" y2="578.1953"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1117.5" y="573.3389">13</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="72" x="1135.5" y="573.3389">createAGV()</text><polygon fill="#181818" points="1702.5,620.8984,1712.5,624.8984,1702.5,628.8984,1706.5,624.8984" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="1391.5" x2="1708.5" y1="624.8984" y2="624.8984"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1398.5" y="611.8662">14</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="277" x="1416.5" y="603.6904">createAGV(agvID, autonomyStatus, taskStatus,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="227" x="1420.5" y="620.042">modelID, shortDescription, maxWeight)</text><polygon fill="#181818" points="1402.5,651.25,1392.5,655.25,1402.5,659.25,1398.5,655.25" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="1396.5" x2="1713.5" y1="655.25" y2="655.25"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1408.5" y="650.3936">15</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="19" x="1426.5" y="650.3936">agv</text><polygon fill="#181818" points="1121.5,681.6016,1111.5,685.6016,1121.5,689.6016,1117.5,685.6016" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="1115.5" x2="1385.5" y1="685.6016" y2="685.6016"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1127.5" y="680.7451">16</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="19" x="1145.5" y="680.7451">agv</text><polygon fill="#181818" points="1369.5,711.9531,1379.5,715.9531,1369.5,719.9531,1373.5,715.9531" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="1110.5" x2="1375.5" y1="715.9531" y2="715.9531"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1117.5" y="711.0967">17</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="102" x="1135.5" y="711.0967">createAGVDock()</text><polygon fill="#181818" points="1925.5,742.3047,1935.5,746.3047,1925.5,750.3047,1929.5,746.3047" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="1391.5" x2="1931.5" y1="746.3047" y2="746.3047"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1398.5" y="741.4482">18</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="504" x="1416.5" y="741.4482">createAGVDock(dockID, beginSquare, endSquare, depthSquare, accessibilityDirection)</text><polygon fill="#181818" points="1402.5,772.6563,1392.5,776.6563,1402.5,780.6563,1398.5,776.6563" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="1396.5" x2="1936.5" y1="776.6563" y2="776.6563"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1408.5" y="771.7998">19</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="49" x="1426.5" y="771.7998">agvDock</text><polygon fill="#181818" points="1121.5,803.0078,1111.5,807.0078,1121.5,811.0078,1117.5,807.0078" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="1115.5" x2="1385.5" y1="807.0078" y2="807.0078"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1127.5" y="802.1514">20</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="49" x="1145.5" y="802.1514">agvDock</text><polygon fill="#181818" points="2067.5,833.3594,2077.5,837.3594,2067.5,841.3594,2071.5,837.3594" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="1110.5" x2="2073.5" y1="837.3594" y2="837.3594"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1117.5" y="832.5029">21</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="75" x="1135.5" y="832.5029">repositories()</text><polygon fill="#181818" points="2215.5,863.7109,2225.5,867.7109,2215.5,871.7109,2219.5,867.7109" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="2089.5" x2="2221.5" y1="867.7109" y2="867.7109"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="2096.5" y="862.8545">22</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="36" x="2114.5" y="862.8545">create</text><polygon fill="#181818" points="1121.5,894.0625,1111.5,898.0625,1121.5,902.0625,1117.5,898.0625" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="1115.5" x2="2083.5" y1="898.0625" y2="898.0625"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1127.5" y="893.2061">23</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="39" x="1145.5" y="893.2061">factory</text><polygon fill="#181818" points="2210.5,924.4141,2220.5,928.4141,2210.5,932.4141,2214.5,928.4141" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="1110.5" x2="2216.5" y1="928.4141" y2="928.4141"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1117.5" y="923.5576">24</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="34" x="1135.5" y="923.5576">agvs()</text><polygon fill="#181818" points="2342,954.7656,2352,958.7656,2342,962.7656,2346,958.7656" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="2232.5" x2="2348" y1="958.7656" y2="958.7656"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="2239.5" y="953.9092">25</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="36" x="2257.5" y="953.9092">create</text><polygon fill="#181818" points="1121.5,985.1172,1111.5,989.1172,1121.5,993.1172,1117.5,989.1172" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="1115.5" x2="2226.5" y1="989.1172" y2="989.1172"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1127.5" y="984.2607">26</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="81" x="1145.5" y="984.2607">agvRepository</text><polygon fill="#181818" points="2342,1015.4688,2352,1019.4688,2342,1023.4688,2346,1019.4688" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="1110.5" x2="2348" y1="1019.4688" y2="1019.4688"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1117.5" y="1014.6123">27</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="53" x="1135.5" y="1014.6123">save(agv)</text><polygon fill="#181818" points="671.5,1045.8203,661.5,1049.8203,671.5,1053.8203,667.5,1049.8203" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="665.5" x2="1104.5" y1="1049.8203" y2="1049.8203"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="677.5" y="1044.9639">28</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="25" x="695.5" y="1044.9639">user</text><polygon fill="#181818" points="93.5,1076.1719,83.5,1080.1719,93.5,1084.1719,89.5,1080.1719" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="87.5" x2="654.5" y1="1080.1719" y2="1080.1719"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="99.5" y="1075.3154">29</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="224" x="117.5" y="1075.3154">successfully creates one or more AGV</text><polygon fill="#181818" points="638.5,1106.5234,648.5,1110.5234,638.5,1114.5234,642.5,1110.5234" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="82.5" x2="644.5" y1="1110.5234" y2="1110.5234"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="89.5" y="1105.667">30</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="329" x="107.5" y="1105.667">Wants to configure the available AGVs in the Warehouse</text><polygon fill="#181818" points="1088.5,1136.875,1098.5,1140.875,1088.5,1144.875,1092.5,1140.875" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="660.5" x2="1094.5" y1="1140.875" y2="1140.875"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="667.5" y="1136.0186">31</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="146" x="685.5" y="1136.0186">configureAvailableAGVs()</text><path d="M1043,1155.875 L1116,1155.875 L1116,1164.2266 L1106,1174.2266 L1043,1174.2266 L1043,1155.875 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.5;"/><rect fill="none" height="230.8125" style="stroke:#000000;stroke-width:1.5;" width="399" x="1043" y="1155.875"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="28" x="1058" y="1170.3701">loop</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="230" x="1131" y="1169.2939">[for each available AGV in the Warehouse]</text><polygon fill="#181818" points="1374.5,1192.5781,1384.5,1196.5781,1374.5,1200.5781,1378.5,1196.5781" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="1110.5" x2="1380.5" y1="1196.5781" y2="1196.5781"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1117.5" y="1191.7217">32</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="85" x="1135.5" y="1191.7217">id = getAgvID()</text><polygon fill="#181818" points="1374.5,1222.9297,1384.5,1226.9297,1374.5,1230.9297,1378.5,1226.9297" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="1110.5" x2="1380.5" y1="1226.9297" y2="1226.9297"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1117.5" y="1222.0732">33</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="234" x="1135.5" y="1222.0732">autonomyStatus = getAutonomyStatus()</text><polygon fill="#181818" points="1374.5,1253.2813,1384.5,1257.2813,1374.5,1261.2813,1378.5,1257.2813" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="1110.5" x2="1380.5" y1="1257.2813" y2="1257.2813"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1117.5" y="1252.4248">34</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="171" x="1135.5" y="1252.4248">taskStatus = getTaskStatus()</text><polygon fill="#181818" points="1374.5,1283.6328,1384.5,1287.6328,1374.5,1291.6328,1378.5,1287.6328" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="1110.5" x2="1380.5" y1="1287.6328" y2="1287.6328"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1117.5" y="1282.7764">35</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="124" x="1135.5" y="1282.7764">model = getModelID()</text><polygon fill="#181818" points="1374.5,1313.9844,1384.5,1317.9844,1374.5,1321.9844,1378.5,1317.9844" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="1110.5" x2="1380.5" y1="1317.9844" y2="1317.9844"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1117.5" y="1313.1279">36</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="232" x="1135.5" y="1313.1279">shortDescription = getShortDescription()</text><polygon fill="#181818" points="1374.5,1344.3359,1384.5,1348.3359,1374.5,1352.3359,1378.5,1348.3359" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="1110.5" x2="1380.5" y1="1348.3359" y2="1348.3359"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1117.5" y="1343.4795">37</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="174" x="1135.5" y="1343.4795">maxWeight = getMaxWeight()</text><polygon fill="#181818" points="1374.5,1374.6875,1384.5,1378.6875,1374.5,1382.6875,1378.5,1378.6875" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="1110.5" x2="1380.5" y1="1378.6875" y2="1378.6875"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1117.5" y="1373.8311">38</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="149" x="1135.5" y="1373.8311">agvDock = getAGVDock()</text><polygon fill="#181818" points="671.5,1412.0391,661.5,1416.0391,671.5,1420.0391,667.5,1416.0391" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="665.5" x2="1104.5" y1="1416.0391" y2="1416.0391"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="677.5" y="1411.1826">39</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="25" x="695.5" y="1411.1826">user</text><polygon fill="#181818" points="88.5,1442.3906,78.5,1446.3906,88.5,1450.3906,84.5,1446.3906" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="82.5" x2="654.5" y1="1446.3906" y2="1446.3906"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="94.5" y="1441.5342">40</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="367" x="112.5" y="1441.5342">shows the basic information about the AGV(s) that are available</text><!--MD5=[c158b2460f8fffa064dd6644f96296a4]
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+Actor ":WarehouseEmployee" as WE
+participant "AGVUI" as UI <<presentation>>
+participant "AGVController" as Controller <<application>>
+participant "AGV Builder" as Builder <<builder>>
+participant "agv: AGV" as AGV <<domain>>
+participant "agvDock: AGVDock" as Dock <<domain>>
+participant PersistenceContext as Persistence <<persistence>>
+participant RepositoryFactory as Factory <<factory>>
+database AGVRepository as Repository <<repository>>
+
+activate WE
+
+WE -> UI: Begin the process to register an AGV
+
+activate UI
+
+UI -> Controller: create
+
+activate Controller
+deactivate Controller
+
+UI - -> WE: Asks for the required data in order to register the AGV (agvID, autonomyStatus, taskStatus, \n modelID, shortDescription, maxWeight, \n dockID, beginSquare, endSquare, depthSquare, accessibilityDirection)
+
+deactivate UI
+
+WE -> UI: Inputs the required data
+
+activate UI
+
+UI -> Controller: registerAGV(agvID, autonomyStatus, taskStatus, \n modelID, shortDescription, maxWeight, \n dockID, beginSquare, endSquare, depthSquare, accessibilityDirection)
+
+activate Controller
+
+Controller -> Builder: create
+Controller -> Builder: setAgvID(agvID)
+Controller -> Builder: setAutonomyStatus(autonomyStatus)
+Controller -> Builder: setTaskStatus(taskStatus)
+Controller -> Builder: setModelID(modelID)
+Controller -> Builder: setShortDescription(shortDescription)
+Controller -> Builder: setMaxWeight(maxWeight)
+Controller -> Builder: createAGV()
+
+activate Builder
+
+Builder -> AGV: createAGV(agvID, autonomyStatus, taskStatus, \n modelID, shortDescription, maxWeight)
+AGV -> Builder: agv
+
+Builder -> Controller: agv
+
+deactivate Builder
+
+Controller -> Builder: createAGVDock()
+
+activate Builder
+
+Builder -> Dock: createAGVDock(dockID, beginSquare, endSquare, depthSquare, accessibilityDirection)
+Dock -> Builder: agvDock
+
+Builder -> Controller: agvDock
+
+deactivate Builder
+
+Controller -> Persistence: repositories()
+
+activate Persistence
+
+Persistence -> Factory: create
+Persistence -> Controller: factory
+
+deactivate Persistence
+
+Controller -> Factory: agvs()
+
+activate Factory
+
+Factory -> Repository: create
+Factory -> Controller: agvRepository
+
+deactivate Factory
+
+Controller -> Repository: save(agv)
+
+Controller -> UI: user
+
+deactivate Controller
+
+UI -> WE: successfully creates one or more AGV
+
+deactivate UI
+
+WE -> UI: Wants to configure the available AGVs in the Warehouse
+
+activate UI
+
+UI -> Controller: configureAvailableAGVs()
+
+activate Controller
+
+loop for each available AGV in the Warehouse
+
+Controller -> Builder: id = getAgvID()
+Controller -> Builder: autonomyStatus = getAutonomyStatus()
+Controller -> Builder: taskStatus = getTaskStatus()
+Controller -> Builder: model = getModelID()
+Controller -> Builder: shortDescription = getShortDescription()
+Controller -> Builder: maxWeight = getMaxWeight()
+Controller -> Builder: agvDock = getAGVDock()
+
+end
+
+Controller -> UI: user
+
+deactivate Controller
+
+UI -> WE: shows the basic information about the AGV(s) that are available
+
+deactivate UI
+
+deactivate WE
+
+@enduml
+
+@startuml
+
+autonumber
+
+Actor ":WarehouseEmployee" as WE
+participant "AGVUI" as UI <<presentation>>
+participant "AGVController" as Controller <<application>>
+participant "AGV Builder" as Builder <<builder>>
+participant "agv: AGV" as AGV <<domain>>
+participant "agvDock: AGVDock" as Dock <<domain>>
+participant PersistenceContext as Persistence <<persistence>>
+participant RepositoryFactory as Factory <<factory>>
+database AGVRepository as Repository <<repository>>
+
+activate WE
+
+WE -> UI: Begin the process to register an AGV
+
+activate UI
+
+UI -> Controller: create
+
+activate Controller
+deactivate Controller
+
+UI - -> WE: Asks for the required data in order to register the AGV (agvID, autonomyStatus, taskStatus, \n modelID, shortDescription, maxWeight, \n dockID, beginSquare, endSquare, depthSquare, accessibilityDirection)
+
+deactivate UI
+
+WE -> UI: Inputs the required data
+
+activate UI
+
+UI -> Controller: registerAGV(agvID, autonomyStatus, taskStatus, \n modelID, shortDescription, maxWeight, \n dockID, beginSquare, endSquare, depthSquare, accessibilityDirection)
+
+activate Controller
+
+Controller -> Builder: create
+Controller -> Builder: setAgvID(agvID)
+Controller -> Builder: setAutonomyStatus(autonomyStatus)
+Controller -> Builder: setTaskStatus(taskStatus)
+Controller -> Builder: setModelID(modelID)
+Controller -> Builder: setShortDescription(shortDescription)
+Controller -> Builder: setMaxWeight(maxWeight)
+Controller -> Builder: createAGV()
+
+activate Builder
+
+Builder -> AGV: createAGV(agvID, autonomyStatus, taskStatus, \n modelID, shortDescription, maxWeight)
+AGV -> Builder: agv
+
+Builder -> Controller: agv
+
+deactivate Builder
+
+Controller -> Builder: createAGVDock()
+
+activate Builder
+
+Builder -> Dock: createAGVDock(dockID, beginSquare, endSquare, depthSquare, accessibilityDirection)
+Dock -> Builder: agvDock
+
+Builder -> Controller: agvDock
+
+deactivate Builder
+
+Controller -> Persistence: repositories()
+
+activate Persistence
+
+Persistence -> Factory: create
+Persistence -> Controller: factory
+
+deactivate Persistence
+
+Controller -> Factory: agvs()
+
+activate Factory
+
+Factory -> Repository: create
+Factory -> Controller: agvRepository
+
+deactivate Factory
+
+Controller -> Repository: save(agv)
+
+Controller -> UI: user
+
+deactivate Controller
+
+UI -> WE: successfully creates one or more AGV
+
+deactivate UI
+
+WE -> UI: Wants to configure the available AGVs in the Warehouse
+
+activate UI
+
+UI -> Controller: configureAvailableAGVs()
+
+activate Controller
+
+loop for each available AGV in the Warehouse
+
+Controller -> Builder: id = getAgvID()
+Controller -> Builder: autonomyStatus = getAutonomyStatus()
+Controller -> Builder: taskStatus = getTaskStatus()
+Controller -> Builder: model = getModelID()
+Controller -> Builder: shortDescription = getShortDescription()
+Controller -> Builder: maxWeight = getMaxWeight()
+Controller -> Builder: agvDock = getAGVDock()
+
+end
+
+Controller -> UI: user
+
+deactivate Controller
+
+UI -> WE: shows the basic information about the AGV(s) that are available
+
+deactivate UI
+
+deactivate WE
+
+@enduml
+
+PlantUML version 1.2022.4(Sat Apr 09 14:29:17 BST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

@@ -1,0 +1,45 @@
+@startuml
+
+autonumber
+actor "Sales Clerk" as SC
+
+activate SC
+SC -> ":System" : inicia o registo do cliente
+activate ":System"
+":System" --> SC : solicita dados obrigatórios(name, email, phoneNumber, vat, address)
+deactivate ":System"
+SC -> ":System" : introduz dados
+activate ":System"
+
+
+
+alt o employee quer inserir mais endereços
+loop enquanto o employee quiser inserir endereços
+":System" --> SC : solicita endereço
+deactivate ":System"
+
+
+SC -> ":System" : introduz endereço
+activate ":System"
+end
+end
+alt o employee insere data de nascimento
+activate ":System"
+":System" --> SC : solicita data de nascimento
+deactivate ":System"
+SC -> ":System" : introduz data de nascimento
+activate ":System"
+end
+alt o employee insere género
+":System" --> SC : solicita género
+deactivate ":System"
+SC -> ":System" : introduz género
+activate ":System"
+end
+":System" --> SC : apresenta os dados e informa sucesso da operação
+deactivate ":System"
+deactivate SC
+
+
+
+@enduml

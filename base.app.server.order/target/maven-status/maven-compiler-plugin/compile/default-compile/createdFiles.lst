@@ -1,0 +1,11 @@
+eapli\base\app\server\order\requests\GetQuestionnairesRequest.class
+eapli\base\app\server\order\requests\AddProductToShoppingCartRequest.class
+eapli\base\app\server\order\requests\GetProductsCatalogRequest.class
+eapli\base\app\server\order\tcp\TcpOrderSrv.class
+eapli\base\app\server\order\requests\OrderServerRequest.class
+eapli\base\app\server\order\requests\VerifyIfProductExistsRequest.class
+eapli\base\app\server\order\tcp\TcpSrvOrderThread.class
+eapli\base\app\server\order\requests\SaveAnswersRequest.class
+eapli\base\app\server\order\requests\OrderServerMessageParser.class
+eapli\base\app\server\order\requests\VerifyIfClientHasAnsweredRequest.class
+eapli\base\app\server\order\requests\GetClientOpenOrdersRequest.class

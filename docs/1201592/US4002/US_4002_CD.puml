@@ -1,0 +1,46 @@
+@startuml
+
+class TcpSrvAgvManager{
++main(args)
++run()
+}
+
+class PersistenceContext{
++repositories()
+}
+
+class RepositoryFactory{
++create()
+}
+
+database OrderRepository{
+}
+
+database TaskRepository{
+}
+
+class TheOrder{
++setStatus(status)
+}
+
+class AGV{
++setTaskStatus(taskStatus)
+}
+
+class TheTask{
++create()
+}
+
+TcpSrvAgvManager --> PersistenceContext
+
+PersistenceContext --> RepositoryFactory
+
+RepositoryFactory --> OrderRepository
+RepositoryFactory --> AGVRepository
+RepositoryFactory --> TaskRepository
+
+TcpSrvAgvManager --> TheOrder
+TcpSrvAgvManager --> AGV
+TcpSrvAgvManager --> TheTask
+
+@enduml

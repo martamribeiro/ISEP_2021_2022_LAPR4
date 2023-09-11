@@ -1,0 +1,73 @@
+@startuml
+
+skinparam classAttributeIconSize 0
+hide empty attributes
+skinparam classBackgroundColor beige
+skinparam ArrowColor #222222
+
+package "<<aggregate>> Client" {
+    entity Client
+    class Address
+    class BirthDate
+    class Gender
+}
+
+entity Client <<entity>> <<root>> {
+    - ClientID
+    - <<VO>> Name
+    - <<VO>> VAT
+    - <<VO>> Email
+    - <<VO>> PhoneNumber
+    /'- <<VO>> BirthDate'/ /'optional'/
+    /'- <<VO>> Gender'/ /'optional'/
+}
+
+class BirthDate <<(V,#FF8B40) value object>> {}
+class Gender <<(V,#FF8B40) value object>> {}
+class Address <<(V,#FF8B40) value object>> {}
+
+package "<<aggregate>> Employee" {
+    entity Employee
+}
+
+entity Employee <<entity>> <<root>> {
+    - <<VO>> EmployeeID
+}
+
+package "<<aggregate>> User" {
+    entity User
+    class Role
+    /'class Name
+    class Password
+    class Email'/
+}
+
+entity User <<entity>> <<root>> {
+    - <<VO>> isActive
+}
+
+
+
+class Role <<(V,#FF8B40) value object>> {}
+/'class Password <<(V,#FF8B40) value object>> {}
+class Name <<(V,#FF8B40) value object>> {}
+class Email <<(V,#FF8B40) value object>> {}'/
+
+
+/'Salesclerk --> "*" Costumer'/
+Employee --> "*" Client : registers a
+Client --> "1..*" Address : has
+Client --> "0..1" BirthDate
+Client --> "0..1" Gender
+
+/'User "0..1" <-- Costumer'/
+
+User --> "1..*" Role
+/'User --> "1" Password
+User --> "1" Name
+User --> "1" Email'/
+
+User "1" <-- Employee
+
+
+@enduml

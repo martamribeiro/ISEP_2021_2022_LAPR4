@@ -1,0 +1,82 @@
+public class TheSensor extends Thread {
+    public TheSensor (Side of the Sensor, Shared Memory, x of a certain Position, y of a certain Position){
+        instantiate all variables received from the Simulation Engine;
+    }
+
+    @Override
+    public void run(){
+        if(sensor is from the left side){
+            call sendLeftSide();
+        }else if(sensor is from the right side ){
+            call sendRightSide();
+        }else if(sensor is up side) {
+            call sendUpSide();
+        }else if(sensor if from the down side) {
+            call sendDownSide();
+        }
+    }
+
+
+    public static synchronized void sendSignal(Signal to send){
+        if(Signal to send is bigger or equal to 3){
+            call sideSignal(Signal to send);
+        }else if(Signal to send is equal to 2){
+            call sideSignal(Signal to send);
+        }else if(Signal to send is equal to 1){
+            call sideSignal(Signal to send);
+        }
+    }
+
+    private static void sideSignal(Signal to send){
+        switch (according to the side of the Sensor) {
+            case is left side:
+                write the signal on the variable corresponding to the left side in the Shared Memory;
+            case is right side:
+                write the signal on the variable corresponding to the right side in the Shared Memory;
+            case is up side:
+                write the signal on the variable corresponding to the up side in the Shared Memory;
+            case is down side:
+                write the signal on the variable corresponding to the down side in the Shared Memory;
+        }
+    }
+
+    private void sendLeftSide(){
+        if(call Simulation Engine method to check the left of the given x and y values and if there is an obstacle 1 square away){
+            call method sendSignal() with signal "1" to stop the AGV;
+        }else if(call Simulation Engine method to check the left of the given x and y values and if there is an obstacle 2 squares away){
+            call method sendSignal() with signal "2" to slow down the AGV;
+        } else {
+            call method sendSignal() with signal "3" so that the AGV can continue;
+        }
+    }
+
+    private void sendRightSide(){
+        if(call Simulation Engine method to check the right of the given x and y values and if there is an obstacle 1 square away){
+            call method sendSignal() with signal "1" to stop the AGV;
+        }else if(call Simulation Engine method to check the right of the given x and y values and if there is an obstacle 2 squares away){
+            call method sendSignal() with signal "2" to slow down the AGV;
+        } else {
+            call method sendSignal() with signal "3" so that the AGV can continue;
+        }
+    }
+
+    private void sendUpSide(){
+        if(call Simulation Engine method to check the up of the given x and y values and if there is an obstacle 1 square away){
+            call method sendSignal() with signal "1" to stop the AGV;
+        }else if(call Simulation Engine method to check the up of the given x and y values and if there is an obstacle 2 squares away){
+            call method sendSignal() with signal "2" to slow down the AGV;
+        } else {
+            call method sendSignal() with signal "3" so that the AGV can continue;
+        }
+    }
+
+    private void sendDownSide(){
+        if(call Simulation Engine method to check the down of the given x and y values and if there is an obstacle 1 square away){
+            call method sendSignal() with signal "1" to stop the AGV;
+        }else if(call Simulation Engine method to check the down of the given x and y values and if there is an obstacle 2 squares away){
+            call method sendSignal() with signal "2" to slow down the AGV;
+        } else {
+            call method sendSignal() with signal "3" so that the AGV can continue;
+        }
+    }
+}

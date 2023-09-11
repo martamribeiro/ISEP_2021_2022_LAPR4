@@ -1,0 +1,86 @@
+COSM22-01 Cosmetics Questionnaire
+Hello,
+This questionnaire aims to...
+It takes approximately 10 minutes.
+Thank you very much for your time and support.
+
+1. About You
+Section Obligatoriness: mandatory
+1. What is your gender?(optional)
+Type: single choice with input
+1)Male
+2)Female
+3)Other:
+
+2. What age group do you belong to?(mandatory)
+Type: single choice
+1)18 to 24
+2)25 to 34
+3)35 to 44
+4)45 to 54
+5)55 to 64
+6)65 to 74
+7)Over 75
+
+3. What country do you live in?(mandatory)
+Type: free text
+
+4. How many products do you buy on average?(mandatory)
+Type: numeric
+
+
+2. Product Feedback
+This is section 2 with questions regarding your opinion on our products.
+Section Obligatoriness: mandatory
+Repeatability: Q4
+5. How often do you use our products?(mandatory)
+Type: numeric
+
+6. Which features are most valuable to you in a product?(mandatory)
+Type: multiple choice with input
+1)Efficiency
+2)Stock availability
+3)Design
+4)Eco friendliness
+5)Brand
+6)Other:
+
+7. How would you compare our products to our competitors?(mandatory)
+Type: scaling option
+Scale: Strongly Agree, Agree, Neutral, Disagree, Strongly disagree
+1)Our products have a higher quality than the ones from our competitors.
+2)Our products are cheaper than the ones from our competitors.
+3)Our products have more availability than the ones from our competitors.
+4)You prefer to buy products from us.
+
+8. What important features are we missing?(mandatory)
+Type: free text
+
+9. How would you rate the value for money?(mandatory)
+Type: single choice
+1)5 stars
+2)4 stars
+3)3 stars
+4)2 stars
+5)1 star
+6)0 stars
+
+10. When do you feel the need to buy our products?(mandatory)
+Type: multiple choice (select only 2)
+1)When I have no more stock of them
+2)When they are in discount
+3)When they are cheaper than our competitors
+4)When I feel like it
+
+11. Which categories are you the most fond of?(mandatory)
+Sort the following categories according to your taste
+Type: sorting option
+1)Skin care
+2)Food
+3)Hair care
+4)Cleaning
+5)Outdoors
+
+
+
+Thank you for answering the questionnaire!

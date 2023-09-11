@@ -1,0 +1,92 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+
+class AddProductToShoppingCarUI
+class AddProductToShoppingCarController
+class AddProductToShoppingCarService
+class ShoppingCar
+class ShopCarItem
+class Product
+class ProductDTO
+class ListProductDTOService
+class TcpOrderSrv
+
+
+class ListProductDTOService {
++allProducts()
+}
+
+class PersistenceContext{
++repositories()
+}
+
+
+class Client{
++create()
+}
+
+class TransactionalContext{
++beginTransaction()
++commit()
+}
+
+
+class AddProductToShoppingCarController {
++allProducts()
++findByUniqueInternalCode()
++addProductShoppingCart()
+}
+
+class AddProductToShoppingCarService {
++allProducts()
++findByUniqueInternalCode()
++addProductShoppingCart()
+}
+
+database ShoppingCarRepository{
+}
+
+
+database ClientRepository{
+}
+
+database ProductRepository {
+}
+
+
+
+class RepositoryFactory{
++create()
++newTransactionalContext()
++create(TransactionalContext ctx)
+}
+
+AddProductToShoppingCarUI --> AddProductToShoppingCarController
+AddProductToShoppingCarController --> AddProductToShoppingCarService
+AddProductToShoppingCarService --> TcpOrderSrv
+AddProductToShoppingCarService --> ProductDTO
+TcpOrderSrv --> ClientRepository
+TcpOrderSrv --> ShoppingCarRepository
+TcpOrderSrv --> ProductDTO
+TcpOrderSrv --> Product
+TcpOrderSrv --> Client
+TcpOrderSrv -> ShoppingCar
+TcpOrderSrv --> ListProductDTOService
+
+ListProductDTOService --> ProductRepository
+
+TcpOrderSrv -->PersistenceContext
+TcpOrderSrv -->TransactionalContext
+
+PersistenceContext -->RepositoryFactory
+RepositoryFactory -->ClientRepository
+RepositoryFactory -->ProductRepository
+RepositoryFactory -->ShoppingCarRepository
+
+Client -----> "1" ShoppingCar : associated
+ShopCarItem --> "1" Product : composed by
+ShoppingCar -> "1..*"  ShopCarItem : composed by
+
+@enduml

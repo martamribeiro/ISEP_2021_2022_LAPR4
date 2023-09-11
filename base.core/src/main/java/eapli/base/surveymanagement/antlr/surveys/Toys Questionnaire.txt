@@ -1,0 +1,22 @@
+TOYS21-22 Toys Questionnaire
+Hello, welcome to the Toys Questionnaire
+1. About You
+Section Obligatoriness: mandatory
+1. Where are you from?(mandatory)
+Type: free text
+
+2. How old are you?(mandatory)
+Type: numeric
+
+
+2. Product Feedback
+Section Obligatoriness: mandatory
+1. Do you like our products?(mandatory)
+Type: single choice
+1)Yes
+2)No
+3)Maybe
+
+
+
+Thanks for answering the Toys Questionnaire

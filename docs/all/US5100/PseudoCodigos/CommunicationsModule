@@ -1,0 +1,51 @@
+class TcpSrvAGVTwinThread implements Runnable {
+    //code not related with Communications Module
+
+
+
+        instantiate variables to send to the Control Unit
+
+        if(AGVManager sends code "10"){
+            confirm code reception with code "11";
+
+            try {
+                receive Warehouse Plant from AGVManager;
+            } catch (ClassNotFoundException e) {
+                e.printStackTrace();
+            }
+
+
+            if(AGVManager sends code "12"){
+                confirm code reception with code "13";
+
+                try {
+                    receive the current AGV in the Thread from AGVManager;
+                } catch (ClassNotFoundException e) {
+                    throw new RuntimeException(e);
+                }
+
+
+                if(AGVManager sends code "14"){
+                    confirm code reception with code "15";
+
+                    try {
+                        receive the Task of the current AGV from the AGVManager;
+                    } catch (ClassNotFoundException e) {
+                        throw new RuntimeException(e);
+                    }
+                }
+            }
+        }
+
+        call the Control Unit to update teh received WarehousePlant;
+
+
+        byte[] clientMessageEnd = new byte[4];
+        MessageUtils.readMessage(clientMessageEnd, sIn);
+
+        if (AGVManager sends code "1") {
+            end communications with the AGVManager by sending the code "2";
+        } else {
+            System.out.println("[ERROR] Pacote do Cliente invalido.");
+        }
+}

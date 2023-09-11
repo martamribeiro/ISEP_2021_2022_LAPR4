@@ -1,0 +1,29 @@
+@startuml
+
+autonumber
+actor "Client" as SC
+actoR "Servidor" as SERVER
+
+activate SC
+SC -> SERVER : solicita acesso a um recurso protegido
+activate SERVER
+SERVER --> SC : apresenta o seu certificado ao cliente
+deactivate SERVER
+SC -> SERVER : verifica o certificado do servidor
+activate SERVER
+
+
+SERVER --> SC : envia o seu certificado ao servidor
+deactivate SERVER
+
+
+SC -> SERVER : verifica as credenciais do cliente
+activate SERVER
+
+
+activate SERVER
+SERVER --> SC : verifica as credenciais do cliente e concede acesso ao recurso protegido solicitado pelo cliente
+
+
+
+@enduml

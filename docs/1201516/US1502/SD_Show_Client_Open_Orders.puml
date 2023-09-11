@@ -1,0 +1,57 @@
+@startuml
+
+autonumber
+actor "Client" as Client
+participant ViewClientOpenOrdersUI as UI <<presentation>>
+participant ViewClientOpenOrdersController as Controller <<application>>
+participant ViewClientOpenOrdersService as serv <<application>>
+participant "TheOrder" as Domain <<domain>>
+participant "OrderDTO" as DTO <<dto>>
+participant PersistenceContext as Persistence <<persistence>>
+participant RepositoryFactory as Factory <<factory>>
+database OrderRepository as orderRepository <<orderRepository>>
+
+activate Client
+Client -> UI : quer visualizar as encomendas abertas
+activate UI
+UI -> Controller: create
+UI -> Controller: allOpenOrders()
+activate Controller
+Controller -> serv: allOpenOrders(clientEmail)
+activate serv
+serv -> Persistence: repositories()
+activate Persistence
+Persistence -> Factory: create
+Persistence -> serv: factory
+deactivate Persistence
+serv -> Factory: orders()
+activate Factory
+Factory -> orderRepository: create
+Factory -> serv: orderRepository
+deactivate Factory
+
+deactivate Factory
+serv->orderRepository:allOpenOrders(clientEmail)
+activate orderRepository
+orderRepository --> serv: openOrders
+deactivate orderRepository
+loop
+serv -> Domain: toDTO()
+activate Domain
+end
+deactivate Domain
+serv --> Controller: openOrders
+deactivate serv
+Controller --> UI: openOrders
+deactivate Controller
+loop enquanto desejar alterar o status de encomendas
+UI --> Client : mostra a lista de encomendas abertas
+deactivate UI
+/'loop enquanto desejar alterar o status de encomendas'/
+/'SC -> UI : Pergunta se pretende alterar o status de alguma\nencomenda para Being Delivered
+activate UI'/
+/'alt deseja alterar o status'/
+/'UI --> SC : solicita o id da encomenda
+activate UI'/
+
+@enduml

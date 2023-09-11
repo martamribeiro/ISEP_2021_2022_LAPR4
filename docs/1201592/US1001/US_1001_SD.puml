@@ -1,0 +1,67 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+Actor ":SalesClerk" as SC
+participant ":RegisterProductUI" as UI
+participant ":RegisterProductController" as CTRL
+participant ":PersistenceContext" as Persistance
+participant ":RepositoryFactory" as Factory
+participant ":ProductCategoryRepository" as CatRep
+participant ":Product" as Prod
+participant ":ProductRepository" as ProRep
+
+activate SC
+SC -> UI : ask to register a product
+activate UI
+UI -> CTRL : create
+activate CTRL
+|||
+deactivate CTRL
+UI -> CTRL : getProductCategories
+activate CTRL
+CTRL -> Persistance : repositories()
+activate Persistance
+Persistance -> Factory : create
+activate Factory
+Factory -> CatRep : create
+activate CatRep
+|||
+deactivate CatRep
+deactivate Factory
+deactivate Persistance
+CTRL -> CatRep : findAll
+activate CatRep
+CatRep --> CTRL : ProductCategories
+deactivate CatRep
+CTRL --> UI : ProductCategories
+deactivate CTRL
+UI -> UI : doShow()
+UI -> CTRL : registerProduct(uniqueInternalCode, barcode, shortDescription, extendedDescription, priceWithoutTaxes, status, weight, volume, priceWithTaxes, productCategory, technicalDescription, brandName, reference, productionCode, photos)
+activate CTRL
+CTRL -> Prod : newProduct = create(uniqueInternalCode, barcode, shortDescription, extendedDescription, priceWithoutTaxes, status, weight, volume, priceWithTaxes, productCategory, technicalDescription, brandName, reference, productionCode, photos)
+activate Prod
+|||
+deactivate Prod
+CTRL -> Persistance : repositories()
+activate Persistance
+Persistance -> Factory : create
+activate Factory
+Factory -> ProRep : create
+activate ProRep
+|||
+deactivate ProRep
+deactivate Factory
+deactivate Persistance
+CTRL -> ProRep : save(newProduct)
+activate ProRep
+|||
+deactivate ProRep
+CTRL --> UI : result
+deactivate CTRL
+UI --> SC : informs of operation success or fail
+deactivate UI
+deactivate SC
+
+@enduml

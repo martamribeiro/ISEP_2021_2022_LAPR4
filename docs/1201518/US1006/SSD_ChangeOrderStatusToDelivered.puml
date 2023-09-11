@@ -1,0 +1,26 @@
+@startuml
+
+autonumber
+actor "Sales Clerk" as SC
+
+activate SC
+SC -> ":System" : quer visualizar as encomendas\nno estado Dispatched
+activate ":System"
+loop enquanto desejar alterar o estado de encomendas
+":System" --> SC : mostra a lista de encomendas
+deactivate ":System"
+/'loop enquanto desejar alterar o estado de encomendas
+SC -> ":System" : Pergunta se pretende alterar o status de alguma\nencomenda para Being Delivered
+activate ":System"'/
+/'alt deseja alterar o status'/
+/'":System" --> SC : solicita o id da encomenda
+deactivate ":System"'/
+SC -> ":System" : seleciona a encomenda pretendida
+activate ":System"
+/'end'/
+":System" --> SC : informa o sucesso da operação
+deactivate ":System"
+end
+deactivate SC
+
+@enduml

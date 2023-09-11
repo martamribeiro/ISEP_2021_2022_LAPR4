@@ -1,0 +1,11 @@
+6. How would you compare our products to our competitors?(mandatory)
+Type: scaling option
+Scale: Strongly Agree, Agree, Neutral, Disagree, Strongly disagree
+1)Our products have a higher quality than the ones from our competitors.
+2)Our products are cheaper than the ones from our competitors.
+3)Our products have more availability than the ones from our competitors.
+4)You prefer to buy products from us.
+
+
+
+

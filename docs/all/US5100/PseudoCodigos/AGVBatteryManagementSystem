@@ -1,0 +1,65 @@
+public class AGVBatteryManagementSystem {
+    global variable with the number of hours in a day;
+    global variable with the number of minutes in an hour;
+    global variable with the number of seconds in a minute;
+    global variable with the value to reduce battery if AGV is moving;
+    global variable with the value to reduce battery if AGV is in stand-by;
+    global variable with the value to increase battery if AGV is charging;
+
+    public AGVBatteryManagementSystem(AGV belonging to the current Thread){
+        get the given AGV
+    }
+
+    private static Long agvInitialAutonomyDuration(){
+        instantiate variable to keep changed AGV Autonomy
+        get AGV Autonomy from the given AGV
+
+        if(autonomy is in "Days"){
+            change AGV Autonomy from "Days" to "Seconds";
+        } else if(autonomy is in "Hours") {
+            change AGV Autonomy from "Hours" to "Seconds";
+        }else if(autonomy is in "Minutes"){
+            change AGV Autonomy from "Minutes" to "Seconds";
+        }
+
+        return AGV Autonomy in "Seconds";
+    }
+
+    public synchronized void agvFinalAutonomyDuration(){
+        change AGV Autonomy with the method agvInitialAutonomyDuration();
+        cast changed AGV Autonomy to Double;
+
+        getTaskStatus from the given AGV;
+
+        if(status is "occupied"){
+            calculate battery consumption of a moving AGV;
+        }else if(status is "free"){
+            calculate battery consumption of a stand-by AGV;
+        }else if(status is "charging"){
+            calculate recharging battery of a charging AGV;
+        }
+
+        change the battery of the given AGV;
+    }
+
+    private static String convertFinalAutonomyDuration(final battery to be converted){
+        instantiate the variables to keep the result according to the available options;
+        final variable to return;
+
+        if(if final battery is bigger than 1 "Minute"){
+            calculate the final battery in "Hours";
+
+            if(if final battery is bigger than 1 "Hour"){
+                calculate the final battery in "Days";
+
+                final variable with the final battery value and the time character;
+            }else{
+                final variable with the final battery value and the time character;
+            }
+        }else {
+            final variable with the final battery value and the time character;
+        }
+
+        return the changed final battery of the given AGV;
+    }
+}

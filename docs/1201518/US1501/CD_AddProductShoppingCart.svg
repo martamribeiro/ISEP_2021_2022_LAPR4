@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1234px" preserveAspectRatio="none" style="width:1082px;height:1234px;" version="1.1" viewBox="0 0 1082 1234" width="1082px" zoomAndPan="magnify"><defs><filter height="300%" id="ffk2t4ugug2jl" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[71f2b1d24bae020f1e12035495ebc9c0]
+entity ShoppingCarRepository--><path d="M106.5,886 C106.5,876 192,876 192,876 C192,876 277.5,876 277.5,886 L277.5,912.6094 C277.5,922.6094 192,922.6094 192,922.6094 C192,922.6094 106.5,922.6094 106.5,912.6094 L106.5,886 " fill="#FFFFFF" filter="url(#ffk2t4ugug2jl)" style="stroke:#000000;stroke-width:1.5;"/><path d="M106.5,886 C106.5,896 192,896 192,896 C192,896 277.5,896 277.5,886 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="151" x="116.5" y="914.5332">ShoppingCarRepository</text><!--MD5=[dfccfb5894388a46eaa5d679d3ea0882]
+entity ClientRepository--><path d="M485,886 C485,876 547,876 547,876 C547,876 609,876 609,886 L609,912.6094 C609,922.6094 547,922.6094 547,922.6094 C547,922.6094 485,922.6094 485,912.6094 L485,886 " fill="#FFFFFF" filter="url(#ffk2t4ugug2jl)" style="stroke:#000000;stroke-width:1.5;"/><path d="M485,886 C485,896 547,896 547,896 C547,896 609,896 609,886 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="104" x="495" y="914.5332">ClientRepository</text><!--MD5=[f4ecc8f4bd9544a4e59fa7ea999fa228]
+entity ProductRepository--><path d="M312.5,886 C312.5,876 381,876 381,876 C381,876 449.5,876 449.5,886 L449.5,912.6094 C449.5,922.6094 381,922.6094 381,922.6094 C381,922.6094 312.5,922.6094 312.5,912.6094 L312.5,886 " fill="#FFFFFF" filter="url(#ffk2t4ugug2jl)" style="stroke:#000000;stroke-width:1.5;"/><path d="M312.5,886 C312.5,896 381,896 381,896 C381,896 449.5,896 449.5,886 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="322.5" y="914.5332">ProductRepository</text><!--MD5=[4979a03d93568960d191c05be073bcd7]
+class AddProductToShoppingCarUI--><rect codeLine="5" fill="#FEFECE" filter="url(#ffk2t4ugug2jl)" height="48" id="AddProductToShoppingCarUI" style="stroke:#A80036;stroke-width:1.5;" width="194" x="723" y="7"/><ellipse cx="738" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M740,19.5 Q740.2031,19 740.4375,18.75 Q740.6719,18.5 740.9375,18.5 Q741.4063,18.5 741.7031,18.7813 Q742,19.0625 742,19.7188 L742,21.2813 Q742,21.9375 741.7188,22.2188 Q741.4375,22.5 741,22.5 Q740.6094,22.5 740.3594,22.3281 Q740.1094,22.1563 740,21.7031 Q739.9531,21.3906 739.7813,21.2188 Q739.4688,20.8906 738.9063,20.7031 Q738.3438,20.5 737.7813,20.5 Q737.0781,20.5 736.4844,20.7813 Q735.9063,21.0625 735.4531,21.6875 Q735,22.3125 735,23.1719 L735,24.0938 Q735,25.125 735.8438,25.8125 Q736.6875,26.5 738.1875,26.5 Q739.0781,26.5 739.7031,26.2969 Q740.0625,26.1875 740.4688,25.8281 Q740.7344,25.625 740.875,25.5625 Q741.0156,25.5 741.1875,25.5 Q741.5156,25.5 741.75,25.7656 Q742,26.0156 742,26.375 Q742,26.7188 741.6563,27.125 Q741.1563,27.7188 740.3594,28.0469 Q739.3125,28.5 738.0313,28.5 Q736.5313,28.5 735.3281,27.9063 Q734.3594,27.4375 733.6719,26.4219 Q733,25.4063 733,24.2031 L733,23.1094 Q733,21.8594 733.5938,20.7656 Q734.2031,19.6719 735.25,19.0938 Q736.3125,18.5 737.5,18.5 Q738.2188,18.5 738.8438,18.75 Q739.4688,19 740,19.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="162" x="752" y="27.9102">AddProductToShoppingCarUI</text><line style="stroke:#A80036;stroke-width:1.5;" x1="724" x2="916" y1="39" y2="39"/><line style="stroke:#A80036;stroke-width:1.5;" x1="724" x2="916" y1="47" y2="47"/><!--MD5=[7672d22f7407a31ffb49279bc227017e]
+class AddProductToShoppingCarController--><rect codeLine="35" fill="#FEFECE" filter="url(#ffk2t4ugug2jl)" height="89.5078" id="AddProductToShoppingCarController" style="stroke:#A80036;stroke-width:1.5;" width="236" x="702" y="116"/><ellipse cx="717" cy="132" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M719,128.5 Q719.2031,128 719.4375,127.75 Q719.6719,127.5 719.9375,127.5 Q720.4063,127.5 720.7031,127.7813 Q721,128.0625 721,128.7188 L721,130.2813 Q721,130.9375 720.7188,131.2188 Q720.4375,131.5 720,131.5 Q719.6094,131.5 719.3594,131.3281 Q719.1094,131.1563 719,130.7031 Q718.9531,130.3906 718.7813,130.2188 Q718.4688,129.8906 717.9063,129.7031 Q717.3438,129.5 716.7813,129.5 Q716.0781,129.5 715.4844,129.7813 Q714.9063,130.0625 714.4531,130.6875 Q714,131.3125 714,132.1719 L714,133.0938 Q714,134.125 714.8438,134.8125 Q715.6875,135.5 717.1875,135.5 Q718.0781,135.5 718.7031,135.2969 Q719.0625,135.1875 719.4688,134.8281 Q719.7344,134.625 719.875,134.5625 Q720.0156,134.5 720.1875,134.5 Q720.5156,134.5 720.75,134.7656 Q721,135.0156 721,135.375 Q721,135.7188 720.6563,136.125 Q720.1563,136.7188 719.3594,137.0469 Q718.3125,137.5 717.0313,137.5 Q715.5313,137.5 714.3281,136.9063 Q713.3594,136.4375 712.6719,135.4219 Q712,134.4063 712,133.2031 L712,132.1094 Q712,130.8594 712.5938,129.7656 Q713.2031,128.6719 714.25,128.0938 Q715.3125,127.5 716.5,127.5 Q717.2188,127.5 717.8438,127.75 Q718.4688,128 719,128.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="204" x="731" y="136.9102">AddProductToShoppingCarController</text><line style="stroke:#A80036;stroke-width:1.5;" x1="703" x2="937" y1="148" y2="148"/><line style="stroke:#A80036;stroke-width:1.5;" x1="703" x2="937" y1="156" y2="156"/><ellipse cx="713" cy="167" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="61" x="722" y="171.4189">allProducts()</text><ellipse cx="713" cy="180.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="132" x="722" y="185.2549">findByUniqueInternalCode()</text><ellipse cx="713" cy="194.6719" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="128" x="722" y="199.0908">addProductShoppingCart()</text><!--MD5=[8781ae5f95a0d141d1fb88a8698066f0]
+class AddProductToShoppingCarService--><rect codeLine="41" fill="#FEFECE" filter="url(#ffk2t4ugug2jl)" height="89.5078" id="AddProductToShoppingCarService" style="stroke:#A80036;stroke-width:1.5;" width="222" x="709" y="267"/><ellipse cx="724" cy="283" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M726,279.5 Q726.2031,279 726.4375,278.75 Q726.6719,278.5 726.9375,278.5 Q727.4063,278.5 727.7031,278.7813 Q728,279.0625 728,279.7188 L728,281.2813 Q728,281.9375 727.7188,282.2188 Q727.4375,282.5 727,282.5 Q726.6094,282.5 726.3594,282.3281 Q726.1094,282.1563 726,281.7031 Q725.9531,281.3906 725.7813,281.2188 Q725.4688,280.8906 724.9063,280.7031 Q724.3438,280.5 723.7813,280.5 Q723.0781,280.5 722.4844,280.7813 Q721.9063,281.0625 721.4531,281.6875 Q721,282.3125 721,283.1719 L721,284.0938 Q721,285.125 721.8438,285.8125 Q722.6875,286.5 724.1875,286.5 Q725.0781,286.5 725.7031,286.2969 Q726.0625,286.1875 726.4688,285.8281 Q726.7344,285.625 726.875,285.5625 Q727.0156,285.5 727.1875,285.5 Q727.5156,285.5 727.75,285.7656 Q728,286.0156 728,286.375 Q728,286.7188 727.6563,287.125 Q727.1563,287.7188 726.3594,288.0469 Q725.3125,288.5 724.0313,288.5 Q722.5313,288.5 721.3281,287.9063 Q720.3594,287.4375 719.6719,286.4219 Q719,285.4063 719,284.2031 L719,283.1094 Q719,281.8594 719.5938,280.7656 Q720.2031,279.6719 721.25,279.0938 Q722.3125,278.5 723.5,278.5 Q724.2188,278.5 724.8438,278.75 Q725.4688,279 726,279.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="190" x="738" y="287.9102">AddProductToShoppingCarService</text><line style="stroke:#A80036;stroke-width:1.5;" x1="710" x2="930" y1="299" y2="299"/><line style="stroke:#A80036;stroke-width:1.5;" x1="710" x2="930" y1="307" y2="307"/><ellipse cx="720" cy="318" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="61" x="729" y="322.4189">allProducts()</text><ellipse cx="720" cy="331.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="132" x="729" y="336.2549">findByUniqueInternalCode()</text><ellipse cx="720" cy="345.6719" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="128" x="729" y="350.0908">addProductShoppingCart()</text><!--MD5=[456a0650b3ce0b39f10b06fd0428ee80]
+class ShoppingCar--><rect codeLine="8" fill="#FEFECE" filter="url(#ffk2t4ugug2jl)" height="48" id="ShoppingCar" style="stroke:#A80036;stroke-width:1.5;" width="105" x="537.5" y="1046"/><ellipse cx="552.5" cy="1062" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M554.5,1058.5 Q554.7031,1058 554.9375,1057.75 Q555.1719,1057.5 555.4375,1057.5 Q555.9063,1057.5 556.2031,1057.7813 Q556.5,1058.0625 556.5,1058.7188 L556.5,1060.2813 Q556.5,1060.9375 556.2188,1061.2188 Q555.9375,1061.5 555.5,1061.5 Q555.1094,1061.5 554.8594,1061.3281 Q554.6094,1061.1563 554.5,1060.7031 Q554.4531,1060.3906 554.2813,1060.2188 Q553.9688,1059.8906 553.4063,1059.7031 Q552.8438,1059.5 552.2813,1059.5 Q551.5781,1059.5 550.9844,1059.7813 Q550.4063,1060.0625 549.9531,1060.6875 Q549.5,1061.3125 549.5,1062.1719 L549.5,1063.0938 Q549.5,1064.125 550.3438,1064.8125 Q551.1875,1065.5 552.6875,1065.5 Q553.5781,1065.5 554.2031,1065.2969 Q554.5625,1065.1875 554.9688,1064.8281 Q555.2344,1064.625 555.375,1064.5625 Q555.5156,1064.5 555.6875,1064.5 Q556.0156,1064.5 556.25,1064.7656 Q556.5,1065.0156 556.5,1065.375 Q556.5,1065.7188 556.1563,1066.125 Q555.6563,1066.7188 554.8594,1067.0469 Q553.8125,1067.5 552.5313,1067.5 Q551.0313,1067.5 549.8281,1066.9063 Q548.8594,1066.4375 548.1719,1065.4219 Q547.5,1064.4063 547.5,1063.2031 L547.5,1062.1094 Q547.5,1060.8594 548.0938,1059.7656 Q548.7031,1058.6719 549.75,1058.0938 Q550.8125,1057.5 552,1057.5 Q552.7188,1057.5 553.3438,1057.75 Q553.9688,1058 554.5,1058.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="73" x="566.5" y="1066.9102">ShoppingCar</text><line style="stroke:#A80036;stroke-width:1.5;" x1="538.5" x2="641.5" y1="1078" y2="1078"/><line style="stroke:#A80036;stroke-width:1.5;" x1="538.5" x2="641.5" y1="1086" y2="1086"/><!--MD5=[13dd5a658d78c1efef6aab4718227448]
+class ShopCarItem--><rect codeLine="9" fill="#FEFECE" filter="url(#ffk2t4ugug2jl)" height="48" id="ShopCarItem" style="stroke:#A80036;stroke-width:1.5;" width="105" x="757.5" y="1046"/><ellipse cx="772.5" cy="1062" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M774.5,1058.5 Q774.7031,1058 774.9375,1057.75 Q775.1719,1057.5 775.4375,1057.5 Q775.9063,1057.5 776.2031,1057.7813 Q776.5,1058.0625 776.5,1058.7188 L776.5,1060.2813 Q776.5,1060.9375 776.2188,1061.2188 Q775.9375,1061.5 775.5,1061.5 Q775.1094,1061.5 774.8594,1061.3281 Q774.6094,1061.1563 774.5,1060.7031 Q774.4531,1060.3906 774.2813,1060.2188 Q773.9688,1059.8906 773.4063,1059.7031 Q772.8438,1059.5 772.2813,1059.5 Q771.5781,1059.5 770.9844,1059.7813 Q770.4063,1060.0625 769.9531,1060.6875 Q769.5,1061.3125 769.5,1062.1719 L769.5,1063.0938 Q769.5,1064.125 770.3438,1064.8125 Q771.1875,1065.5 772.6875,1065.5 Q773.5781,1065.5 774.2031,1065.2969 Q774.5625,1065.1875 774.9688,1064.8281 Q775.2344,1064.625 775.375,1064.5625 Q775.5156,1064.5 775.6875,1064.5 Q776.0156,1064.5 776.25,1064.7656 Q776.5,1065.0156 776.5,1065.375 Q776.5,1065.7188 776.1563,1066.125 Q775.6563,1066.7188 774.8594,1067.0469 Q773.8125,1067.5 772.5313,1067.5 Q771.0313,1067.5 769.8281,1066.9063 Q768.8594,1066.4375 768.1719,1065.4219 Q767.5,1064.4063 767.5,1063.2031 L767.5,1062.1094 Q767.5,1060.8594 768.0938,1059.7656 Q768.7031,1058.6719 769.75,1058.0938 Q770.8125,1057.5 772,1057.5 Q772.7188,1057.5 773.3438,1057.75 Q773.9688,1058 774.5,1058.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="73" x="786.5" y="1066.9102">ShopCarItem</text><line style="stroke:#A80036;stroke-width:1.5;" x1="758.5" x2="861.5" y1="1078" y2="1078"/><line style="stroke:#A80036;stroke-width:1.5;" x1="758.5" x2="861.5" y1="1086" y2="1086"/><!--MD5=[72136138052d025cffdce3c22fbd185f]
+class Product--><rect codeLine="10" fill="#FEFECE" filter="url(#ffk2t4ugug2jl)" height="48" id="Product" style="stroke:#A80036;stroke-width:1.5;" width="74" x="826" y="1172"/><ellipse cx="841" cy="1188" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M843,1184.5 Q843.2031,1184 843.4375,1183.75 Q843.6719,1183.5 843.9375,1183.5 Q844.4063,1183.5 844.7031,1183.7813 Q845,1184.0625 845,1184.7188 L845,1186.2813 Q845,1186.9375 844.7188,1187.2188 Q844.4375,1187.5 844,1187.5 Q843.6094,1187.5 843.3594,1187.3281 Q843.1094,1187.1563 843,1186.7031 Q842.9531,1186.3906 842.7813,1186.2188 Q842.4688,1185.8906 841.9063,1185.7031 Q841.3438,1185.5 840.7813,1185.5 Q840.0781,1185.5 839.4844,1185.7813 Q838.9063,1186.0625 838.4531,1186.6875 Q838,1187.3125 838,1188.1719 L838,1189.0938 Q838,1190.125 838.8438,1190.8125 Q839.6875,1191.5 841.1875,1191.5 Q842.0781,1191.5 842.7031,1191.2969 Q843.0625,1191.1875 843.4688,1190.8281 Q843.7344,1190.625 843.875,1190.5625 Q844.0156,1190.5 844.1875,1190.5 Q844.5156,1190.5 844.75,1190.7656 Q845,1191.0156 845,1191.375 Q845,1191.7188 844.6563,1192.125 Q844.1563,1192.7188 843.3594,1193.0469 Q842.3125,1193.5 841.0313,1193.5 Q839.5313,1193.5 838.3281,1192.9063 Q837.3594,1192.4375 836.6719,1191.4219 Q836,1190.4063 836,1189.2031 L836,1188.1094 Q836,1186.8594 836.5938,1185.7656 Q837.2031,1184.6719 838.25,1184.0938 Q839.3125,1183.5 840.5,1183.5 Q841.2188,1183.5 841.8438,1183.75 Q842.4688,1184 843,1184.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="42" x="855" y="1192.9102">Product</text><line style="stroke:#A80036;stroke-width:1.5;" x1="827" x2="899" y1="1204" y2="1204"/><line style="stroke:#A80036;stroke-width:1.5;" x1="827" x2="899" y1="1212" y2="1212"/><!--MD5=[b49a69a5e66983f12e893ec4fc490f6e]
+class ProductDTO--><rect codeLine="11" fill="#FEFECE" filter="url(#ffk2t4ugug2jl)" height="48" id="ProductDTO" style="stroke:#A80036;stroke-width:1.5;" width="99" x="969.5" y="541"/><ellipse cx="984.5" cy="557" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M986.5,553.5 Q986.7031,553 986.9375,552.75 Q987.1719,552.5 987.4375,552.5 Q987.9063,552.5 988.2031,552.7813 Q988.5,553.0625 988.5,553.7188 L988.5,555.2813 Q988.5,555.9375 988.2188,556.2188 Q987.9375,556.5 987.5,556.5 Q987.1094,556.5 986.8594,556.3281 Q986.6094,556.1563 986.5,555.7031 Q986.4531,555.3906 986.2813,555.2188 Q985.9688,554.8906 985.4063,554.7031 Q984.8438,554.5 984.2813,554.5 Q983.5781,554.5 982.9844,554.7813 Q982.4063,555.0625 981.9531,555.6875 Q981.5,556.3125 981.5,557.1719 L981.5,558.0938 Q981.5,559.125 982.3438,559.8125 Q983.1875,560.5 984.6875,560.5 Q985.5781,560.5 986.2031,560.2969 Q986.5625,560.1875 986.9688,559.8281 Q987.2344,559.625 987.375,559.5625 Q987.5156,559.5 987.6875,559.5 Q988.0156,559.5 988.25,559.7656 Q988.5,560.0156 988.5,560.375 Q988.5,560.7188 988.1563,561.125 Q987.6563,561.7188 986.8594,562.0469 Q985.8125,562.5 984.5313,562.5 Q983.0313,562.5 981.8281,561.9063 Q980.8594,561.4375 980.1719,560.4219 Q979.5,559.4063 979.5,558.2031 L979.5,557.1094 Q979.5,555.8594 980.0938,554.7656 Q980.7031,553.6719 981.75,553.0938 Q982.8125,552.5 984,552.5 Q984.7188,552.5 985.3438,552.75 Q985.9688,553 986.5,553.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="67" x="998.5" y="561.9102">ProductDTO</text><line style="stroke:#A80036;stroke-width:1.5;" x1="970.5" x2="1067.5" y1="573" y2="573"/><line style="stroke:#A80036;stroke-width:1.5;" x1="970.5" x2="1067.5" y1="581" y2="581"/><!--MD5=[1f38f64b5f7435f2bb59658c4940dc36]
+class ListProductDTOService--><rect codeLine="16" fill="#FEFECE" filter="url(#ffk2t4ugug2jl)" height="61.8359" id="ListProductDTOService" style="stroke:#A80036;stroke-width:1.5;" width="159" x="408.5" y="633"/><ellipse cx="423.5" cy="649" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M425.5,645.5 Q425.7031,645 425.9375,644.75 Q426.1719,644.5 426.4375,644.5 Q426.9063,644.5 427.2031,644.7813 Q427.5,645.0625 427.5,645.7188 L427.5,647.2813 Q427.5,647.9375 427.2188,648.2188 Q426.9375,648.5 426.5,648.5 Q426.1094,648.5 425.8594,648.3281 Q425.6094,648.1563 425.5,647.7031 Q425.4531,647.3906 425.2813,647.2188 Q424.9688,646.8906 424.4063,646.7031 Q423.8438,646.5 423.2813,646.5 Q422.5781,646.5 421.9844,646.7813 Q421.4063,647.0625 420.9531,647.6875 Q420.5,648.3125 420.5,649.1719 L420.5,650.0938 Q420.5,651.125 421.3438,651.8125 Q422.1875,652.5 423.6875,652.5 Q424.5781,652.5 425.2031,652.2969 Q425.5625,652.1875 425.9688,651.8281 Q426.2344,651.625 426.375,651.5625 Q426.5156,651.5 426.6875,651.5 Q427.0156,651.5 427.25,651.7656 Q427.5,652.0156 427.5,652.375 Q427.5,652.7188 427.1563,653.125 Q426.6563,653.7188 425.8594,654.0469 Q424.8125,654.5 423.5313,654.5 Q422.0313,654.5 420.8281,653.9063 Q419.8594,653.4375 419.1719,652.4219 Q418.5,651.4063 418.5,650.2031 L418.5,649.1094 Q418.5,647.8594 419.0938,646.7656 Q419.7031,645.6719 420.75,645.0938 Q421.8125,644.5 423,644.5 Q423.7188,644.5 424.3438,644.75 Q424.9688,645 425.5,645.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="127" x="437.5" y="653.9102">ListProductDTOService</text><line style="stroke:#A80036;stroke-width:1.5;" x1="409.5" x2="566.5" y1="665" y2="665"/><line style="stroke:#A80036;stroke-width:1.5;" x1="409.5" x2="566.5" y1="673" y2="673"/><ellipse cx="419.5" cy="684" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="61" x="428.5" y="688.4189">allProducts()</text><!--MD5=[fe4f3f83a51d21fc9306dfc278fe5ea6]
+class TcpOrderSrv--><rect codeLine="13" fill="#FEFECE" filter="url(#ffk2t4ugug2jl)" height="48" id="TcpOrderSrv" style="stroke:#A80036;stroke-width:1.5;" width="100" x="577" y="418"/><ellipse cx="592" cy="434" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M594,430.5 Q594.2031,430 594.4375,429.75 Q594.6719,429.5 594.9375,429.5 Q595.4063,429.5 595.7031,429.7813 Q596,430.0625 596,430.7188 L596,432.2813 Q596,432.9375 595.7188,433.2188 Q595.4375,433.5 595,433.5 Q594.6094,433.5 594.3594,433.3281 Q594.1094,433.1563 594,432.7031 Q593.9531,432.3906 593.7813,432.2188 Q593.4688,431.8906 592.9063,431.7031 Q592.3438,431.5 591.7813,431.5 Q591.0781,431.5 590.4844,431.7813 Q589.9063,432.0625 589.4531,432.6875 Q589,433.3125 589,434.1719 L589,435.0938 Q589,436.125 589.8438,436.8125 Q590.6875,437.5 592.1875,437.5 Q593.0781,437.5 593.7031,437.2969 Q594.0625,437.1875 594.4688,436.8281 Q594.7344,436.625 594.875,436.5625 Q595.0156,436.5 595.1875,436.5 Q595.5156,436.5 595.75,436.7656 Q596,437.0156 596,437.375 Q596,437.7188 595.6563,438.125 Q595.1563,438.7188 594.3594,439.0469 Q593.3125,439.5 592.0313,439.5 Q590.5313,439.5 589.3281,438.9063 Q588.3594,438.4375 587.6719,437.4219 Q587,436.4063 587,435.2031 L587,434.1094 Q587,432.8594 587.5938,431.7656 Q588.2031,430.6719 589.25,430.0938 Q590.3125,429.5 591.5,429.5 Q592.2188,429.5 592.8438,429.75 Q593.4688,430 594,430.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="68" x="606" y="438.9102">TcpOrderSrv</text><line style="stroke:#A80036;stroke-width:1.5;" x1="578" x2="676" y1="450" y2="450"/><line style="stroke:#A80036;stroke-width:1.5;" x1="578" x2="676" y1="458" y2="458"/><!--MD5=[e8c189551b7885b999ad7cefb30fc2a3]
+class PersistenceContext--><rect codeLine="20" fill="#FEFECE" filter="url(#ffk2t4ugug2jl)" height="61.8359" id="PersistenceContext" style="stroke:#A80036;stroke-width:1.5;" width="139" x="294.5" y="534"/><ellipse cx="309.5" cy="550" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M311.5,546.5 Q311.7031,546 311.9375,545.75 Q312.1719,545.5 312.4375,545.5 Q312.9063,545.5 313.2031,545.7813 Q313.5,546.0625 313.5,546.7188 L313.5,548.2813 Q313.5,548.9375 313.2188,549.2188 Q312.9375,549.5 312.5,549.5 Q312.1094,549.5 311.8594,549.3281 Q311.6094,549.1563 311.5,548.7031 Q311.4531,548.3906 311.2813,548.2188 Q310.9688,547.8906 310.4063,547.7031 Q309.8438,547.5 309.2813,547.5 Q308.5781,547.5 307.9844,547.7813 Q307.4063,548.0625 306.9531,548.6875 Q306.5,549.3125 306.5,550.1719 L306.5,551.0938 Q306.5,552.125 307.3438,552.8125 Q308.1875,553.5 309.6875,553.5 Q310.5781,553.5 311.2031,553.2969 Q311.5625,553.1875 311.9688,552.8281 Q312.2344,552.625 312.375,552.5625 Q312.5156,552.5 312.6875,552.5 Q313.0156,552.5 313.25,552.7656 Q313.5,553.0156 313.5,553.375 Q313.5,553.7188 313.1563,554.125 Q312.6563,554.7188 311.8594,555.0469 Q310.8125,555.5 309.5313,555.5 Q308.0313,555.5 306.8281,554.9063 Q305.8594,554.4375 305.1719,553.4219 Q304.5,552.4063 304.5,551.2031 L304.5,550.1094 Q304.5,548.8594 305.0938,547.7656 Q305.7031,546.6719 306.75,546.0938 Q307.8125,545.5 309,545.5 Q309.7188,545.5 310.3438,545.75 Q310.9688,546 311.5,546.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="107" x="323.5" y="554.9102">PersistenceContext</text><line style="stroke:#A80036;stroke-width:1.5;" x1="295.5" x2="432.5" y1="566" y2="566"/><line style="stroke:#A80036;stroke-width:1.5;" x1="295.5" x2="432.5" y1="574" y2="574"/><ellipse cx="305.5" cy="585" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="65" x="314.5" y="589.4189">repositories()</text><!--MD5=[ed6624c6556d5e7b1bd23032162d20b7]
+class Client--><rect codeLine="25" fill="#FEFECE" filter="url(#ffk2t4ugug2jl)" height="61.8359" id="Client" style="stroke:#A80036;stroke-width:1.5;" width="65" x="36.5" y="534"/><ellipse cx="51.95" cy="550" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M53.95,546.5 Q54.1531,546 54.3875,545.75 Q54.6219,545.5 54.8875,545.5 Q55.3563,545.5 55.6531,545.7813 Q55.95,546.0625 55.95,546.7188 L55.95,548.2813 Q55.95,548.9375 55.6688,549.2188 Q55.3875,549.5 54.95,549.5 Q54.5594,549.5 54.3094,549.3281 Q54.0594,549.1563 53.95,548.7031 Q53.9031,548.3906 53.7313,548.2188 Q53.4188,547.8906 52.8563,547.7031 Q52.2938,547.5 51.7313,547.5 Q51.0281,547.5 50.4344,547.7813 Q49.8563,548.0625 49.4031,548.6875 Q48.95,549.3125 48.95,550.1719 L48.95,551.0938 Q48.95,552.125 49.7938,552.8125 Q50.6375,553.5 52.1375,553.5 Q53.0281,553.5 53.6531,553.2969 Q54.0125,553.1875 54.4188,552.8281 Q54.6844,552.625 54.825,552.5625 Q54.9656,552.5 55.1375,552.5 Q55.4656,552.5 55.7,552.7656 Q55.95,553.0156 55.95,553.375 Q55.95,553.7188 55.6063,554.125 Q55.1063,554.7188 54.3094,555.0469 Q53.2625,555.5 51.9813,555.5 Q50.4813,555.5 49.2781,554.9063 Q48.3094,554.4375 47.6219,553.4219 Q46.95,552.4063 46.95,551.2031 L46.95,550.1094 Q46.95,548.8594 47.5438,547.7656 Q48.1531,546.6719 49.2,546.0938 Q50.2625,545.5 51.45,545.5 Q52.1688,545.5 52.7938,545.75 Q53.4188,546 53.95,546.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="32" x="66.05" y="554.9102">Client</text><line style="stroke:#A80036;stroke-width:1.5;" x1="37.5" x2="100.5" y1="566" y2="566"/><line style="stroke:#A80036;stroke-width:1.5;" x1="37.5" x2="100.5" y1="574" y2="574"/><ellipse cx="47.5" cy="585" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="39" x="56.5" y="589.4189">create()</text><!--MD5=[288bffab58163169a8d16c57b889bc0c]
+class TransactionalContext--><rect codeLine="29" fill="#FEFECE" filter="url(#ffk2t4ugug2jl)" height="75.6719" id="TransactionalContext" style="stroke:#A80036;stroke-width:1.5;" width="148" x="715" y="527"/><ellipse cx="730" cy="543" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M732,539.5 Q732.2031,539 732.4375,538.75 Q732.6719,538.5 732.9375,538.5 Q733.4063,538.5 733.7031,538.7813 Q734,539.0625 734,539.7188 L734,541.2813 Q734,541.9375 733.7188,542.2188 Q733.4375,542.5 733,542.5 Q732.6094,542.5 732.3594,542.3281 Q732.1094,542.1563 732,541.7031 Q731.9531,541.3906 731.7813,541.2188 Q731.4688,540.8906 730.9063,540.7031 Q730.3438,540.5 729.7813,540.5 Q729.0781,540.5 728.4844,540.7813 Q727.9063,541.0625 727.4531,541.6875 Q727,542.3125 727,543.1719 L727,544.0938 Q727,545.125 727.8438,545.8125 Q728.6875,546.5 730.1875,546.5 Q731.0781,546.5 731.7031,546.2969 Q732.0625,546.1875 732.4688,545.8281 Q732.7344,545.625 732.875,545.5625 Q733.0156,545.5 733.1875,545.5 Q733.5156,545.5 733.75,545.7656 Q734,546.0156 734,546.375 Q734,546.7188 733.6563,547.125 Q733.1563,547.7188 732.3594,548.0469 Q731.3125,548.5 730.0313,548.5 Q728.5313,548.5 727.3281,547.9063 Q726.3594,547.4375 725.6719,546.4219 Q725,545.4063 725,544.2031 L725,543.1094 Q725,541.8594 725.5938,540.7656 Q726.2031,539.6719 727.25,539.0938 Q728.3125,538.5 729.5,538.5 Q730.2188,538.5 730.8438,538.75 Q731.4688,539 732,539.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="116" x="744" y="547.9102">TransactionalContext</text><line style="stroke:#A80036;stroke-width:1.5;" x1="716" x2="862" y1="559" y2="559"/><line style="stroke:#A80036;stroke-width:1.5;" x1="716" x2="862" y1="567" y2="567"/><ellipse cx="726" cy="578" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="91" x="735" y="582.4189">beginTransaction()</text><ellipse cx="726" cy="591.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="41" x="735" y="596.2549">commit()</text><!--MD5=[48590afff58a68e2fcba47824d6f8a11]
+class RepositoryFactory--><rect codeLine="59" fill="#FEFECE" filter="url(#ffk2t4ugug2jl)" height="89.5078" id="RepositoryFactory" style="stroke:#A80036;stroke-width:1.5;" width="185" x="262.5" y="725"/><ellipse cx="302.25" cy="741" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M304.25,737.5 Q304.4531,737 304.6875,736.75 Q304.9219,736.5 305.1875,736.5 Q305.6563,736.5 305.9531,736.7813 Q306.25,737.0625 306.25,737.7188 L306.25,739.2813 Q306.25,739.9375 305.9688,740.2188 Q305.6875,740.5 305.25,740.5 Q304.8594,740.5 304.6094,740.3281 Q304.3594,740.1563 304.25,739.7031 Q304.2031,739.3906 304.0313,739.2188 Q303.7188,738.8906 303.1563,738.7031 Q302.5938,738.5 302.0313,738.5 Q301.3281,738.5 300.7344,738.7813 Q300.1563,739.0625 299.7031,739.6875 Q299.25,740.3125 299.25,741.1719 L299.25,742.0938 Q299.25,743.125 300.0938,743.8125 Q300.9375,744.5 302.4375,744.5 Q303.3281,744.5 303.9531,744.2969 Q304.3125,744.1875 304.7188,743.8281 Q304.9844,743.625 305.125,743.5625 Q305.2656,743.5 305.4375,743.5 Q305.7656,743.5 306,743.7656 Q306.25,744.0156 306.25,744.375 Q306.25,744.7188 305.9063,745.125 Q305.4063,745.7188 304.6094,746.0469 Q303.5625,746.5 302.2813,746.5 Q300.7813,746.5 299.5781,745.9063 Q298.6094,745.4375 297.9219,744.4219 Q297.25,743.4063 297.25,742.2031 L297.25,741.1094 Q297.25,739.8594 297.8438,738.7656 Q298.4531,737.6719 299.5,737.0938 Q300.5625,736.5 301.75,736.5 Q302.4688,736.5 303.0938,736.75 Q303.7188,737 304.25,737.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="98" x="321.75" y="745.9102">RepositoryFactory</text><line style="stroke:#A80036;stroke-width:1.5;" x1="263.5" x2="446.5" y1="757" y2="757"/><line style="stroke:#A80036;stroke-width:1.5;" x1="263.5" x2="446.5" y1="765" y2="765"/><ellipse cx="273.5" cy="776" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="39" x="282.5" y="780.4189">create()</text><ellipse cx="273.5" cy="789.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="132" x="282.5" y="794.2549">newTransactionalContext()</text><ellipse cx="273.5" cy="803.6719" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="159" x="282.5" y="808.0908">create(TransactionalContext ctx)</text><!--MD5=[9e9c0526bbbc02339ec26cfc69a8a38b]
+link AddProductToShoppingCarUI to AddProductToShoppingCarController--><path codeLine="65" d="M820,55.18 C820,70.59 820,91.42 820,110.45 " fill="none" id="AddProductToShoppingCarUI-to-AddProductToShoppingCarController" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="820,115.76,824,106.76,820,110.76,816,106.76,820,115.76" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[0d96ea0bf38a3be47dc54bce3c38866b]
+link AddProductToShoppingCarController to AddProductToShoppingCarService--><path codeLine="66" d="M820,206.3 C820,223.64 820,243.6 820,261.41 " fill="none" id="AddProductToShoppingCarController-to-AddProductToShoppingCarService" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="820,266.87,824,257.87,820,261.87,816,257.87,820,266.87" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[eac5a4d169bc11c71a06ab5fce8b6e17]
+link AddProductToShoppingCarService to TcpOrderSrv--><path codeLine="67" d="M753.58,357.05 C724.41,376.4 691.16,398.45 666.07,415.09 " fill="none" id="AddProductToShoppingCarService-to-TcpOrderSrv" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="661.8,417.92,671.5138,416.2944,665.9712,415.163,667.1026,409.6204,661.8,417.92" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[1f76aafcdec0d818166442090775b5e6]
+link AddProductToShoppingCarService to ProductDTO--><path codeLine="68" d="M856.34,357.01 C886.59,393.86 930.59,447.97 968,496 C978.35,509.28 989.6,524.23 998.9,536.73 " fill="none" id="AddProductToShoppingCarService-to-ProductDTO" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1001.97,540.86,999.8305,531.2463,998.9952,536.8412,993.4004,536.006,1001.97,540.86" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[71e1560c0428c3f9bffe2c6dc1e08479]
+link TcpOrderSrv to ClientRepository--><path codeLine="69" d="M622.92,466.21 C609.46,542.85 566.48,787.61 551.89,870.64 " fill="none" id="TcpOrderSrv-to-ClientRepository" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="550.97,875.87,556.4569,867.6912,551.8291,870.9444,548.5759,866.3166,550.97,875.87" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[cb6891aca1a364ee1aa4d40485e6cd2f]
+link TcpOrderSrv to ShoppingCarRepository--><path codeLine="70" d="M576.85,448.54 C490.42,459.11 318.64,484.91 277,527 C181.98,623.03 184.46,802.2 189.36,870.8 " fill="none" id="TcpOrderSrv-to-ShoppingCarRepository" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="189.74,875.93,193.0603,866.6577,189.3685,870.9438,185.0824,867.252,189.74,875.93" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[6a6b35aedc3f6b735371d90ec0868d90]
+link TcpOrderSrv to ProductDTO--><path codeLine="71" d="M677,443.06 C741.34,444.96 855.16,454.58 942,496 C962.48,505.77 981.62,522.62 995.69,537.1 " fill="none" id="TcpOrderSrv-to-ProductDTO" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="999.16,540.73,995.8296,531.4613,995.7039,537.1168,990.0484,536.9911,999.16,540.73" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[f1177d721b6e232b3b202f2ae3ab233d]
+link TcpOrderSrv to Product--><path codeLine="72" d="M677.01,442.42 C759.73,444.37 916,461.6 916,564 C916,564 916,564 916,1071 C916,1106.26 897.65,1142.96 882.55,1167.19 " fill="none" id="TcpOrderSrv-to-Product" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="879.77,1171.57,887.9586,1166.0976,882.4405,1167.3429,881.1952,1161.8248,879.77,1171.57" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[23d6416d2396c98b1f4f055c763c4ed7]
+link TcpOrderSrv to Client--><path codeLine="73" d="M576.65,446.2 C475.58,453.08 251.47,470.71 179,496 C152.88,505.12 126.41,521.21 105.99,535.46 " fill="none" id="TcpOrderSrv-to-Client" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="101.73,538.47,111.3889,536.5451,105.814,535.5855,106.7737,530.0106,101.73,538.47" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[f4aebdb3a2263728cf379030e9fc2e44]
+link TcpOrderSrv to ShoppingCar--><path codeLine="74" d="M637.88,466.08 C648.16,490.01 662,528.79 662,564 C662,564 662,564 662,985 C662,1008.04 646.2,1027.92 629.4,1042.56 " fill="none" id="TcpOrderSrv-to-ShoppingCar" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="625.58,1045.79,635.0389,1043.0459,629.4023,1042.5667,629.8816,1036.9302,625.58,1045.79" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[bddcba308e8dde2cdcee60326482f982]
+link TcpOrderSrv to ListProductDTOService--><path codeLine="75" d="M594.55,466.26 C584.2,474.78 573.29,485.05 565,496 C534.06,536.89 511.64,592.2 499.22,627.75 " fill="none" id="TcpOrderSrv-to-ListProductDTOService" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="497.46,632.84,504.1727,625.6331,499.0882,628.1125,496.6088,623.028,497.46,632.84" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[38ac79cba98cfe7ead161e03508b2114]
+link ListProductDTOService to ProductRepository--><path codeLine="77" d="M488.8,695.14 C488.44,726.68 484.4,776.84 465,815 C453.57,837.5 433.79,857.61 416.3,872.46 " fill="none" id="ListProductDTOService-to-ProductRepository" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="412.38,875.74,421.8557,873.0547,416.2223,872.5405,416.7365,866.907,412.38,875.74" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[b2762c66afa416a41250d4f4f03e5f20]
+link TcpOrderSrv to PersistenceContext--><path codeLine="79" d="M576.97,456.87 C546.02,466.23 505.87,479.82 472,496 C451.27,505.91 429.61,518.95 411.17,530.96 " fill="none" id="TcpOrderSrv-to-PersistenceContext" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="406.56,533.98,416.2776,532.3776,410.7378,531.233,411.8824,525.6931,406.56,533.98" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[97a748f4144e4d4df82cafcc90eb3c6c]
+link TcpOrderSrv to TransactionalContext--><path codeLine="80" d="M657.85,466.04 C679.64,482.32 709.4,504.55 735.07,523.72 " fill="none" id="TcpOrderSrv-to-TransactionalContext" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="739.15,526.77,734.3157,518.1893,735.138,523.786,729.5413,524.6084,739.15,526.77" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[754b775031405e096442b27febffa290]
+link PersistenceContext to RepositoryFactory--><path codeLine="82" d="M362.65,596.39 C361.21,628.99 358.89,681.27 357.18,719.76 " fill="none" id="PersistenceContext-to-RepositoryFactory" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="356.96,724.85,361.3668,716.0421,357.1883,719.8552,353.3752,715.6767,356.96,724.85" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[7e98ba641e2771e3efc9b333390cc0aa]
+link RepositoryFactory to ClientRepository--><path codeLine="83" d="M421.34,815.06 C450.55,834.45 483.81,856.54 508.77,873.11 " fill="none" id="RepositoryFactory-to-ClientRepository" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="513.02,875.93,507.7174,867.6304,508.8488,873.173,503.3062,874.3044,513.02,875.93" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[a107a52b6e2b3fb29ad79d2f6a7df605]
+link RepositoryFactory to ProductRepository--><path codeLine="84" d="M364.02,815.24 C367.76,833.59 371.99,854.33 375.29,870.52 " fill="none" id="RepositoryFactory-to-ProductRepository" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="376.38,875.82,378.4996,866.2019,375.3802,870.921,370.6611,867.8016,376.38,875.82" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[7a686845e28fc4e9d28e5021d7ba1b30]
+link RepositoryFactory to ShoppingCarRepository--><path codeLine="85" d="M298.45,815.24 C273.97,834.39 246.16,856.13 225.11,872.6 " fill="none" id="RepositoryFactory-to-ShoppingCarRepository" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="220.99,875.82,230.5428,873.4232,224.9275,872.7385,225.6123,867.1232,220.99,875.82" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[16f74e5cf05a0822841fd965e5758351]
+link Client to ShoppingCar--><path codeLine="87" d="M53.43,596.05 C34.77,634.9 6,705.16 6,769 C6,769 6,769 6,985 C6,1037.8 384.81,1060.04 532.26,1066.69 " fill="none" id="Client-to-ShoppingCar" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="537.4,1066.92,528.5921,1062.5132,532.4052,1066.6917,528.2267,1070.5048,537.4,1066.92" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="63" x="7" y="904.9951">associated</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="522.5109" y="1062.8817">1</text><!--MD5=[2f7397c50d5445573acc3035a15480c1]
+link ShopCarItem to Product--><path codeLine="88" d="M805.62,1094.26 C803.97,1108.56 803.77,1126.97 810,1142 C814.02,1151.71 820.78,1160.57 828.16,1168.15 " fill="none" id="ShopCarItem-to-Product" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="831.81,1171.77,828.2188,1162.5992,828.2531,1168.256,822.5964,1168.2902,831.81,1171.77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="78" x="811" y="1138.4951">composed by</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="815.9207" y="1161.0512">1</text><!--MD5=[5f5e5f69fbdfa98732b4273d5ccddffd]
+link ShoppingCar to ShopCarItem--><path codeLine="89" d="M642.7,1070 C675.64,1070 718.09,1070 751.99,1070 " fill="none" id="ShoppingCar-to-ShopCarItem" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="757.35,1070,748.35,1066,752.35,1070,748.35,1074,757.35,1070" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="78" x="661" y="1063.4951">composed by</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="20" x="729.323" y="1084.5426">1..*</text><!--MD5=[e66e0f2f8826ca76f15a7e08b53445c7]
+@startuml
+'https://plantuml.com/class-diagram
+
+
+
+class AddProductToShoppingCarUI
+class AddProductToShoppingCarController
+class AddProductToShoppingCarService
+class ShoppingCar
+class ShopCarItem
+class Product
+class ProductDTO
+class ListProductDTOService
+class TcpOrderSrv
+
+
+class ListProductDTOService {
++allProducts()
+}
+
+class PersistenceContext{
++repositories()
+}
+
+
+class Client{
++create()
+}
+
+class TransactionalContext{
++beginTransaction()
++commit()
+}
+
+
+class AddProductToShoppingCarController {
++allProducts()
++findByUniqueInternalCode()
++addProductShoppingCart()
+}
+
+class AddProductToShoppingCarService {
++allProducts()
++findByUniqueInternalCode()
++addProductShoppingCart()
+}
+
+database ShoppingCarRepository{
+}
+
+
+database ClientRepository{
+}
+
+database ProductRepository {
+}
+
+
+
+class RepositoryFactory{
++create()
++newTransactionalContext()
++create(TransactionalContext ctx)
+}
+
+AddProductToShoppingCarUI - -> AddProductToShoppingCarController
+AddProductToShoppingCarController - -> AddProductToShoppingCarService
+AddProductToShoppingCarService - -> TcpOrderSrv
+AddProductToShoppingCarService - -> ProductDTO
+TcpOrderSrv - -> ClientRepository
+TcpOrderSrv - -> ShoppingCarRepository
+TcpOrderSrv - -> ProductDTO
+TcpOrderSrv - -> Product
+TcpOrderSrv - -> Client
+TcpOrderSrv -> ShoppingCar
+TcpOrderSrv - -> ListProductDTOService
+
+ListProductDTOService - -> ProductRepository
+
+TcpOrderSrv - ->PersistenceContext
+TcpOrderSrv - ->TransactionalContext
+
+PersistenceContext - ->RepositoryFactory
+RepositoryFactory - ->ClientRepository
+RepositoryFactory - ->ProductRepository
+RepositoryFactory - ->ShoppingCarRepository
+
+Client - - - - -> "1" ShoppingCar : associated
+ShopCarItem - -> "1" Product : composed by
+ShoppingCar -> "1..*"  ShopCarItem : composed by
+
+@enduml
+
+@startuml
+
+
+
+class AddProductToShoppingCarUI
+class AddProductToShoppingCarController
+class AddProductToShoppingCarService
+class ShoppingCar
+class ShopCarItem
+class Product
+class ProductDTO
+class ListProductDTOService
+class TcpOrderSrv
+
+
+class ListProductDTOService {
++allProducts()
+}
+
+class PersistenceContext{
++repositories()
+}
+
+
+class Client{
++create()
+}
+
+class TransactionalContext{
++beginTransaction()
++commit()
+}
+
+
+class AddProductToShoppingCarController {
++allProducts()
++findByUniqueInternalCode()
++addProductShoppingCart()
+}
+
+class AddProductToShoppingCarService {
++allProducts()
++findByUniqueInternalCode()
++addProductShoppingCart()
+}
+
+database ShoppingCarRepository{
+}
+
+
+database ClientRepository{
+}
+
+database ProductRepository {
+}
+
+
+
+class RepositoryFactory{
++create()
++newTransactionalContext()
++create(TransactionalContext ctx)
+}
+
+AddProductToShoppingCarUI - -> AddProductToShoppingCarController
+AddProductToShoppingCarController - -> AddProductToShoppingCarService
+AddProductToShoppingCarService - -> TcpOrderSrv
+AddProductToShoppingCarService - -> ProductDTO
+TcpOrderSrv - -> ClientRepository
+TcpOrderSrv - -> ShoppingCarRepository
+TcpOrderSrv - -> ProductDTO
+TcpOrderSrv - -> Product
+TcpOrderSrv - -> Client
+TcpOrderSrv -> ShoppingCar
+TcpOrderSrv - -> ListProductDTOService
+
+ListProductDTOService - -> ProductRepository
+
+TcpOrderSrv - ->PersistenceContext
+TcpOrderSrv - ->TransactionalContext
+
+PersistenceContext - ->RepositoryFactory
+RepositoryFactory - ->ClientRepository
+RepositoryFactory - ->ProductRepository
+RepositoryFactory - ->ShoppingCarRepository
+
+Client - - - - -> "1" ShoppingCar : associated
+ShopCarItem - -> "1" Product : composed by
+ShoppingCar -> "1..*"  ShopCarItem : composed by
+
+@enduml
+
+PlantUML version 1.2021.4(Sun Apr 04 09:49:39 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

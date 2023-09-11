@@ -1,0 +1,150 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Warehouse Employee" as WE
+participant SetUpPlantUI as UI <<presentation>>
+participant SetUpPlantController as Controller <<application>>
+participant PlantBuilder as Builder <<builder>>
+participant AgvDockBuilder as Builder2 <<builder>>
+participant AisleBuilder as Builder3 <<builder>>
+participant RowBuilder as Builder4 <<builder>>
+participant ShelfBuilder as Builder5 <<builder>>
+participant "plant:Plant" as Domain1 <<domain>>
+participant "aisle:Aisle" as Domain2 <<domain>>
+participant "row:Row" as Domain3 <<domain>>
+participant "shelf:Shelf" as Domain4 <<domain>>
+participant "agvDock:AGVDock" as Domain5 <<domain>>
+participant "square:Square" as Domain6 <<domain>>
+participant PersistenceContext as Persistence <<persistence>>
+participant RepositoryFactory as Factory <<factory>>
+database PlantRepository as Repository1 <<repository>>
+database AgvDockRepository as Repository2 <<repository>>
+database AisleRepository as Repository3 <<repository>>
+database RowRepository as Repository4 <<repository>>
+database ShelfRepository as Repository5 <<repository>>
+database SquareRepository as Repository6 <<repository>>
+
+
+
+
+
+
+
+activate WE
+WE -> UI : inicia processo de configuração da Planta
+activate UI
+UI -> Controller : create
+UI -> WE : solicita ficheiro JSON com as informações necessárias
+deactivate UI
+
+WE -> UI : introduz ficheiro JSON
+activate UI
+
+UI -> Controller : setUpPlant(file)
+activate Controller
+Controller -> Builder : create
+Controller -> Builder : setWarehouseName(name)
+Controller -> Builder : setWarehouseLength(length)
+Controller -> Builder : setWarehouseWidth(width)
+Controller -> Builder : setWarehouseSquareSize(squareSize)
+Controller -> Builder : setWarehouseUnit(unit)
+
+Controller -> Builder : createPlant()
+activate Builder
+Builder -> Domain1 : create(name, length, width, squareSize, unit)
+Domain1 -> Builder : plant
+Builder -> Controller : plant
+deactivate Builder
+
+Controller -> Builder3 : createAisle()
+activate Builder3
+Builder3 -> Domain6 : create(lsquare, wsquare)
+Domain6 -> Builder3
+Builder3 -> Domain2 : create(beginSquare, endSquare, depthSquare, accessibility)
+Domain2 -> Builder3 : aisle
+Builder3 -> Controller : aisle
+deactivate Builder3
+
+Controller -> Builder4 : createRow()
+activate Builder4
+Builder4 -> Domain6 : create(lsquare, wsquare)
+Domain6 -> Builder4
+Builder4 -> Domain3 : create(aisleID, beginSquare, endSquare)
+Domain3 -> Builder4 : row
+Builder4 -> Controller : row
+deactivate Builder4
+
+Controller -> Builder5: createShelf()
+activate Builder5
+Builder5 -> Domain4 : create(rowID)
+Domain4 -> Builder5: shelf
+Builder5 -> Controller : shelf
+deactivate Builder5
+
+Controller -> Builder2 : createAGVDock()
+activate Builder2
+Builder2 -> Domain6 : create(lsquare, wsquare)
+Domain6 -> Builder2
+Builder2 -> Domain5 : create(beginSquare, endSquare, accessibilityDirection)
+Domain5 -> Builder2 : agvDock
+Builder2 -> Controller : agvDock
+deactivate Builder2
+
+Controller -> Persistence : repositories()
+activate Persistence
+Persistence -> Factory : create
+Persistence -> Controller : factory
+deactivate Persistence
+
+Controller -> Factory : plants()
+activate Factory
+Factory -> Repository1 : create
+Factory -> Controller : plantRepository
+deactivate Factory
+Controller->Repository1 : save(plant)
+
+Controller -> Factory : squares()
+activate Factory
+Factory -> Repository6 : create
+Factory -> Controller : plantRepository
+deactivate Factory
+Controller->Repository6 : save(square)
+
+Controller -> Factory : aisles()
+activate Factory
+Factory -> Repository3 : create
+Factory -> Controller : plantRepository
+deactivate Factory
+Controller->Repository3 : save(aisle)
+
+Controller -> Factory : rows()
+activate Factory
+Factory -> Repository4 : create
+Factory -> Controller : plantRepository
+deactivate Factory
+Controller->Repository4 : save(row)
+
+Controller -> Factory : shselfs()
+activate Factory
+Factory -> Repository5 : create
+Factory -> Controller : plantRepository
+deactivate Factory
+Controller->Repository5 : save(shelf)
+
+Controller -> Factory : agvDocks()
+activate Factory
+Factory -> Repository2 : create
+Factory -> Controller : plantRepository
+deactivate Factory
+Controller->Repository2 : save(agvDock)
+
+Controller->UI: informa sucesso da operação
+deactivate Controller
+
+
+
+UI -> WE : informa sucesso da operação
+deactivate WE
+
+@enduml

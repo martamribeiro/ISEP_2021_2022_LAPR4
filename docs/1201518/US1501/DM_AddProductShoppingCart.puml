@@ -1,0 +1,75 @@
+@startuml
+
+skinparam classAttributeIconSize 0
+hide empty attributes
+skinparam classBackgroundColor beige
+skinparam ArrowColor #222222
+
+package "<<aggregate>> User" {
+    entity User
+    class Role
+    /'class Name
+    class Password
+    class Email'/
+}
+
+entity User <<entity>> <<root>> {
+    - <<VO>> Password
+    - <<VO>> Email
+}
+
+class Role <<(V,#FF8B40) value object>> {}
+
+package "<<aggregate>> Client" {
+    entity Client
+    class Address
+    class BirthDate
+    class Gender
+}
+
+entity Client <<entity>> <<root>> {
+    - ClientID
+    - <<VO>> Name
+    - <<VO>> VAT
+    - <<VO>> Email
+    - <<VO>> PhoneNumber
+    /'- <<VO>> BirthDate'/ /'optional'/
+    /'- <<VO>> Gender'/ /'optional'/
+}
+
+package "<<aggregate>> ShoppingCart"{
+    entity ShoppingCart
+    entity Item
+}
+
+entity ShoppingCart <<entity>> <<root>>{}
+
+package "<<aggregate>> Product"{
+     entity Product
+}
+
+entity Product <<entity>> <<root>> {}
+
+class BirthDate <<(V,#FF8B40) value object>> {}
+class Gender <<(V,#FF8B40) value object>> {}
+class Address <<(V,#FF8B40) value object>> {}
+
+entity Product <<entity>> <<root>> {
+    -<<VO>> UniqueInternalCode
+    -<<VO>> ShortDescription
+    -<<VO>> PriceWithoutTaxes
+}
+
+User "1" <-- Client
+
+Client --> "1..*" Address : has
+Client --> "0..1" BirthDate
+Client --> "0..1" Gender
+
+User --> "1..*" Role
+
+ShoppingCart -> "1..*" Item : composed by
+Client --> "1" ShoppingCart : associated with
+Item --> "1" Product : composed by
+
+@enduml
